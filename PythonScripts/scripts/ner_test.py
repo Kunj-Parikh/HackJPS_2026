@@ -2,7 +2,7 @@ from transformers import pipeline
 
 ner = pipeline("token-classification", model="d4data/biomedical-ner-all", aggregation_strategy="simple")
 
-text = "Ever since starting Ozempic I've had severe hair loss"
+text = "Ever since using Ozempic I've been having hair loss and blurred vision"
 results = ner(text)
 
 drugs = [r["word"] for r in results if r["entity_group"] == "Medication"]
