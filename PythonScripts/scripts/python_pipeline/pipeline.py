@@ -63,6 +63,7 @@ def run_pipeline(
         kept, dropped, dbg = process_record(rec, syms)
         for row in reports_to_dicts(kept):
             row["record_id"] = rec.record_id
+            row["original_text"] = rec.original_text
             all_reports.append(row)
         for d in dropped:
             d.report["record_id"] = rec.record_id
