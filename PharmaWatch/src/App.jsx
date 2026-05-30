@@ -18,10 +18,10 @@ export default function App() {
       <BrowserRouter>
         <Navbar />
       <Routes>
-        <Route path="/" element={<SearchPage />} />
-        <Route path="/drug/:drugName" element={<DrugPage />} />
-        <Route path="/signal/:drugName/:symptom" element={<SignalDetailPage />} />
-        <Route path="/methodology" element={<MethodologyPage />} />
+        <Route path="/" element={<ProtectedRoute><SearchPage /></ProtectedRoute>} />
+        <Route path="/drug/:drugName" element={<ProtectedRoute><DrugPage /></ProtectedRoute>} />
+        <Route path="/signal/:drugName/:symptom" element={<ProtectedRoute><SignalDetailPage /></ProtectedRoute>} />
+        <Route path="/methodology" element={<ProtectedRoute><MethodologyPage /></ProtectedRoute>} />
         <Route path="/sign-in/*" element={<SignInPage />} />
         <Route path="/sign-up/*" element={<SignUpPage />} />
         <Route path="/dashboard" element={<ProtectedRoute><DashboardPage /></ProtectedRoute>} />
