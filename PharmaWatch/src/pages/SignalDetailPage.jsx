@@ -1,13 +1,52 @@
+import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { getSignal, getDrug, slugify } from "../data/mockData";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "../firebase";
+import { slugify } from "../data/mockData";
 import TierBadge from "../components/TierBadge";
 import TimelineChart from "../components/TimelineChart";
 import OnsetHistogram from "../components/OnsetHistogram";
 
 export default function SignalDetailPage() {
   const { drugName, symptom } = useParams();
-  const signal = getSignal(drugName, symptom);
-  const drug = getDrug(drugName);
+  const [drug, setDrug] = useState(null);
+  const [signal, setSignal] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchSignalData = async () => {
+      try {
+        const snap = await getDoc(doc(db, "drugs", drugName));
+        if (snap.exists()) {
+          const drugData = snap.data();
+          setDrug(drugData);
+          if (drugData.signals) {
+            const sig = drugData.signals.find(
+              (s) => slugify(s.symptom) === symptom
+            );
+            setSignal(sig || null);
+          }
+        }
+      } catch (err) {
+        console.error("Error fetching signal details:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchSignalData();
+  }, [drugName, symptom]);
+
+  if (loading) {
+    return (
+      <div className="flex-1 bg-base-100 dark:bg-mesh-dark relative overflow-hidden flex flex-col justify-center items-center min-h-[80vh] transition-colors duration-500">
+        <div className="absolute inset-0 bg-mesh-light dark:opacity-0 transition-opacity duration-500 pointer-events-none" />
+        <div className="flex flex-col items-center gap-4 animate-pulse">
+          <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+          <p className="text-base-content/75 font-bold tracking-wide">Analyzing safety signal details...</p>
+        </div>
+      </div>
+    );
+  }
 
   if (!signal || !drug) {
     return (
@@ -22,17 +61,17 @@ export default function SignalDetailPage() {
     );
   }
 
-  const onsetConsistency = (1 / (1 + signal.onsetStdDev / signal.avgOnsetDays)).toFixed(3);
-  const subDiversity = signal.subreddits.length >= 3 ? 1.5 : signal.subreddits.length >= 2 ? 1.2 : 1.0;
-  const logReporters = Math.log(signal.uniqueReporters).toFixed(2);
+  const onsetConsistency = (1 / (1 + (signal.onsetStdDev || 5) / (signal.avgOnsetDays || 14))).toFixed(3);
+  const subDiversity = (signal.subreddits || []).length >= 3 ? 1.5 : (signal.subreddits || []).length >= 2 ? 1.2 : 1.0;
+  const logReporters = Math.log(signal.uniqueReporters || 1).toFixed(2);
   const finalScore = (
-    Math.log(signal.uniqueReporters) *
-    signal.causalityAvg *
+    Math.log(signal.uniqueReporters || 1) *
+    (signal.causalityAvg || 0.5) *
     parseFloat(onsetConsistency) *
     subDiversity
   ).toFixed(2);
 
-  const faersLag = signal.faersFirstSeen
+  const faersLag = signal.faersFirstSeen && signal.firstSeen
     ? Math.round((new Date(signal.faersFirstSeen) - new Date(signal.firstSeen)) / (1000 * 60 * 60 * 24 * 30))
     : null;
 

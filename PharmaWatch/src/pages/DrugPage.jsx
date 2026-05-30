@@ -1,13 +1,43 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { getDrug } from "../data/mockData";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "../firebase";
 import SignalCard from "../components/SignalCard";
 import TimelineChart from "../components/TimelineChart";
 
 export default function DrugPage() {
   const { drugName } = useParams();
-  const drug = getDrug(drugName);
+  const [drug, setDrug] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [showListed, setShowListed] = useState(false);
+
+  useEffect(() => {
+    const fetchDrugData = async () => {
+      try {
+        const snap = await getDoc(doc(db, "drugs", drugName));
+        if (snap.exists()) {
+          setDrug(snap.data());
+        }
+      } catch (err) {
+        console.error("Error fetching drug details:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchDrugData();
+  }, [drugName]);
+
+  if (loading) {
+    return (
+      <div className="flex-1 bg-base-100 dark:bg-mesh-dark relative overflow-hidden flex flex-col justify-center items-center min-h-[80vh] transition-colors duration-500">
+        <div className="absolute inset-0 bg-mesh-light dark:opacity-0 transition-opacity duration-500 pointer-events-none" />
+        <div className="flex flex-col items-center gap-4 animate-pulse">
+          <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+          <p className="text-base-content/75 font-bold tracking-wide">Fetching safety signals...</p>
+        </div>
+      </div>
+    );
+  }
 
   if (!drug) {
     return (
@@ -22,21 +52,21 @@ export default function DrugPage() {
     );
   }
 
-  const unlistedSignals = drug.signals.filter((s) => s.listedSimilarity < 0.5);
+  const unlistedSignals = (drug.signals || []).filter((s) => s.listedSimilarity < 0.5);
   const sortedSignals = [...unlistedSignals].sort((a, b) => {
     const order = { validated: 0, strong: 1, moderate: 2, weak: 3 };
     return (order[a.tier] ?? 4) - (order[b.tier] ?? 4);
   });
 
-  const totalReporters = drug.signals.reduce((s, sig) => s + sig.uniqueReporters, 0);
-  const highestTier = drug.signals.reduce((best, sig) => {
+  const totalReporters = (drug.signals || []).reduce((s, sig) => s + sig.uniqueReporters, 0);
+  const highestTier = (drug.signals || []).reduce((best, sig) => {
     const order = { validated: 0, strong: 1, moderate: 2, weak: 3 };
     return (order[sig.tier] ?? 4) < (order[best] ?? 4) ? sig.tier : best;
   }, "weak");
 
   const allTimeline = {};
-  drug.signals.forEach((s) => {
-    s.timeline.forEach((t) => {
+  (drug.signals || []).forEach((s) => {
+    (s.timeline || []).forEach((t) => {
       if (!allTimeline[t.month]) allTimeline[t.month] = { month: t.month, reddit: 0, faers: 0 };
       allTimeline[t.month].reddit += t.reddit;
       allTimeline[t.month].faers += t.faers;

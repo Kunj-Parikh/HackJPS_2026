@@ -2,14 +2,27 @@ import { UserButton, useUser } from "@clerk/clerk-react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { db } from "../firebase";
-import { collection, addDoc, query, where, getDocs, serverTimestamp } from "firebase/firestore";
-import { getDrugs } from "../data/mockData";
+import { collection, addDoc, query, where, getDocs, doc, getDoc, serverTimestamp } from "firebase/firestore";
 
 export default function DashboardPage() {
   const { user } = useUser();
   const [searches, setSearches] = useState([]);
   const [drugInput, setDrugInput] = useState("");
-  const allDrugs = getDrugs();
+  const [allDrugs, setAllDrugs] = useState([]);
+
+  useEffect(() => {
+    const fetchDrugs = async () => {
+      try {
+        const snap = await getDoc(doc(db, "meta", "global"));
+        if (snap.exists()) {
+          setAllDrugs(snap.data().drugs || []);
+        }
+      } catch (err) {
+        console.error("Error fetching drug list for dashboard:", err);
+      }
+    };
+    fetchDrugs();
+  }, []);
 
   const loadSearches = async () => {
     if (!user) return;

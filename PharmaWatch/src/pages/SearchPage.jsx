@@ -1,23 +1,69 @@
 import { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { getDrugs, getAllSignals, GLOBAL_STATS } from "../data/mockData";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "../firebase";
+import { slugify } from "../data/mockData";
 import SignalCard from "../components/SignalCard";
 
 export default function SearchPage() {
   const [query, setQuery] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
+  const [searchMode, setSearchMode] = useState("drug"); // "drug" or "symptom"
+  
+  const [drugs, setDrugs] = useState([]);
+  const [allSignals, setAllSignals] = useState([]);
+  const [globalStats, setGlobalStats] = useState({ signalsDetected: 0, drugsMonitored: 0, reportsAnalyzed: 0 });
+  const [loading, setLoading] = useState(true);
+  
   const navigate = useNavigate();
-  const drugs = getDrugs();
-  const topSignals = getAllSignals().slice(0, 6);
   const ref = useRef();
 
-  const filtered = query.trim()
+  useEffect(() => {
+    const fetchGlobalData = async () => {
+      try {
+        const snap = await getDoc(doc(db, "meta", "global"));
+        if (snap.exists()) {
+          const data = snap.data();
+          setDrugs(data.drugs || []);
+          setAllSignals(data.allSignals || []);
+          setGlobalStats(data.GLOBAL_STATS || { signalsDetected: 0, drugsMonitored: 0, reportsAnalyzed: 0 });
+        }
+      } catch (err) {
+        console.error("Error fetching global data:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchGlobalData();
+  }, []);
+
+  const filteredDrugs = query.trim()
     ? drugs.filter(
         (d) =>
           d.brand.toLowerCase().includes(query.toLowerCase()) ||
           d.generic.toLowerCase().includes(query.toLowerCase())
       )
     : [];
+
+  const filteredSymptoms = query.trim()
+    ? allSignals.filter(
+        (s) =>
+          s.symptom.toLowerCase().includes(query.toLowerCase())
+      )
+    : [];
+
+  // Deduplicate symptoms by name for the suggestion list if searching by symptom
+  const uniqueFilteredSymptoms = [];
+  const seenSymptoms = new Set();
+  filteredSymptoms.forEach(s => {
+    const key = `${s.symptom.toLowerCase()}-${s.drugId}`;
+    if (!seenSymptoms.has(key)) {
+      seenSymptoms.add(key);
+      uniqueFilteredSymptoms.push(s);
+    }
+  });
+
+  const topSignals = allSignals.filter((s) => s.listedSimilarity < 0.5).slice(0, 6);
 
   useEffect(() => {
     const handler = (e) => {
@@ -34,6 +80,24 @@ export default function SearchPage() {
     setShowDropdown(false);
     navigate(`/drug/${id}`);
   };
+
+  const selectSymptom = (drugId, symptom) => {
+    setQuery("");
+    setShowDropdown(false);
+    navigate(`/signal/${drugId}/${slugify(symptom)}`);
+  };
+
+  if (loading) {
+    return (
+      <div className="flex-1 bg-base-100 dark:bg-mesh-dark relative overflow-hidden flex flex-col justify-center items-center min-h-[80vh] transition-colors duration-500">
+        <div className="absolute inset-0 bg-mesh-light dark:opacity-0 transition-opacity duration-500 pointer-events-none" />
+        <div className="flex flex-col items-center gap-4 animate-pulse">
+          <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+          <p className="text-base-content/75 font-bold tracking-wide">Syncing with Firestore...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="flex-1 bg-base-100 dark:bg-mesh-dark relative overflow-hidden transition-colors duration-500">
@@ -53,7 +117,7 @@ export default function SearchPage() {
         {/* Floating Stat Card - Top Left */}
         <div className="hidden lg:block absolute top-16 left-10 xl:left-32 saas-card p-4 animate-float stagger-1 w-48 text-left bg-base-100/90 backdrop-blur-md">
           <div className="text-[10px] font-bold uppercase text-base-content/50 tracking-wider mb-1">Signals Detected</div>
-          <div className="text-xl font-black text-base-content">{GLOBAL_STATS.signalsDetected}</div>
+          <div className="text-xl font-black text-base-content">{globalStats.signalsDetected}</div>
           <div className="text-[10px] text-success font-bold mt-1 flex items-center gap-1">
             <span className="bg-success/20 p-0.5 rounded">↑ 12</span> new this week
           </div>
@@ -62,14 +126,14 @@ export default function SearchPage() {
         {/* Floating Stat Card - Top Right */}
         <div className="hidden lg:block absolute top-24 right-10 xl:right-32 saas-card p-4 animate-float stagger-2 w-48 text-left bg-base-100/90 backdrop-blur-md" style={{ animationDelay: '1.5s' }}>
           <div className="text-[10px] font-bold uppercase text-base-content/50 tracking-wider mb-1">Drugs Monitored</div>
-          <div className="text-xl font-black text-base-content">{GLOBAL_STATS.drugsMonitored}</div>
-          <div className="text-[10px] text-base-content/50 font-medium mt-1">Across 15 categories</div>
+          <div className="text-xl font-black text-base-content">{globalStats.drugsMonitored}</div>
+          <div className="text-[10px] text-base-content/50 font-medium mt-1">Across 8 categories</div>
         </div>
 
         {/* Floating Stat Card - Bottom Left */}
         <div className="hidden lg:block absolute bottom-24 left-4 xl:left-12 saas-card p-4 animate-float stagger-3 w-52 text-left bg-base-100/90 backdrop-blur-md" style={{ animationDelay: '0.8s' }}>
           <div className="text-[10px] font-bold uppercase text-base-content/50 tracking-wider mb-1">Reports Analyzed</div>
-          <div className="text-xl font-black text-base-content">{GLOBAL_STATS.reportsAnalyzed.toLocaleString()}</div>
+          <div className="text-xl font-black text-base-content">{globalStats.reportsAnalyzed.toLocaleString()}</div>
           <div className="text-[10px] text-success font-bold mt-1 flex items-center gap-1">
             <span className="bg-success/20 p-0.5 rounded">↑ 5.2k</span> today
           </div>
@@ -102,8 +166,40 @@ export default function SearchPage() {
             PharmaWatch analyzes millions of patient reports across Reddit to detect unlisted adverse drug reactions — months before they appear in FDA labels.
           </p>
 
+          {/* Search Toggle Options */}
+          <div className="flex gap-2 mt-8 mb-4 animate-slide-up stagger-2 bg-base-200/50 p-1.5 rounded-full border border-base-300 max-w-[280px] mx-auto relative z-50">
+            <button
+              onClick={() => {
+                setSearchMode("drug");
+                setQuery("");
+                setShowDropdown(false);
+              }}
+              className={`flex-1 px-5 py-2 rounded-full text-xs font-black transition-all duration-300 ${
+                searchMode === "drug"
+                  ? "bg-primary text-white shadow-md scale-[1.02]"
+                  : "text-base-content/70 hover:text-base-content hover:bg-base-300/30"
+              }`}
+            >
+              Search Drugs
+            </button>
+            <button
+              onClick={() => {
+                setSearchMode("symptom");
+                setQuery("");
+                setShowDropdown(false);
+              }}
+              className={`flex-1 px-5 py-2 rounded-full text-xs font-black transition-all duration-300 ${
+                searchMode === "symptom"
+                  ? "bg-primary text-white shadow-md scale-[1.02]"
+                  : "text-base-content/70 hover:text-base-content hover:bg-base-300/30"
+              }`}
+            >
+              Search Symptoms
+            </button>
+          </div>
+
           {/* Search Container */}
-          <div className="w-full max-w-2xl mx-auto mt-10 relative z-50 animate-slide-up stagger-3" ref={ref}>
+          <div className="w-full max-w-2xl mx-auto relative z-50 animate-slide-up stagger-3" ref={ref}>
             <div className="relative flex items-center bg-base-100 shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-full p-1.5 border border-base-200 focus-within:border-primary/50 focus-within:ring-4 focus-within:ring-primary/20 transition-all duration-300">
               <span className="absolute left-6 text-base-content/40 text-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -114,7 +210,11 @@ export default function SearchPage() {
                 id="drug-search"
                 type="text"
                 className="input border-none w-full pl-14 pr-32 rounded-full bg-transparent focus:outline-none transition-all text-base font-medium h-14"
-                placeholder="Search a drug (e.g., Ozempic, Lexapro...)"
+                placeholder={
+                  searchMode === "drug"
+                    ? "Search a drug (e.g., Ozempic, Lexapro...)"
+                    : "Search a symptom or side effect (e.g., Hair Loss...)"
+                }
                 value={query}
                 onChange={(e) => {
                   setQuery(e.target.value);
@@ -127,10 +227,10 @@ export default function SearchPage() {
               </button>
             </div>
 
-            {/* Dropdown list */}
-            {showDropdown && filtered.length > 0 && (
+            {/* Dropdown list for Drug mode */}
+            {showDropdown && searchMode === "drug" && filteredDrugs.length > 0 && (
               <div className="absolute left-0 right-0 mt-3 bg-base-100 border border-base-200 rounded-3xl shadow-[0_20px_50px_rgb(0,0,0,0.1)] overflow-hidden z-40 max-h-72 overflow-y-auto animate-fade-in">
-                {filtered.map((d) => (
+                {filteredDrugs.map((d) => (
                   <div
                     key={d.id}
                     className="flex justify-between items-center px-6 py-4 hover:bg-base-200/50 cursor-pointer border-b border-base-200/50 last:border-0 transition-colors"
@@ -142,6 +242,32 @@ export default function SearchPage() {
                     </div>
                     <span className="badge border-none bg-base-200 text-base-content/70 font-bold text-xs py-3 px-3">
                       {d.signalCount} signals
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* Dropdown list for Symptom mode */}
+            {showDropdown && searchMode === "symptom" && uniqueFilteredSymptoms.length > 0 && (
+              <div className="absolute left-0 right-0 mt-3 bg-base-100 border border-base-200 rounded-3xl shadow-[0_20px_50px_rgb(0,0,0,0.1)] overflow-hidden z-40 max-h-72 overflow-y-auto animate-fade-in">
+                {uniqueFilteredSymptoms.map((s) => (
+                  <div
+                    key={`${s.drugId}-${s.symptom}`}
+                    className="flex justify-between items-center px-6 py-4 hover:bg-base-200/50 cursor-pointer border-b border-base-200/50 last:border-0 transition-colors"
+                    onClick={() => selectSymptom(s.drugId, s.symptom)}
+                  >
+                    <div className="text-left">
+                      <span className="font-bold text-base-content text-base">{s.symptom}</span>
+                      <span className="text-xs text-primary font-bold ml-2">on {s.drugBrand}</span>
+                    </div>
+                    <span className={`badge border-none font-bold text-xs py-3 px-3 ${
+                      s.tier === 'validated' ? 'bg-success/20 text-success' :
+                      s.tier === 'strong' ? 'bg-info/20 text-info' :
+                      s.tier === 'moderate' ? 'bg-warning/20 text-warning' :
+                      'bg-neutral/20 text-neutral'
+                    }`}>
+                      {s.tier}
                     </span>
                   </div>
                 ))}
