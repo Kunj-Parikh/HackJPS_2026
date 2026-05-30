@@ -1,0 +1,165 @@
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gsbjgf"}
+{"drug": "lisinopril", "symptom": "stomach pain", "onset_days": null, "severity": null, "causality_confidence": 0.477, "quality_score": 0.544, "source_type": "post", "record_id": "1grkgpd"}
+{"drug": "lisinopril", "symptom": "angioedema", "onset_days": 70, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1gr8duj"}
+{"drug": "lisinopril", "symptom": "allergic reaction", "onset_days": 70, "severity": 1, "causality_confidence": 0.577, "quality_score": 0.636, "source_type": "post", "record_id": "1gr8duj"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 365, "severity": 3, "causality_confidence": 0.487, "quality_score": 0.572, "source_type": "post", "record_id": "1gf4t56"}
+{"drug": "lisinopril", "symptom": "best bowel movements", "onset_days": null, "severity": null, "causality_confidence": 0.523, "quality_score": 0.581, "source_type": "post", "record_id": "1fvj2r0"}
+{"drug": "lisinopril", "symptom": "bad stomach cramps", "onset_days": null, "severity": 1, "causality_confidence": 0.536, "quality_score": 0.591, "source_type": "post", "record_id": "1d8dgah"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1d8dgah"}
+{"drug": "lisinopril", "symptom": "allergic reaction/angiodema", "onset_days": 1460, "severity": null, "causality_confidence": 0.524, "quality_score": 0.596, "source_type": "post", "record_id": "1bfs8l7"}
+{"drug": "lisinopril", "symptom": "dry mouth", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1b0rawh"}
+{"drug": "lisinopril", "symptom": "dry mouth", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1b0rawh"}
+{"drug": "lisinopril", "symptom": "cirrhosis of the liver", "onset_days": null, "severity": null, "causality_confidence": 0.501, "quality_score": 0.568, "source_type": "post", "record_id": "1adoplx"}
+{"drug": "lisinopril", "symptom": "chest tightness", "onset_days": null, "severity": null, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "1acbzar"}
+{"drug": "lisinopril", "symptom": "goggled", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "18gv540"}
+{"drug": "lisinopril", "symptom": "constipation", "onset_days": 90, "severity": null, "causality_confidence": 0.493, "quality_score": 0.57, "source_type": "post", "record_id": "184ajqm"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "17b2zdh"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "17b2zdh"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "15ow7yg"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "15ow7yg"}
+{"drug": "lisinopril", "symptom": "hair loss", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "14y2iei"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "11xxtht"}
+{"drug": "lisinopril", "symptom": "angiodema", "onset_days": 180, "severity": 2, "causality_confidence": 0.512, "quality_score": 0.577, "source_type": "post", "record_id": "116m5a1"}
+{"drug": "lisinopril", "symptom": "angiodema of my lips", "onset_days": 180, "severity": 2, "causality_confidence": 0.518, "quality_score": 0.591, "source_type": "post", "record_id": "116m5a1"}
+{"drug": "lisinopril", "symptom": "hair loss", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "vpva29"}
+{"drug": "lisinopril", "symptom": "hand shakes/tremors", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "vbl14i"}
+{"drug": "lisinopril", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "ou100w"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": 90, "severity": null, "causality_confidence": 0.479, "quality_score": 0.566, "source_type": "post", "record_id": "1hhk1a0"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": 90, "severity": null, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1hhk1a0"}
+{"drug": "lisinopril", "symptom": "cerebral palsy", "onset_days": null, "severity": 1, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1hhiujq"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.475, "quality_score": 0.547, "source_type": "post", "record_id": "1hhiujq"}
+{"drug": "sertraline", "symptom": "connective tissue disease", "onset_days": null, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.564, "source_type": "post", "record_id": "1he613g"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1hbdfuv"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "1hbdfuv"}
+{"drug": "lisinopril", "symptom": "rash", "onset_days": null, "severity": null, "causality_confidence": 0.505, "quality_score": 0.607, "source_type": "post", "record_id": "1haqq9h"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "1hal5kj"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "1hal5kj"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1h9zdos"}
+{"drug": "sertraline", "symptom": "vomiting", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1h9zdos"}
+{"drug": "lisinopril", "symptom": "gout", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1h7qk2m"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 7, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1h7h3m9"}
+{"drug": "lisinopril", "symptom": "bad breath", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.619, "source_type": "post", "record_id": "1h4b9z3"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1h3nwf9"}
+{"drug": "lisinopril", "symptom": "dizziness", "onset_days": 7, "severity": 3, "causality_confidence": 0.487, "quality_score": 0.572, "source_type": "post", "record_id": "1h33143"}
+{"drug": "lisinopril", "symptom": "headache", "onset_days": 30, "severity": null, "causality_confidence": 0.468, "quality_score": 0.551, "source_type": "post", "record_id": "1h2ub9f"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": 30, "severity": null, "causality_confidence": 0.482, "quality_score": 0.562, "source_type": "post", "record_id": "1h2ub9f"}
+{"drug": "lisinopril", "symptom": "white congestive heart failure", "onset_days": null, "severity": 3, "causality_confidence": 0.508, "quality_score": 0.573, "source_type": "post", "record_id": "1gw71zy"}
+{"drug": "lisinopril", "symptom": "chronic kidney disease", "onset_days": null, "severity": 3, "causality_confidence": 0.513, "quality_score": 0.574, "source_type": "post", "record_id": "1gw71zy"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1gw71zy"}
+{"drug": "lisinopril", "symptom": "nausea", "onset_days": null, "severity": 2, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1grhf8x"}
+{"drug": "lisinopril", "symptom": "no med allergies", "onset_days": 60, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.624, "source_type": "post", "record_id": "1gnrpna"}
+{"drug": "lisinopril", "symptom": "asthma", "onset_days": 60, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1gnrpna"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 60, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1gnrpna"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 60, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1gnrpna"}
+{"drug": "lisinopril", "symptom": "nausea", "onset_days": 180, "severity": null, "causality_confidence": 0.476, "quality_score": 0.564, "source_type": "post", "record_id": "1gg3o7l"}
+{"drug": "lisinopril", "symptom": "vomiting", "onset_days": 180, "severity": null, "causality_confidence": 0.474, "quality_score": 0.563, "source_type": "post", "record_id": "1gg3o7l"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.474, "quality_score": 0.545, "source_type": "post", "record_id": "1gg373l"}
+{"drug": "lisinopril", "symptom": "acid reflux", "onset_days": 14, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1d3rvhk"}
+{"drug": "metformin", "symptom": "liver damage", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "17e8dvn"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 4, "severity": 2, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "13i7tcl"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 4, "severity": 2, "causality_confidence": 0.485, "quality_score": 0.571, "source_type": "post", "record_id": "13i7tcl"}
+{"drug": "sertraline", "symptom": "insomnia", "onset_days": 4, "severity": 2, "causality_confidence": 0.45, "quality_score": 0.538, "source_type": "post", "record_id": "13i7tcl"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "137x7n9"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "137x7n9"}
+{"drug": "bupropion", "symptom": "allergies", "onset_days": null, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "137x7n9"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.86, "quality_score": 0.835, "source_type": "post", "record_id": "11g876u"}
+{"drug": "lisinopril", "symptom": "bicuspid heart valve / stenosis", "onset_days": null, "severity": 1, "causality_confidence": 0.613, "quality_score": 0.655, "source_type": "post", "record_id": "uitkkd"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "uitkkd"}
+{"drug": "lisinopril", "symptom": "apnea", "onset_days": null, "severity": 3, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "sw26vj"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.86, "quality_score": 0.835, "source_type": "post", "record_id": "sw26vj"}
+{"drug": "lisinopril", "symptom": "cough", "onset_days": 14, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "s76t3t"}
+{"drug": "atorvastatin", "symptom": "nausea", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "rbjc9c"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "q7pcad"}
+{"drug": "lisinopril", "symptom": "dizziness", "onset_days": null, "severity": 3, "causality_confidence": 0.47, "quality_score": 0.542, "source_type": "post", "record_id": "pyf7ix"}
+{"drug": "lisinopril", "symptom": "polycystic kidney disease", "onset_days": null, "severity": null, "causality_confidence": 0.589, "quality_score": 0.631, "source_type": "post", "record_id": "pnv46o"}
+{"drug": "lisinopril", "symptom": "acid reflux", "onset_days": 2, "severity": 1, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "p4tkxp"}
+{"drug": "lisinopril", "symptom": "stoke", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "kyri5m"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1fw62zm"}
+{"drug": "lisinopril", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1fivzyy"}
+{"drug": "lisinopril", "symptom": "lack of headache", "onset_days": 730, "severity": 2, "causality_confidence": 0.487, "quality_score": 0.572, "source_type": "post", "record_id": "1e5x8qn"}
+{"drug": "lisinopril", "symptom": "right ovarian cyst - ultrasound 3", "onset_days": null, "severity": 2, "causality_confidence": 0.501, "quality_score": 0.573, "source_type": "post", "record_id": "1e5npfw"}
+{"drug": "lisinopril", "symptom": "left ovarian cyst - transvaginal ultrasound 1(obgyn): left ovarian cyst", "onset_days": null, "severity": 2, "causality_confidence": 0.547, "quality_score": 0.621, "source_type": "post", "record_id": "1e5npfw"}
+{"drug": "lisinopril", "symptom": "left renal cyst - urinalysis 1 & 2 (urologist): said urinalysis results", "onset_days": null, "severity": 2, "causality_confidence": 0.569, "quality_score": 0.642, "source_type": "post", "record_id": "1e5npfw"}
+{"drug": "lisinopril", "symptom": "polycystic kidney disease", "onset_days": null, "severity": 3, "causality_confidence": 0.589, "quality_score": 0.631, "source_type": "post", "record_id": "1cm1g0h"}
+{"drug": "bupropion", "symptom": "acid reflux", "onset_days": null, "severity": 1, "causality_confidence": 0.482, "quality_score": 0.552, "source_type": "post", "record_id": "1b2gs0v"}
+{"drug": "bupropion", "symptom": "abdominal pain", "onset_days": null, "severity": null, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "1b1e0mv"}
+{"drug": "bupropion", "symptom": "constipation", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1b1e0mv"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1b1e0mv"}
+{"drug": "lisinopril", "symptom": "heartburn", "onset_days": 150, "severity": null, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "184j66o"}
+{"drug": "lisinopril", "symptom": "heartburn", "onset_days": 150, "severity": null, "causality_confidence": 0.489, "quality_score": 0.573, "source_type": "post", "record_id": "184j66o"}
+{"drug": "lisinopril", "symptom": "preeclampsia", "onset_days": 730, "severity": null, "causality_confidence": 0.512, "quality_score": 0.584, "source_type": "post", "record_id": "17p8lj2"}
+{"drug": "lisinopril", "symptom": "ulcer", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "16kdfua"}
+{"drug": "metformin", "symptom": "cptsd nightmares", "onset_days": null, "severity": 3, "causality_confidence": 0.584, "quality_score": 0.669, "source_type": "post", "record_id": "154cs6u"}
+{"drug": "metformin", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.453, "quality_score": 0.523, "source_type": "post", "record_id": "14naq1r"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "14j7d65"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "14j7d65"}
+{"drug": "lisinopril", "symptom": "fatigue", "onset_days": null, "severity": 1, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "14gj6mg"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "140v9nn"}
+{"drug": "lisinopril", "symptom": "constipation", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "140v9nn"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "17z2ajt"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "17z2ajt"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "17z2ajt"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1226u2d"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1226u2d"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "108j83s"}
+{"drug": "lisinopril", "symptom": "sjogren's syndrome w/ probable rheumatoid arthritis", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.581, "source_type": "post", "record_id": "108j83s"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "103b3rk"}
+{"drug": "lisinopril", "symptom": "sjogren's syndrome w/ probable rheumatoid arthritis", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.581, "source_type": "post", "record_id": "103b3rk"}
+{"drug": "lisinopril", "symptom": "h/o pulmonary embolism h/o melanoma", "onset_days": null, "severity": 2, "causality_confidence": 0.507, "quality_score": 0.575, "source_type": "post", "record_id": "yuldca"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "wli36z"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "wli36z"}
+{"drug": "lisinopril", "symptom": "migraine", "onset_days": null, "severity": null, "causality_confidence": 0.454, "quality_score": 0.524, "source_type": "post", "record_id": "whvmy7"}
+{"drug": "lisinopril", "symptom": "itching", "onset_days": 1095, "severity": null, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "w1dve9"}
+{"drug": "lisinopril", "symptom": "dry cough", "onset_days": 1095, "severity": null, "causality_confidence": 0.544, "quality_score": 0.611, "source_type": "post", "record_id": "w1dve9"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": 1095, "severity": null, "causality_confidence": 0.485, "quality_score": 0.571, "source_type": "post", "record_id": "w1dve9"}
+{"drug": "lisinopril", "symptom": "sudden allergy", "onset_days": 23, "severity": 3, "causality_confidence": 0.644, "quality_score": 0.686, "source_type": "post", "record_id": "v1d61j"}
+{"drug": "lisinopril", "symptom": "bipolar ii disorder", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.564, "source_type": "post", "record_id": "rl63kr"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "rl63kr"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "rl63kr"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "rjmqoc"}
+{"drug": "lisinopril", "symptom": "albuminuria", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "udnqgg"}
+{"drug": "metformin", "symptom": "pcos albuminuria", "onset_days": null, "severity": null, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "udnqgg"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": 120, "severity": null, "causality_confidence": 0.471, "quality_score": 0.56, "source_type": "post", "record_id": "u23qhm"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": 120, "severity": null, "causality_confidence": 0.477, "quality_score": 0.565, "source_type": "post", "record_id": "u23qhm"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 120, "severity": null, "causality_confidence": 0.487, "quality_score": 0.572, "source_type": "post", "record_id": "u23qhm"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 120, "severity": null, "causality_confidence": 0.489, "quality_score": 0.573, "source_type": "post", "record_id": "u23qhm"}
+{"drug": "lisinopril", "symptom": "bad back in november. my", "onset_days": 120, "severity": null, "causality_confidence": 0.547, "quality_score": 0.622, "source_type": "post", "record_id": "u23qhm"}
+{"drug": "lisinopril", "symptom": "cancer treatment)lisinopril", "onset_days": 90, "severity": 1, "causality_confidence": 0.844, "quality_score": 0.836, "source_type": "post", "record_id": "stbe4b"}
+{"drug": "bupropion", "symptom": "seizure", "onset_days": 270, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "pgn0ni"}
+{"drug": "bupropion", "symptom": "seizures", "onset_days": 270, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "pgn0ni"}
+{"drug": "metformin", "symptom": "allergy", "onset_days": 365, "severity": 3, "causality_confidence": 0.512, "quality_score": 0.577, "source_type": "post", "record_id": "loyws2"}
+{"drug": "adderall", "symptom": "gallstones", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "l2f31h"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1ahymvv"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1ahymvv"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "13e7yhf"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "13e7yhf"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "127l34u"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": 1825, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.645, "source_type": "post", "record_id": "ryp5sh"}
+{"drug": "lisinopril", "symptom": "ulcer", "onset_days": null, "severity": 3, "causality_confidence": 0.467, "quality_score": 0.54, "source_type": "post", "record_id": "pe4941"}
+{"drug": "lisinopril", "symptom": "nausea", "onset_days": null, "severity": 3, "causality_confidence": 0.468, "quality_score": 0.541, "source_type": "post", "record_id": "pe4941"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "odky7d"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "mmaobd"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "mcjffq"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "m9jobt"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "16dub9s"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": 30, "severity": 3, "causality_confidence": 0.48, "quality_score": 0.612, "source_type": "post", "record_id": "1f7pz6x"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 730, "severity": null, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1ezglqk"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 730, "severity": null, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1ezglqk"}
+{"drug": "lisinopril", "symptom": "bp reduction", "onset_days": null, "severity": null, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "1d5u45l"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 21, "severity": null, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "1b1fe4k"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 21, "severity": null, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1b1fe4k"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 21, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1b1fe4k"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 21, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1b1fe4k"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": 30, "severity": 1, "causality_confidence": 0.496, "quality_score": 0.572, "source_type": "post", "record_id": "17viraf"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": 30, "severity": 1, "causality_confidence": 0.457, "quality_score": 0.588, "source_type": "post", "record_id": "17viraf"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "11yqc8d"}
+{"drug": "lisinopril", "symptom": "acid reflux", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "11yqc8d"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "11czf75"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.55, "source_type": "post", "record_id": "xlij15"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "xlij15"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "xdom0d"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "ofw0n1"}
+{"drug": "ozempic", "symptom": "ryblus", "onset_days": null, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hp8flc"}
+{"drug": "metformin", "symptom": "constipation", "onset_days": null, "severity": 1, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "1cjgc0i"}
+{"drug": "sertraline", "symptom": "allergy", "onset_days": null, "severity": 1, "causality_confidence": 0.505, "quality_score": 0.607, "source_type": "post", "record_id": "rbkcmb"}
+{"drug": "lisinopril", "symptom": "cough", "onset_days": null, "severity": 1, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "kvbhpp"}

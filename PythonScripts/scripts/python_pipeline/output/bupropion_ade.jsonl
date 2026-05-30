@@ -1,0 +1,505 @@
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 2, "severity": null, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1hpe37e"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 2, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1hpe37e"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 2, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1hpe37e"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1hp17q1"}
+{"drug": "bupropion", "symptom": "terrors", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1holv08"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 30, "severity": null, "causality_confidence": 0.527, "quality_score": 0.595, "source_type": "post", "record_id": "1hoetjm"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 30, "severity": null, "causality_confidence": 0.481, "quality_score": 0.561, "source_type": "post", "record_id": "1hoetjm"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 30, "severity": null, "causality_confidence": 0.482, "quality_score": 0.562, "source_type": "post", "record_id": "1hoetjm"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 30, "severity": null, "causality_confidence": 0.527, "quality_score": 0.595, "source_type": "post", "record_id": "1hoetjm"}
+{"drug": "sertraline", "symptom": "stomach pain", "onset_days": null, "severity": null, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "1hnuzlh"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hnqqe9"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hndgnn"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 730, "severity": null, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "1hmb7i6"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 730, "severity": null, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1hmb7i6"}
+{"drug": "bupropion", "symptom": "nausea", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1hlia8j"}
+{"drug": "bupropion", "symptom": "nausea", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hlia8j"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hkpos1"}
+{"drug": "bupropion", "symptom": "hair loss", "onset_days": 180, "severity": null, "causality_confidence": 0.593, "quality_score": 0.645, "source_type": "post", "record_id": "1hkig2b"}
+{"drug": "bupropion", "symptom": "rash", "onset_days": null, "severity": 2, "causality_confidence": 0.472, "quality_score": 0.582, "source_type": "post", "record_id": "1hkf2py"}
+{"drug": "bupropion", "symptom": "rash", "onset_days": null, "severity": 2, "causality_confidence": 0.465, "quality_score": 0.532, "source_type": "post", "record_id": "1hkf2py"}
+{"drug": "bupropion", "symptom": "hair loss", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hk8r3d"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hjblr7"}
+{"drug": "bupropion", "symptom": "drowsiness", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hj7lvo"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "1hht5cx"}
+{"drug": "lexapro", "symptom": "bad withdrawal symptoms", "onset_days": 365, "severity": null, "causality_confidence": 0.523, "quality_score": 0.591, "source_type": "post", "record_id": "1hhf37g"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.474, "quality_score": 0.545, "source_type": "post", "record_id": "1hhbsts"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1hh8rr7"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hh8rr7"}
+{"drug": "bupropion", "symptom": "itchy", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1hh3gze"}
+{"drug": "bupropion", "symptom": "itching", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1hh3gze"}
+{"drug": "bupropion", "symptom": "itching", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hh3gze"}
+{"drug": "bupropion", "symptom": "itchy", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1hh3gze"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 30, "severity": null, "causality_confidence": 0.484, "quality_score": 0.57, "source_type": "post", "record_id": "1hg5eup"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 330, "severity": 2, "causality_confidence": 0.477, "quality_score": 0.565, "source_type": "post", "record_id": "1hg2i56"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 5, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "1h3ayui"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1gvqllk"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1gvqllk"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1gvqllk"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1gvqllk"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1gvqllk"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1gvqllk"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1gvqllk"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 11, "severity": 1, "causality_confidence": 0.485, "quality_score": 0.571, "source_type": "post", "record_id": "1gsl28d"}
+{"drug": "bupropion", "symptom": "no insomnia", "onset_days": 2, "severity": 1, "causality_confidence": 0.472, "quality_score": 0.554, "source_type": "post", "record_id": "1gsl28d"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 35, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1gql9he"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1gqj95k"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1gqj95k"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gcxq2a"}
+{"drug": "bupropion", "symptom": "without it anxiety", "onset_days": 98, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1g70j6u"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 98, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "1g70j6u"}
+{"drug": "bupropion", "symptom": "headache", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1g5bzlx"}
+{"drug": "bupropion", "symptom": "cough", "onset_days": 7, "severity": null, "causality_confidence": 0.565, "quality_score": 0.624, "source_type": "post", "record_id": "1g498mx"}
+{"drug": "bupropion", "symptom": "bad bad reaction", "onset_days": 7, "severity": null, "causality_confidence": 0.536, "quality_score": 0.608, "source_type": "post", "record_id": "1g498mx"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1fzxnhk"}
+{"drug": "bupropion", "symptom": "loss of appetite", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1fztr5b"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.533, "quality_score": 0.635, "source_type": "post", "record_id": "1ft1tht"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1ft1tht"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1fpltb4"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 14, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1fnsqwi"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 49, "severity": 2, "causality_confidence": 0.533, "quality_score": 0.652, "source_type": "post", "record_id": "1fdn65k"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 49, "severity": 2, "causality_confidence": 0.6, "quality_score": 0.702, "source_type": "post", "record_id": "1fdn65k"}
+{"drug": "bupropion", "symptom": "insomnia", "onset_days": 14, "severity": 2, "causality_confidence": 0.452, "quality_score": 0.584, "source_type": "post", "record_id": "1fdn65k"}
+{"drug": "bupropion", "symptom": "irritability", "onset_days": null, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1f4ia0y"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1f4ia0y"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1f4ia0y"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1exdhgl"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1eun6k3"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1et3mei"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1ei55d3"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1ei55d3"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 1, "severity": null, "causality_confidence": 0.86, "quality_score": 0.852, "source_type": "post", "record_id": "1ehleq4"}
+{"drug": "bupropion", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1egu5ku"}
+{"drug": "bupropion", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.472, "quality_score": 0.582, "source_type": "post", "record_id": "1egu5ku"}
+{"drug": "bupropion", "symptom": "tiredness", "onset_days": null, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": 3, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": 3, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "tiredness", "onset_days": null, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "affective disorder", "onset_days": null, "severity": 3, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "sad", "onset_days": null, "severity": 3, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": 3, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "tiredness", "onset_days": null, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": 3, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "tiredness", "onset_days": null, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": 3, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "tiredness", "onset_days": null, "severity": 3, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "tiredness", "onset_days": null, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1efgwkl"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 90, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1ee0mke"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1e7i2oc"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1e7i2oc"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1e7i2oc"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1e565ic"}
+{"drug": "bupropion", "symptom": "abnormal bleeding/irregular", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1e4j3p5"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 60, "severity": 1, "causality_confidence": 0.489, "quality_score": 0.573, "source_type": "post", "record_id": "1dsmrmk"}
+{"drug": "bupropion", "symptom": "bipolar disorder", "onset_days": 60, "severity": 1, "causality_confidence": 0.511, "quality_score": 0.586, "source_type": "post", "record_id": "1dsmrmk"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1dbha9o"}
+{"drug": "adderall", "symptom": "nausea", "onset_days": null, "severity": 1, "causality_confidence": 0.471, "quality_score": 0.543, "source_type": "post", "record_id": "1dbha9o"}
+{"drug": "bupropion", "symptom": "nausea", "onset_days": 2, "severity": null, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1d93290"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1d8pyxd"}
+{"drug": "bupropion", "symptom": "nausea", "onset_days": null, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1d3we1w"}
+{"drug": "bupropion", "symptom": "brain fog", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1cxffh3"}
+{"drug": "bupropion", "symptom": "weight loss", "onset_days": 730, "severity": null, "causality_confidence": 0.511, "quality_score": 0.586, "source_type": "post", "record_id": "1gal6uy"}
+{"drug": "bupropion", "symptom": "weight loss", "onset_days": 730, "severity": null, "causality_confidence": 0.644, "quality_score": 0.686, "source_type": "post", "record_id": "1gal6uy"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1g5fvd7"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1g5fvd7"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1fus8sp"}
+{"drug": "bupropion", "symptom": "dizziness", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1fus8sp"}
+{"drug": "bupropion", "symptom": "insomnia", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1bqolhv"}
+{"drug": "bupropion", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1bqolhv"}
+{"drug": "bupropion", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.468, "quality_score": 0.534, "source_type": "post", "record_id": "1beu2m9"}
+{"drug": "bupropion", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.454, "quality_score": 0.524, "source_type": "post", "record_id": "1beu2m9"}
+{"drug": "bupropion", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1beu2m9"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 21, "severity": null, "causality_confidence": 0.501, "quality_score": 0.579, "source_type": "post", "record_id": "19dsl3p"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1993maf"}
+{"drug": "bupropion", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1993maf"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1993maf"}
+{"drug": "bupropion", "symptom": "weight loss", "onset_days": null, "severity": null, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "18eh516"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "160t03d"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "160t03d"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "160t03d"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "160t03d"}
+{"drug": "bupropion", "symptom": "insomnia", "onset_days": null, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "160t03d"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "12j2jv2"}
+{"drug": "sertraline", "symptom": "sad", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "12j2jv2"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "12j2jv2"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "12j2jv2"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "12j2jv2"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "102cc5c"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "ya24vz"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "ya24vz"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "ya24vz"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "ya24vz"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "wlhhgj"}
+{"drug": "bupropion", "symptom": "insomnia", "onset_days": 7, "severity": null, "causality_confidence": 0.472, "quality_score": 0.554, "source_type": "post", "record_id": "w0yrfa"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 7, "severity": null, "causality_confidence": 0.467, "quality_score": 0.602, "source_type": "post", "record_id": "w0yrfa"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "vmjw4g"}
+{"drug": "bupropion", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "ve2f8m"}
+{"drug": "bupropion", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "ve2f8m"}
+{"drug": "bupropion", "symptom": "constipation", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "ve2f8m"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "tygl5n"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "tygl5n"}
+{"drug": "bupropion", "symptom": "allergic reaction", "onset_days": null, "severity": 2, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "tsodzq"}
+{"drug": "bupropion", "symptom": "urticaria", "onset_days": null, "severity": 2, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "tsodzq"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "srycup"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "srycup"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 150, "severity": null, "causality_confidence": 0.467, "quality_score": 0.602, "source_type": "post", "record_id": "qyep9v"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "p7x36i"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "p7x36i"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "nrneiq"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "nrneiq"}
+{"drug": "bupropion", "symptom": "pnes", "onset_days": null, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1hpm45f"}
+{"drug": "bupropion", "symptom": "no allergies", "onset_days": null, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1hpm45f"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "1hnb6ek"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hmz1k6"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1hmz1k6"}
+{"drug": "bupropion", "symptom": "bipolar type 2.", "onset_days": null, "severity": null, "causality_confidence": 0.529, "quality_score": 0.631, "source_type": "post", "record_id": "1hm5ocs"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hkwmi4"}
+{"drug": "lexapro", "symptom": "loss of interest fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hkwmi4"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hkwmi4"}
+{"drug": "tirzepatide", "symptom": "nausea", "onset_days": null, "severity": 1, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1hkdz4m"}
+{"drug": "bupropion", "symptom": "ocd", "onset_days": null, "severity": 2, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1hj3kk7"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1him6mq"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1him6mq"}
+{"drug": "bupropion", "symptom": "morning, mood stabilizer", "onset_days": null, "severity": null, "causality_confidence": 0.656, "quality_score": 0.681, "source_type": "post", "record_id": "1him6mq"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hhk288"}
+{"drug": "bupropion", "symptom": "abdominal pain", "onset_days": 730, "severity": 1, "causality_confidence": 0.473, "quality_score": 0.557, "source_type": "post", "record_id": "1hgd5pr"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 2, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1hfxcsp"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 2, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1hfxcsp"}
+{"drug": "bupropion", "symptom": "urticaria", "onset_days": 2, "severity": 2, "causality_confidence": 0.512, "quality_score": 0.584, "source_type": "post", "record_id": "1hfxcsp"}
+{"drug": "bupropion", "symptom": "acid reflux", "onset_days": 2, "severity": 2, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1hfxcsp"}
+{"drug": "bupropion", "symptom": "headache", "onset_days": null, "severity": 1, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hdb4it"}
+{"drug": "bupropion", "symptom": "spastic diplegia/cerebral palsy", "onset_days": null, "severity": 1, "causality_confidence": 0.506, "quality_score": 0.569, "source_type": "post", "record_id": "1hdb4it"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hdb4it"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hdb4it"}
+{"drug": "bupropion", "symptom": "headache", "onset_days": null, "severity": 1, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1hdb4it"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 730, "severity": null, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1hd4eo2"}
+{"drug": "bupropion", "symptom": "migraine", "onset_days": null, "severity": null, "causality_confidence": 0.461, "quality_score": 0.528, "source_type": "post", "record_id": "1hc5dd3"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1hc5dd3"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hc5dd3"}
+{"drug": "bupropion", "symptom": "sinus infection", "onset_days": 4, "severity": 2, "causality_confidence": 0.524, "quality_score": 0.596, "source_type": "post", "record_id": "1hbvskq"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 90, "severity": 2, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "1hbbjlb"}
+{"drug": "bupropion", "symptom": "temporal lobe epilepsy", "onset_days": null, "severity": 3, "causality_confidence": 0.506, "quality_score": 0.569, "source_type": "post", "record_id": "1hat4zd"}
+{"drug": "bupropion", "symptom": "stomach pain", "onset_days": null, "severity": null, "causality_confidence": 0.464, "quality_score": 0.579, "source_type": "post", "record_id": "1h9iskq"}
+{"drug": "bupropion", "symptom": "no nausea", "onset_days": null, "severity": 2, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1h8lhcj"}
+{"drug": "bupropion", "symptom": "no dizziness", "onset_days": null, "severity": 2, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1h8lhcj"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 14, "severity": null, "causality_confidence": 0.457, "quality_score": 0.588, "source_type": "post", "record_id": "1h6xs5p"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 14, "severity": null, "causality_confidence": 0.467, "quality_score": 0.595, "source_type": "post", "record_id": "1h6xs5p"}
+{"drug": "bupropion", "symptom": "pnes", "onset_days": null, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1h5bvoi"}
+{"drug": "bupropion", "symptom": "no allergies", "onset_days": null, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1h5bvoi"}
+{"drug": "bupropion", "symptom": "headache", "onset_days": 3, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "1h4d6he"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 3, "severity": 3, "causality_confidence": 0.471, "quality_score": 0.56, "source_type": "post", "record_id": "1h4d6he"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.533, "quality_score": 0.635, "source_type": "post", "record_id": "1gzt4o3"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.533, "quality_score": 0.635, "source_type": "post", "record_id": "1gzt4o3"}
+{"drug": "bupropion", "symptom": "pneumonia", "onset_days": null, "severity": 2, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1gzhtgp"}
+{"drug": "lexapro", "symptom": "pnes", "onset_days": null, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1gz0kt4"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 730, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1gybvou"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 730, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1gybvou"}
+{"drug": "bupropion", "symptom": "tremor", "onset_days": 730, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1gybvou"}
+{"drug": "wegovy", "symptom": "depression", "onset_days": 180, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1gv4x5s"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 14, "severity": 2, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1g7q3cb"}
+{"drug": "bupropion", "symptom": "acid reflux", "onset_days": 14, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1g7q3cb"}
+{"drug": "bupropion", "symptom": "hair loss", "onset_days": 14, "severity": 2, "causality_confidence": 0.482, "quality_score": 0.569, "source_type": "post", "record_id": "1g7q3cb"}
+{"drug": "bupropion", "symptom": "migraine", "onset_days": 11, "severity": null, "causality_confidence": 0.482, "quality_score": 0.561, "source_type": "post", "record_id": "1g5yies"}
+{"drug": "bupropion", "symptom": "inflammation", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1faivfn"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1eypoyo"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1eypoyo"}
+{"drug": "bupropion", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.461, "quality_score": 0.528, "source_type": "post", "record_id": "1eypoyo"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1eyapbq"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1eyapbq"}
+{"drug": "bupropion", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.461, "quality_score": 0.528, "source_type": "post", "record_id": "1eyapbq"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1exh4t8"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1exh4t8"}
+{"drug": "bupropion", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.461, "quality_score": 0.528, "source_type": "post", "record_id": "1exh4t8"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.55, "source_type": "post", "record_id": "1elnyey"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.478, "quality_score": 0.549, "source_type": "post", "record_id": "1elnyey"}
+{"drug": "bupropion", "symptom": "gallstones", "onset_days": null, "severity": 3, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1e6lxfc"}
+{"drug": "bupropion", "symptom": "gallstones", "onset_days": null, "severity": 3, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1e6lxfc"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1dolt56"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1dolt56"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 365, "severity": 3, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "1dauxj1"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": 365, "severity": 3, "causality_confidence": 0.533, "quality_score": 0.652, "source_type": "post", "record_id": "1dauxj1"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 365, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1dauxj1"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 365, "severity": 3, "causality_confidence": 0.493, "quality_score": 0.577, "source_type": "post", "record_id": "1dauxj1"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": 365, "severity": 3, "causality_confidence": 0.474, "quality_score": 0.562, "source_type": "post", "record_id": "1dauxj1"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": 365, "severity": 3, "causality_confidence": 0.469, "quality_score": 0.559, "source_type": "post", "record_id": "1dauxj1"}
+{"drug": "bupropion", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1d8cj6t"}
+{"drug": "bupropion", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1d8cj6t"}
+{"drug": "bupropion", "symptom": "allergic reaction", "onset_days": 2, "severity": 2, "causality_confidence": 0.644, "quality_score": 0.686, "source_type": "post", "record_id": "1bhfi16"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 2, "severity": 2, "causality_confidence": 0.481, "quality_score": 0.568, "source_type": "post", "record_id": "1bhfi16"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 2, "severity": 2, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "1bhfi16"}
+{"drug": "bupropion", "symptom": "nausea", "onset_days": null, "severity": 1, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1ai2829"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.482, "quality_score": 0.552, "source_type": "post", "record_id": "1aedzfq"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": 3, "causality_confidence": 0.474, "quality_score": 0.545, "source_type": "post", "record_id": "18yikn2"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "18yikn2"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": 3, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "18yikn2"}
+{"drug": "bupropion", "symptom": "loss of taste cough", "onset_days": null, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "18yikn2"}
+{"drug": "bupropion", "symptom": "loss of taste congestion", "onset_days": null, "severity": 3, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "18yikn2"}
+{"drug": "bupropion", "symptom": "loss of taste and smell", "onset_days": null, "severity": 3, "causality_confidence": 0.537, "quality_score": 0.598, "source_type": "post", "record_id": "18yikn2"}
+{"drug": "bupropion", "symptom": "depressive disorder", "onset_days": null, "severity": 1, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "17vezke"}
+{"drug": "bupropion", "symptom": "hypogonadism", "onset_days": null, "severity": 1, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "17vezke"}
+{"drug": "bupropion", "symptom": "hypothyroidism", "onset_days": null, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "17vezke"}
+{"drug": "bupropion", "symptom": "psoriasis", "onset_days": null, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "17vezke"}
+{"drug": "bupropion", "symptom": "migraine", "onset_days": null, "severity": null, "causality_confidence": 0.476, "quality_score": 0.54, "source_type": "post", "record_id": "1740i6u"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1740i6u"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 21, "severity": 1, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "15wo5qp"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "15lrqww"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "14vxiji"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "14vxiji"}
+{"drug": "bupropion", "symptom": "migraines", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "14vxiji"}
+{"drug": "bupropion", "symptom": "inattentive adhd", "onset_days": 14, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.636, "source_type": "post", "record_id": "14tr7hw"}
+{"drug": "bupropion", "symptom": "bad reaction", "onset_days": 14, "severity": 1, "causality_confidence": 0.577, "quality_score": 0.636, "source_type": "post", "record_id": "14tr7hw"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "14gyc64"}
+{"drug": "bupropion", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.473, "quality_score": 0.545, "source_type": "post", "record_id": "13bapvo"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "137x7n9"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "137x7n9"}
+{"drug": "bupropion", "symptom": "allergies", "onset_days": null, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "137x7n9"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "118u7s1"}
+{"drug": "lexapro", "symptom": "allergic", "onset_days": null, "severity": 2, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "118u7s1"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "118u7s1"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "10zsg5e"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "10zsg5e"}
+{"drug": "adderall", "symptom": "migraines", "onset_days": null, "severity": 2, "causality_confidence": 0.505, "quality_score": 0.607, "source_type": "post", "record_id": "zjlrrw"}
+{"drug": "bupropion", "symptom": "low mood", "onset_days": 90, "severity": 1, "causality_confidence": 0.577, "quality_score": 0.629, "source_type": "post", "record_id": "ymxpzx"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": 90, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.575, "source_type": "post", "record_id": "ymxpzx"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "wcrsut"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "uve0xn"}
+{"drug": "bupropion", "symptom": "overactive bladder", "onset_days": null, "severity": 1, "causality_confidence": 0.501, "quality_score": 0.562, "source_type": "post", "record_id": "uve0xn"}
+{"drug": "bupropion", "symptom": "nausea", "onset_days": null, "severity": 1, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "upu6h8"}
+{"drug": "bupropion", "symptom": "heartburn", "onset_days": null, "severity": 1, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "upu6h8"}
+{"drug": "bupropion", "symptom": "abdominal pain", "onset_days": null, "severity": 1, "causality_confidence": 0.464, "quality_score": 0.534, "source_type": "post", "record_id": "upu6h8"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.55, "source_type": "post", "record_id": "tzc84k"}
+{"drug": "bupropion", "symptom": "movement disorder", "onset_days": null, "severity": 3, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "1cjvisp"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 4, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "1b2e4pp"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1g3p7aw"}
+{"drug": "bupropion", "symptom": "acne", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1g3p7aw"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 365, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "1gu6k4r"}
+{"drug": "bupropion", "symptom": "migraine", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1gowqh9"}
+{"drug": "bupropion", "symptom": "migraine", "onset_days": null, "severity": null, "causality_confidence": 0.456, "quality_score": 0.525, "source_type": "post", "record_id": "1gowqh9"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.476, "quality_score": 0.547, "source_type": "post", "record_id": "1f2ucyc"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "1f2ucyc"}
+{"drug": "bupropion", "symptom": "headaches", "onset_days": 28, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "1elo856"}
+{"drug": "bupropion", "symptom": "drug abuse", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1ehpb5w"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1ehpb5w"}
+{"drug": "bupropion", "symptom": "no known anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1682mwz"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1682mwz"}
+{"drug": "bupropion", "symptom": "tachycardia", "onset_days": null, "severity": 1, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1682mwz"}
+{"drug": "bupropion", "symptom": "ibs", "onset_days": null, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1682mwz"}
+{"drug": "bupropion", "symptom": "insomnia", "onset_days": null, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1682mwz"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "10ybqrn"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.473, "quality_score": 0.544, "source_type": "post", "record_id": "xbvb1p"}
+{"drug": "bupropion", "symptom": "tia", "onset_days": null, "severity": null, "causality_confidence": 0.572, "quality_score": 0.657, "source_type": "post", "record_id": "tupjfn"}
+{"drug": "bupropion", "symptom": "connective tissue disorder", "onset_days": null, "severity": null, "causality_confidence": 0.536, "quality_score": 0.591, "source_type": "post", "record_id": "m27r9g"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1cu908l"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1712lhh"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1712lhh"}
+{"drug": "bupropion", "symptom": "dm cough syrup", "onset_days": null, "severity": null, "causality_confidence": 0.589, "quality_score": 0.631, "source_type": "post", "record_id": "xc0si2"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1fk6on8"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1fk6on8"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1fk6on8"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1fk6on8"}
+{"drug": "adderall", "symptom": "teeth", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1f3onzd"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 42, "severity": 1, "causality_confidence": 0.48, "quality_score": 0.612, "source_type": "post", "record_id": "1dr0i94"}
+{"drug": "bupropion", "symptom": "neuropathic pain", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.619, "source_type": "post", "record_id": "1bd87dx"}
+{"drug": "bupropion", "symptom": "nerve pain", "onset_days": null, "severity": null, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "1bd87dx"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hkwnx1"}
+{"drug": "lexapro", "symptom": "loss of interest fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hkwnx1"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hkwnx1"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hie4d3"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 1095, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "1hazqit"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gn4v4l"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gn4v4l"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1gjwa2g"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1gfwqu5"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 2, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1fz0ltg"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1fwv5p0"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1fwv5p0"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1fwv5p0"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1fi1l25"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1eptsi2"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 730, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1ekc4l4"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 730, "severity": 2, "causality_confidence": 0.477, "quality_score": 0.565, "source_type": "post", "record_id": "1ekc4l4"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "1eht347"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1ee0uid"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1e83vjl"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1dpz0ew"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1dpz0ew"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1dmb9uw"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 42, "severity": null, "causality_confidence": 0.479, "quality_score": 0.566, "source_type": "post", "record_id": "1d8bdmc"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1d48drc"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1d3ncal"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1d30sm5"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1d30sm5"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 7, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1cl0ya8"}
+{"drug": "bupropion", "symptom": "allergic", "onset_days": 7, "severity": 2, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1cl0ya8"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 180, "severity": null, "causality_confidence": 0.48, "quality_score": 0.605, "source_type": "post", "record_id": "1c5831x"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 180, "severity": null, "causality_confidence": 0.5, "quality_score": 0.62, "source_type": "post", "record_id": "1c5831x"}
+{"drug": "bupropion", "symptom": "numb", "onset_days": 180, "severity": null, "causality_confidence": 0.532, "quality_score": 0.592, "source_type": "post", "record_id": "1c5831x"}
+{"drug": "bupropion", "symptom": "overdosed", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1c1fkzx"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 10, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1c170p7"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 365, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1c0izgk"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 365, "severity": 3, "causality_confidence": 0.487, "quality_score": 0.572, "source_type": "post", "record_id": "1c0izgk"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1bjudie"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1bjudie"}
+{"drug": "bupropion", "symptom": "tinnitus", "onset_days": 1825, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1baxrlt"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 1095, "severity": null, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1b8zyzw"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 1095, "severity": null, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1b8zyzw"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 60, "severity": 1, "causality_confidence": 0.467, "quality_score": 0.602, "source_type": "post", "record_id": "1b8930e"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 60, "severity": 1, "causality_confidence": 0.533, "quality_score": 0.652, "source_type": "post", "record_id": "1b8930e"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1b35mv8"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1b35mv8"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1b35mv8"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1arvm9w"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "18mtfbc"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "18mtfbc"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.472, "quality_score": 0.544, "source_type": "post", "record_id": "18mtfbc"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "18eicaq"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "18eicaq"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "17oiei2"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "17ngmv7"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "s2obix"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hkwo3q"}
+{"drug": "lexapro", "symptom": "loss of interest fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hkwo3q"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hkwo3q"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gniz5k"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gniz5k"}
+{"drug": "sertraline", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1gniz5k"}
+{"drug": "bupropion", "symptom": "overdosed", "onset_days": null, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1gdklwc"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1gbcdna"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1gbcdna"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": 3, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1gbcdna"}
+{"drug": "sertraline", "symptom": "diarrhea", "onset_days": null, "severity": 3, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1gbcdna"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1fs2mqa"}
+{"drug": "bupropion", "symptom": "cognitive impairment", "onset_days": null, "severity": null, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "1fqjmza"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1fqjmza"}
+{"drug": "bupropion", "symptom": "brain fog", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1fqjmza"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1fll5us"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1f2p6vb"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1f2p6vb"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 1825, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1ex5zjc"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1ei5qnk"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1ei5qnk"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": 28, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1eccwvi"}
+{"drug": "lexapro", "symptom": "sexual dysfunction", "onset_days": 28, "severity": 3, "causality_confidence": 0.544, "quality_score": 0.611, "source_type": "post", "record_id": "1eccwvi"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 28, "severity": 3, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1eccwvi"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 28, "severity": 3, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1eccwvi"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.6, "quality_score": 0.685, "source_type": "post", "record_id": "1e3ggfu"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 365, "severity": 2, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1dval5g"}
+{"drug": "bupropion", "symptom": "depressed", "onset_days": null, "severity": null, "causality_confidence": 0.505, "quality_score": 0.607, "source_type": "post", "record_id": "1dr5uct"}
+{"drug": "bupropion", "symptom": "allergic reaction", "onset_days": null, "severity": 1, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "1dkh6ew"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1dkh6ew"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1d6cy4g"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 30, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "1d0h6fu"}
+{"drug": "bupropion", "symptom": "rash", "onset_days": 30, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1d0h6fu"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1cw5odk"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1cw5odk"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 30, "severity": 3, "causality_confidence": 0.491, "quality_score": 0.575, "source_type": "post", "record_id": "1cr8jtk"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 30, "severity": 3, "causality_confidence": 0.481, "quality_score": 0.568, "source_type": "post", "record_id": "1cr8jtk"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 210, "severity": null, "causality_confidence": 0.66, "quality_score": 0.695, "source_type": "post", "record_id": "1cpbonp"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1co0x4u"}
+{"drug": "bupropion", "symptom": "tremors", "onset_days": null, "severity": null, "causality_confidence": 0.832, "quality_score": 0.807, "source_type": "post", "record_id": "16iq0n0"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 30, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "15ms2fk"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 30, "severity": 1, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "1432fn6"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 30, "severity": 1, "causality_confidence": 0.477, "quality_score": 0.565, "source_type": "post", "record_id": "1432fn6"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 30, "severity": 1, "causality_confidence": 0.475, "quality_score": 0.564, "source_type": "post", "record_id": "1432fn6"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 30, "severity": 1, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1432fn6"}
+{"drug": "bupropion", "symptom": "crashes", "onset_days": 30, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "1432fn6"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.473, "quality_score": 0.545, "source_type": "post", "record_id": "t8e7xh"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "t8e7xh"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "t8e7xh"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "t4msa6"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.86, "quality_score": 0.835, "source_type": "post", "record_id": "t4msa6"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "p2hhbi"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 7, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1hpiti1"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 6, "severity": 2, "causality_confidence": 0.491, "quality_score": 0.575, "source_type": "post", "record_id": "1hpiti1"}
+{"drug": "bupropion", "symptom": "abilify", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1he6zmf"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1h0wp42"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1h0wp42"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gyda3v"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1gyda3v"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1gyda3v"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1gxpyyo"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1gxpyyo"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1gr5y26"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 730, "severity": null, "causality_confidence": 0.485, "quality_score": 0.571, "source_type": "post", "record_id": "1gq3lfl"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1go29tz"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1go29tz"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gnixy2"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gnixy2"}
+{"drug": "sertraline", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1gnixy2"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1ggljyt"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1ggljyt"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1ggljyt"}
+{"drug": "sertraline", "symptom": "tremors", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1ggljyt"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gd075p"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 30, "severity": null, "causality_confidence": 0.481, "quality_score": 0.561, "source_type": "post", "record_id": "1gan4zn"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 5, "severity": null, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1fyv231"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1fxkjyq"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1fxkjyq"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1fxkjyq"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1fxkjyq"}
+{"drug": "bupropion", "symptom": "hair loss", "onset_days": null, "severity": 2, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1fsr6u4"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "1fqzu2y"}
+{"drug": "bupropion", "symptom": "tinnitus", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1fg9tul"}
+{"drug": "bupropion", "symptom": "nausea", "onset_days": null, "severity": 1, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "1fe0p0b"}
+{"drug": "bupropion", "symptom": "vomiting", "onset_days": null, "severity": 1, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1fe0p0b"}
+{"drug": "bupropion", "symptom": "diarrhea", "onset_days": null, "severity": 1, "causality_confidence": 0.475, "quality_score": 0.547, "source_type": "post", "record_id": "1fe0p0b"}
+{"drug": "bupropion", "symptom": "itching", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1fcv7e1"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1fcv7e1"}
+{"drug": "bupropion", "symptom": "brain fog", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1fb8x5g"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1f8v4o4"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1f8hu6g"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1f5citi"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1f2nql8"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1f2nql8"}
+{"drug": "bupropion", "symptom": "dizziness", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1ewijp8"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 8, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1eud1ut"}
+{"drug": "sertraline", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1eszm82"}
+{"drug": "sertraline", "symptom": "vomiting", "onset_days": null, "severity": null, "causality_confidence": 0.473, "quality_score": 0.545, "source_type": "post", "record_id": "1eszm82"}
+{"drug": "bupropion", "symptom": "hair loss", "onset_days": null, "severity": 2, "causality_confidence": 0.482, "quality_score": 0.552, "source_type": "post", "record_id": "1enh6eo"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1el4xkg"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1el4xkg"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": 4, "severity": null, "causality_confidence": 0.48, "quality_score": 0.605, "source_type": "post", "record_id": "1ekv284"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.467, "quality_score": 0.602, "source_type": "post", "record_id": "1ejococ"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1ei5p88"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1ei5p88"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 20, "severity": null, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1ea5l06"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 20, "severity": null, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "1ea5l06"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 20, "severity": null, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "1ea5l06"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1e8n81u"}
+{"drug": "bupropion", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.454, "quality_score": 0.524, "source_type": "post", "record_id": "1e8j7bs"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.482, "quality_score": 0.552, "source_type": "post", "record_id": "1e7nxcv"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1e7nxcv"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 730, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1e6ed2c"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 730, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1e62voa"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1e0zffp"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 90, "severity": 2, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1e0p8p1"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 90, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.612, "source_type": "post", "record_id": "1e0p8p1"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": 90, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "1e0p8p1"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 90, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "1e0p8p1"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1e09wvu"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 365, "severity": 2, "causality_confidence": 0.473, "quality_score": 0.562, "source_type": "post", "record_id": "1dx6pxy"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1dqj7p3"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1dpomlh"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.474, "quality_score": 0.546, "source_type": "post", "record_id": "1dpomlh"}
+{"drug": "sertraline", "symptom": "abilify", "onset_days": 365, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1dnc9pu"}
+{"drug": "sertraline", "symptom": "abilify", "onset_days": 365, "severity": 1, "causality_confidence": 0.505, "quality_score": 0.624, "source_type": "post", "record_id": "1dnc9pu"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1diom1q"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "1diom1q"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1cw6yv6"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1cw6gsm"}
+{"drug": "bupropion", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.489, "quality_score": 0.55, "source_type": "post", "record_id": "1cn8w8t"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 14, "severity": 2, "causality_confidence": 0.489, "quality_score": 0.573, "source_type": "post", "record_id": "1cjj4ub"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "12c984e"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "12c984e"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "12c984e"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "12c984e"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "zla0gy"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 30, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "ntpys2"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 30, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "ntpys2"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 7, "severity": 2, "causality_confidence": 0.51, "quality_score": 0.583, "source_type": "post", "record_id": "lm2vqb"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 2, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "l9hfiu"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 10, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "o0vs0r"}

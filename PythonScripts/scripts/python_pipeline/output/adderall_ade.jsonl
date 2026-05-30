@@ -1,0 +1,160 @@
+{"drug": "semaglutide", "symptom": "weight loss", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1hl7m1m"}
+{"drug": "adderall", "symptom": "insomnia", "onset_days": null, "severity": null, "causality_confidence": 0.499, "quality_score": 0.557, "source_type": "post", "record_id": "1h8kwov"}
+{"drug": "adderall", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1h50ep2"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": 180, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.588, "source_type": "post", "record_id": "1h0j620"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.533, "quality_score": 0.635, "source_type": "post", "record_id": "1gtf5jx"}
+{"drug": "adderall", "symptom": "psychotic symptoms", "onset_days": 14, "severity": 3, "causality_confidence": 0.501, "quality_score": 0.572, "source_type": "post", "record_id": "1gjw231"}
+{"drug": "adderall", "symptom": "panic disorder", "onset_days": 14, "severity": 3, "causality_confidence": 0.501, "quality_score": 0.572, "source_type": "post", "record_id": "1gjw231"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 90, "severity": 2, "causality_confidence": 0.491, "quality_score": 0.575, "source_type": "post", "record_id": "1f8igat"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1aosc1i"}
+{"drug": "adderall", "symptom": "brain fog", "onset_days": null, "severity": null, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "18l4qi4"}
+{"drug": "adderall", "symptom": "depressive mood disorder", "onset_days": 730, "severity": 1, "causality_confidence": 0.513, "quality_score": 0.591, "source_type": "post", "record_id": "12fdqfs"}
+{"drug": "adderall", "symptom": "meth maybe mdma no", "onset_days": null, "severity": null, "causality_confidence": 0.668, "quality_score": 0.693, "source_type": "post", "record_id": "1fqs1mp"}
+{"drug": "adderall", "symptom": "crashes", "onset_days": null, "severity": 1, "causality_confidence": 0.832, "quality_score": 0.807, "source_type": "post", "record_id": "1focmcq"}
+{"drug": "adderall", "symptom": "meth addiction", "onset_days": null, "severity": 1, "causality_confidence": 0.501, "quality_score": 0.562, "source_type": "post", "record_id": "1fb27ns"}
+{"drug": "adderall", "symptom": "meth addiction", "onset_days": null, "severity": null, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "1fb20id"}
+{"drug": "adderall", "symptom": "com", "onset_days": null, "severity": null, "causality_confidence": 0.505, "quality_score": 0.607, "source_type": "post", "record_id": "1enjent"}
+{"drug": "adderall", "symptom": "fits", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1d96my9"}
+{"drug": "lexapro", "symptom": "shadows", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1admrae"}
+{"drug": "adderall", "symptom": "headache", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "vcco3e"}
+{"drug": "adderall", "symptom": "fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1hfwyow"}
+{"drug": "adderall", "symptom": "brain fog", "onset_days": 730, "severity": 2, "causality_confidence": 0.533, "quality_score": 0.652, "source_type": "post", "record_id": "1hc3p3q"}
+{"drug": "adderall", "symptom": "back/neck pain", "onset_days": null, "severity": 2, "causality_confidence": 0.501, "quality_score": 0.562, "source_type": "post", "record_id": "1h8hwin"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1gtqn2z"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1gtqn2z"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1gnmvzd"}
+{"drug": "metformin", "symptom": "obese patients eating themselves", "onset_days": null, "severity": 2, "causality_confidence": 0.501, "quality_score": 0.568, "source_type": "post", "record_id": "1gnmvzd"}
+{"drug": "adderall", "symptom": "restless leg syndrome my entire life. when i", "onset_days": 730, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.634, "source_type": "post", "record_id": "1fgmi7k"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 730, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.62, "source_type": "post", "record_id": "1fgmi7k"}
+{"drug": "adderall", "symptom": "fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1favfs1"}
+{"drug": "adderall", "symptom": "fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.461, "quality_score": 0.535, "source_type": "post", "record_id": "1f3ulxb"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.461, "quality_score": 0.536, "source_type": "post", "record_id": "1f3ulxb"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.461, "quality_score": 0.536, "source_type": "post", "record_id": "1f3ulxb"}
+{"drug": "adderall", "symptom": "teeth", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1f3onzd"}
+{"drug": "adderall", "symptom": "nerve pain", "onset_days": null, "severity": 1, "causality_confidence": 0.501, "quality_score": 0.562, "source_type": "post", "record_id": "1e1pqkz"}
+{"drug": "adderall", "symptom": "inattentive type", "onset_days": 730, "severity": 2, "causality_confidence": 0.511, "quality_score": 0.586, "source_type": "post", "record_id": "1cvz66q"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 730, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1cvz66q"}
+{"drug": "adderall", "symptom": "brain fog", "onset_days": 730, "severity": 2, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1cvz66q"}
+{"drug": "adderall", "symptom": "bad knee", "onset_days": null, "severity": 3, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "1b3whn7"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1b3whn7"}
+{"drug": "adderall", "symptom": "hyperactivity", "onset_days": null, "severity": 2, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "17aok8g"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1136b6e"}
+{"drug": "bupropion", "symptom": "hair loss", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1136b6e"}
+{"drug": "adderall", "symptom": "neck pain", "onset_days": null, "severity": 2, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "10sqnte"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "xcp9pm"}
+{"drug": "adderall", "symptom": "thoughts/advice", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "u1hd00"}
+{"drug": "adderall", "symptom": "restless", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "tz64mh"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 3, "severity": null, "causality_confidence": 0.475, "quality_score": 0.564, "source_type": "post", "record_id": "1hll2p7"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1hfrav9"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1hfrav9"}
+{"drug": "adderall", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hfrav9"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hfrav9"}
+{"drug": "bupropion", "symptom": "ocd", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1hfrav9"}
+{"drug": "bupropion", "symptom": "tics", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hfrav9"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hfrav9"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hfrav9"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hfrav9"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1hf3bnh"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hem4ec"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1hdyva8"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hdyva8"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1h5vsa9"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1h4hvft"}
+{"drug": "adderall", "symptom": "apnea", "onset_days": 7, "severity": 1, "causality_confidence": 0.572, "quality_score": 0.674, "source_type": "post", "record_id": "1h4a1fa"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.464, "quality_score": 0.579, "source_type": "post", "record_id": "1gyknb6"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1gwo3f4"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gwo3f4"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gtmgvy"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 30, "severity": null, "causality_confidence": 0.5, "quality_score": 0.627, "source_type": "post", "record_id": "1gt2i2c"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1grpvcc"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1ghycp5"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1gf69jf"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1ge1njh"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1gcruxk"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gcruxk"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1g4yntq"}
+{"drug": "adderall", "symptom": "death", "onset_days": null, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1fzhhky"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 2, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1fz0ltg"}
+{"drug": "adderall", "symptom": "anger", "onset_days": null, "severity": 3, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1fnr7a6"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1fn1btz"}
+{"drug": "adderall", "symptom": "adderall abuse", "onset_days": null, "severity": 3, "causality_confidence": 0.844, "quality_score": 0.819, "source_type": "post", "record_id": "1fgx4h1"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1c6wr7q"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 90, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1bx3n2p"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 90, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1bx3n2p"}
+{"drug": "lexapro", "symptom": "lexapro treats affective disorders like depression", "onset_days": 90, "severity": 2, "causality_confidence": 0.892, "quality_score": 0.884, "source_type": "post", "record_id": "1bx3n2p"}
+{"drug": "adderall", "symptom": "bad adhd", "onset_days": null, "severity": 3, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1any8u7"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 21, "severity": null, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "11o4vps"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "yz38tw"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "yz38tw"}
+{"drug": "adderall", "symptom": "narcolepsy", "onset_days": null, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "r7g3fr"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "okx7hf"}
+{"drug": "adderall", "symptom": "brain fog", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hj028i"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1hfqqog"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1hfqqog"}
+{"drug": "adderall", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hfqqog"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hfqqog"}
+{"drug": "bupropion", "symptom": "ocd", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1hfqqog"}
+{"drug": "bupropion", "symptom": "tics", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hfqqog"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hfqqog"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hfqqog"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hfqqog"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hanlk9"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 4, "severity": 1, "causality_confidence": 0.461, "quality_score": 0.542, "source_type": "post", "record_id": "1h8a0qr"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.47, "quality_score": 0.542, "source_type": "post", "record_id": "1gxv8x4"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 1460, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1gw2zsg"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 1460, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1gw2zsg"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1gw1wzs"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1gw1wzs"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1gw1wik"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1gw1wik"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": 60, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1grqg3v"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 730, "severity": null, "causality_confidence": 0.527, "quality_score": 0.595, "source_type": "post", "record_id": "1grjlti"}
+{"drug": "adderall", "symptom": "incredibly stubborn a.", "onset_days": 2, "severity": null, "causality_confidence": 0.513, "quality_score": 0.591, "source_type": "post", "record_id": "1g5f5t3"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1g35duw"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1g35b0f"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1fy7x3l"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1fufhdo"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "1fufhdo"}
+{"drug": "bupropion", "symptom": "no avail abilify", "onset_days": null, "severity": 3, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1fu49a2"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1fqbr3i"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1fpjbe1"}
+{"drug": "adderall", "symptom": "prozac/adderall loss of appetite switched medicine back", "onset_days": 90, "severity": null, "causality_confidence": 0.904, "quality_score": 0.896, "source_type": "post", "record_id": "1f8pdq7"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1f6blaa"}
+{"drug": "adderall", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1f6blaa"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1f3rm0t"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1ewlxou"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1ewlxou"}
+{"drug": "adderall", "symptom": "seizures", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1ewlxou"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1et56tv"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1et56tv"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.6, "quality_score": 0.685, "source_type": "post", "record_id": "1ekwmtx"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "1eccksw"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1eatsyn"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1dwuc4m"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1dwuc4m"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1dkgkq2"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 365, "severity": 2, "causality_confidence": 0.473, "quality_score": 0.555, "source_type": "post", "record_id": "1dgldy0"}
+{"drug": "adderall", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1deftc2"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 14, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.695, "source_type": "post", "record_id": "1cz3gov"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 14, "severity": 2, "causality_confidence": 0.475, "quality_score": 0.556, "source_type": "post", "record_id": "1cz3gov"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "12aqdka"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "12aqdka"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 365, "severity": 3, "causality_confidence": 0.482, "quality_score": 0.562, "source_type": "post", "record_id": "t7oq11"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "sccfia"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": 21, "severity": 1, "causality_confidence": 0.489, "quality_score": 0.573, "source_type": "post", "record_id": "ono2m0"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": 730, "severity": 3, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "npg2n4"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": 730, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "npg2n4"}
+{"drug": "adderall", "symptom": "adderall abuse", "onset_days": 2, "severity": null, "causality_confidence": 0.844, "quality_score": 0.836, "source_type": "post", "record_id": "ks06l9"}
+{"drug": "adderall", "symptom": "brain fog", "onset_days": 2, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "ks06l9"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.406, "quality_score": 0.548, "source_type": "comment", "record_id": "m1a5916"}
+{"drug": "adderall", "symptom": "bad adhd", "onset_days": null, "severity": null, "causality_confidence": 0.445, "quality_score": 0.579, "source_type": "comment", "record_id": "m19iruo"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.459, "quality_score": 0.595, "source_type": "comment", "record_id": "m198pjp"}
+{"drug": "adderall", "symptom": "depressed", "onset_days": null, "severity": null, "causality_confidence": 0.537, "quality_score": 0.657, "source_type": "comment", "record_id": "m02g7f6"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.476, "quality_score": 0.61, "source_type": "comment", "record_id": "lzwqy4c"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.408, "quality_score": 0.55, "source_type": "comment", "record_id": "lzwqy4c"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.448, "quality_score": 0.585, "source_type": "comment", "record_id": "lzp3qf7"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.412, "quality_score": 0.554, "source_type": "comment", "record_id": "lxw8pl8"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.635, "source_type": "comment", "record_id": "lxuw781"}
+{"drug": "adderall", "symptom": "heart failure", "onset_days": null, "severity": null, "causality_confidence": 0.462, "quality_score": 0.594, "source_type": "comment", "record_id": "lw8lw64"}
+{"drug": "adderall", "symptom": "adderall addiction", "onset_days": null, "severity": 2, "causality_confidence": 0.717, "quality_score": 0.819, "source_type": "comment", "record_id": "l0epjb5"}
+{"drug": "adderall", "symptom": "https://preview.redd.it/ygxfygm90xpd1.jpeg?width=4032&format", "onset_days": null, "severity": null, "causality_confidence": 0.537, "quality_score": 0.657, "source_type": "comment", "record_id": "lo0n75p"}

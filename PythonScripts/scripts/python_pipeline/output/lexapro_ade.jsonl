@@ -1,0 +1,664 @@
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1hq0b9j"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1hq0b9j"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hpzd30"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "1hpzd30"}
+{"drug": "lexapro", "symptom": "numb", "onset_days": null, "severity": 1, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1hpxpsx"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1hpv4h8"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hptfkz"}
+{"drug": "lexapro", "symptom": "brain fog", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1hpsn6o"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1hprfrh"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hprfrh"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1hprfrh"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 90, "severity": null, "causality_confidence": 0.54, "quality_score": 0.605, "source_type": "post", "record_id": "1hpo2dn"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 90, "severity": null, "causality_confidence": 0.489, "quality_score": 0.566, "source_type": "post", "record_id": "1hpo2dn"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hpmgik"}
+{"drug": "lexapro", "symptom": "allergy", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hphylk"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 28, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1hphrxr"}
+{"drug": "lexapro", "symptom": "dryness", "onset_days": null, "severity": 2, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1hpej9d"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 540, "severity": null, "causality_confidence": 0.493, "quality_score": 0.577, "source_type": "post", "record_id": "1hpbxlf"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hpbbiv"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hpbbiv"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.481, "quality_score": 0.568, "source_type": "post", "record_id": "1hparzg"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hp7v1v"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1hp7v1v"}
+{"drug": "lexapro", "symptom": "sleepiness", "onset_days": null, "severity": null, "causality_confidence": 0.832, "quality_score": 0.807, "source_type": "post", "record_id": "1hp7v1v"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1hp6bu8"}
+{"drug": "lexapro", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1hp6bu8"}
+{"drug": "lexapro", "symptom": "bad headaches", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1hp6bu8"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hp6bu8"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hp6bu8"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hp6bu8"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1hp6bu8"}
+{"drug": "lexapro", "symptom": "acid reflux", "onset_days": null, "severity": null, "causality_confidence": 0.482, "quality_score": 0.552, "source_type": "post", "record_id": "1hp6bu8"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1hp55i9"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hp2kxx"}
+{"drug": "lexapro", "symptom": "panic a bit when i think abt the fact that i took it. really nothing changed.", "onset_days": null, "severity": null, "causality_confidence": 0.569, "quality_score": 0.696, "source_type": "post", "record_id": "1hp1sdm"}
+{"drug": "lexapro", "symptom": "muscle spasms", "onset_days": null, "severity": 1, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "1hp18by"}
+{"drug": "lexapro", "symptom": "sexual dysfunction", "onset_days": 120, "severity": null, "causality_confidence": 0.577, "quality_score": 0.636, "source_type": "post", "record_id": "1hor5lq"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": null, "causality_confidence": 0.54, "quality_score": 0.605, "source_type": "post", "record_id": "1hoo6v2"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": null, "causality_confidence": 0.6, "quality_score": 0.695, "source_type": "post", "record_id": "1hoo6v2"}
+{"drug": "lexapro", "symptom": "nausea", "onset_days": 1095, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1hon4o5"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 1095, "severity": null, "causality_confidence": 0.493, "quality_score": 0.577, "source_type": "post", "record_id": "1hon4o5"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 1095, "severity": null, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1hon4o5"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 1095, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1hon4o5"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hoj53q"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hoj53q"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.55, "source_type": "post", "record_id": "1hoijqb"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hogeqj"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1hofeea"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 10, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1hod4w4"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 10, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1hod4w4"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 730, "severity": null, "causality_confidence": 0.48, "quality_score": 0.605, "source_type": "post", "record_id": "1hocldj"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1ho9i64"}
+{"drug": "lexapro", "symptom": "depressed", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1ho9i64"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1ho8atw"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1ho8atw"}
+{"drug": "bupropion", "symptom": "migraines", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1ho7t3u"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1ho7t3u"}
+{"drug": "lexapro", "symptom": "headache", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1ho5oge"}
+{"drug": "lexapro", "symptom": "nausea", "onset_days": 7, "severity": 3, "causality_confidence": 0.491, "quality_score": 0.575, "source_type": "post", "record_id": "1ho1w20"}
+{"drug": "lexapro", "symptom": "stomach pain", "onset_days": 7, "severity": 3, "causality_confidence": 0.473, "quality_score": 0.557, "source_type": "post", "record_id": "1ho1w20"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 7, "severity": 3, "causality_confidence": 0.481, "quality_score": 0.568, "source_type": "post", "record_id": "1ho1w20"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": 30, "severity": null, "causality_confidence": 0.477, "quality_score": 0.565, "source_type": "post", "record_id": "1hnxyok"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": 30, "severity": null, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "1hnxyok"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": 30, "severity": null, "causality_confidence": 0.48, "quality_score": 0.567, "source_type": "post", "record_id": "1hnxyok"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1hnx2cp"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": 365, "severity": null, "causality_confidence": 0.86, "quality_score": 0.852, "source_type": "post", "record_id": "1hnoqsk"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": 365, "severity": null, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1hnoqsk"}
+{"drug": "lexapro", "symptom": "constipation", "onset_days": 1095, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1hno345"}
+{"drug": "lexapro", "symptom": "ocd", "onset_days": 1095, "severity": null, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "1hno345"}
+{"drug": "lexapro", "symptom": "ocd", "onset_days": 150, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.592, "source_type": "post", "record_id": "1hnnd1k"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hnmels"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1hnm5xc"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1hnky7x"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 2, "severity": null, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1hnkjet"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 70, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "1hm70mj"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 70, "severity": 1, "causality_confidence": 0.491, "quality_score": 0.575, "source_type": "post", "record_id": "1hm70mj"}
+{"drug": "lexapro", "symptom": "dizziness", "onset_days": 70, "severity": 1, "causality_confidence": 0.485, "quality_score": 0.571, "source_type": "post", "record_id": "1hm70mj"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hkmcin"}
+{"drug": "lexapro", "symptom": "allergic reaction", "onset_days": 180, "severity": 3, "causality_confidence": 0.544, "quality_score": 0.604, "source_type": "post", "record_id": "1hhs2yn"}
+{"drug": "lexapro", "symptom": "bad vertigo", "onset_days": 3, "severity": 2, "causality_confidence": 0.501, "quality_score": 0.579, "source_type": "post", "record_id": "1hgq5y5"}
+{"drug": "lexapro", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hfbqzu"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1heb5tk"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1heb5tk"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1hclq8v"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 30, "severity": 3, "causality_confidence": 0.475, "quality_score": 0.563, "source_type": "post", "record_id": "1hbm9rv"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hbcrmo"}
+{"drug": "lexapro", "symptom": "was on lexapro for 1 and a", "onset_days": null, "severity": null, "causality_confidence": 0.904, "quality_score": 0.879, "source_type": "post", "record_id": "1h979ju"}
+{"drug": "lexapro", "symptom": "seratonin syndrome", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1h3g0sl"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 365, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.567, "source_type": "post", "record_id": "1gyn0n5"}
+{"drug": "lexapro", "symptom": "sleepiness", "onset_days": 7, "severity": null, "causality_confidence": 0.632, "quality_score": 0.667, "source_type": "post", "record_id": "1gvp2y2"}
+{"drug": "lexapro", "symptom": "napping", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1gt07g2"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 1095, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.605, "source_type": "post", "record_id": "1gr57r9"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1gqjfwt"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1gqjfwt"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1gqjfwt"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "1gohnm4"}
+{"drug": "lexapro", "symptom": "depressed", "onset_days": null, "severity": 3, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1gnhru1"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1gfvsl2"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1gc8jdo"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gc8jdo"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 14, "severity": null, "causality_confidence": 0.489, "quality_score": 0.573, "source_type": "post", "record_id": "1gb891n"}
+{"drug": "lexapro", "symptom": "no control depression", "onset_days": 1, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1g9omaz"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": 1, "causality_confidence": 0.473, "quality_score": 0.555, "source_type": "post", "record_id": "1g9omaz"}
+{"drug": "lexapro", "symptom": "calmness", "onset_days": 1, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "1g9omaz"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1g9eoeo"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1g3pj3v"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 1460, "severity": null, "causality_confidence": 0.482, "quality_score": 0.569, "source_type": "post", "record_id": "1g3ax6b"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1g05gbo"}
+{"drug": "sertraline", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1fzwogt"}
+{"drug": "sertraline", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1fzwogt"}
+{"drug": "sertraline", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.86, "quality_score": 0.835, "source_type": "post", "record_id": "1fzwogt"}
+{"drug": "lexapro", "symptom": "depressive", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1etzr2v"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1etzr2v"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1d3qntr"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1d3qntr"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.47, "quality_score": 0.542, "source_type": "post", "record_id": "1d3qntr"}
+{"drug": "lexapro", "symptom": "dang", "onset_days": null, "severity": 2, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1d3qntr"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 14, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1cxt2d4"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1cu8kfx"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1cgr02c"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1cgr02c"}
+{"drug": "lexapro", "symptom": "no psychotic manic", "onset_days": null, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1cgr02c"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 1825, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1bywh1k"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 1825, "severity": null, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1bywh1k"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 4, "severity": null, "causality_confidence": 0.481, "quality_score": 0.568, "source_type": "post", "record_id": "1by9msy"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1bw4knn"}
+{"drug": "lexapro", "symptom": "heart palpitations", "onset_days": 120, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.636, "source_type": "post", "record_id": "1bvwyo1"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": 1, "causality_confidence": 0.471, "quality_score": 0.56, "source_type": "post", "record_id": "1b09ged"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": 1, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1b09ged"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1b09ged"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": 1, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1b09ged"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1aphc1r"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1abtadn"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1abtadn"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1abtadn"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 730, "severity": null, "causality_confidence": 0.491, "quality_score": 0.575, "source_type": "post", "record_id": "18clib4"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 90, "severity": null, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "188rqch"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 30, "severity": null, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "175b405"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 30, "severity": null, "causality_confidence": 0.6, "quality_score": 0.702, "source_type": "post", "record_id": "175b405"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 14, "severity": null, "causality_confidence": 0.491, "quality_score": 0.575, "source_type": "post", "record_id": "16wufny"}
+{"drug": "lexapro", "symptom": "no spiraling anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "15hx4fi"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 1095, "severity": null, "causality_confidence": 0.66, "quality_score": 0.695, "source_type": "post", "record_id": "14z010a"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "zz29yr"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 150, "severity": 2, "causality_confidence": 0.467, "quality_score": 0.602, "source_type": "post", "record_id": "v55blb"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "utk5mj"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 42, "severity": null, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "u0jcjw"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": 120, "severity": null, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "sm2pb9"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": 120, "severity": null, "causality_confidence": 0.482, "quality_score": 0.561, "source_type": "post", "record_id": "sm2pb9"}
+{"drug": "lexapro", "symptom": "depressed", "onset_days": 8, "severity": null, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "rdlkxk"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "oox8ri"}
+{"drug": "lexapro", "symptom": "vertigo", "onset_days": null, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "oox8ri"}
+{"drug": "lexapro", "symptom": "vertigo", "onset_days": null, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "oox8ri"}
+{"drug": "lexapro", "symptom": "dysthymia", "onset_days": 3, "severity": 1, "causality_confidence": 0.512, "quality_score": 0.584, "source_type": "post", "record_id": "nr86q0"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": 3, "severity": 1, "causality_confidence": 0.482, "quality_score": 0.561, "source_type": "post", "record_id": "nr86q0"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 3, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "nr86q0"}
+{"drug": "lexapro", "symptom": "gassiness", "onset_days": 3, "severity": 1, "causality_confidence": 0.512, "quality_score": 0.584, "source_type": "post", "record_id": "nr86q0"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "mlqeib"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "mlqeib"}
+{"drug": "lexapro", "symptom": "tiredness", "onset_days": 20, "severity": 2, "causality_confidence": 0.512, "quality_score": 0.584, "source_type": "post", "record_id": "1h7807h"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 365, "severity": null, "causality_confidence": 0.517, "quality_score": 0.588, "source_type": "post", "record_id": "1ftyjol"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1fj4817"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.478, "quality_score": 0.549, "source_type": "post", "record_id": "1fj4817"}
+{"drug": "lexapro", "symptom": "panic disorder", "onset_days": null, "severity": null, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "1fj4817"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1e6exyq"}
+{"drug": "lexapro", "symptom": "ocd", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1e6exyq"}
+{"drug": "lexapro", "symptom": "ocd", "onset_days": null, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1e0oxiq"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": null, "severity": 1, "causality_confidence": 0.499, "quality_score": 0.557, "source_type": "post", "record_id": "1dcievv"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1d9hqxf"}
+{"drug": "lexapro", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1chc4im"}
+{"drug": "lexapro", "symptom": "panic disorder", "onset_days": null, "severity": 2, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "1ah1hi6"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": null, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1926i3v"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "s84g9b"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "otw6qc"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "otw6qc"}
+{"drug": "lexapro", "symptom": "dizziness", "onset_days": 60, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1gx7oui"}
+{"drug": "lexapro", "symptom": "vertigo", "onset_days": 60, "severity": null, "causality_confidence": 0.565, "quality_score": 0.624, "source_type": "post", "record_id": "1gx7oui"}
+{"drug": "lexapro", "symptom": "dizziness", "onset_days": 60, "severity": null, "causality_confidence": 0.467, "quality_score": 0.602, "source_type": "post", "record_id": "1gx7oui"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 10, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.612, "source_type": "post", "record_id": "1g1iebx"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 3, "severity": null, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1ez10kb"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 330, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1drib7u"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 330, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1drib7u"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 90, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1cmhfsg"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 90, "severity": null, "causality_confidence": 0.485, "quality_score": 0.571, "source_type": "post", "record_id": "1cmhfsg"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 90, "severity": null, "causality_confidence": 0.478, "quality_score": 0.566, "source_type": "post", "record_id": "1cmhfsg"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1aokjo3"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": null, "severity": null, "causality_confidence": 0.482, "quality_score": 0.544, "source_type": "post", "record_id": "1aokjo3"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 60, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "15p2ysa"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "12lvlsm"}
+{"drug": "lexapro", "symptom": "bad disease", "onset_days": 7, "severity": null, "causality_confidence": 0.511, "quality_score": 0.586, "source_type": "post", "record_id": "129sylj"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1170jht"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 7, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "10frdtk"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "z6r4su"}
+{"drug": "lexapro", "symptom": "chest pain", "onset_days": null, "severity": 1, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "y74nkv"}
+{"drug": "lexapro", "symptom": "hypothyroidism", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "uw9pll"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "u3sirg"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "u3sirg"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "qwv55p"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "qwv55p"}
+{"drug": "lexapro", "symptom": "lack of motivation fatigue", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "qwv55p"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": 90, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "nk4wsk"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": 90, "severity": null, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "nk4wsk"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 90, "severity": null, "causality_confidence": 0.491, "quality_score": 0.575, "source_type": "post", "record_id": "nk4wsk"}
+{"drug": "lexapro", "symptom": "loss of constipation", "onset_days": 90, "severity": null, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "nk4wsk"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 14, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "u155b6"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 14, "severity": null, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "u155b6"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1hdij66"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 150, "severity": null, "causality_confidence": 0.471, "quality_score": 0.56, "source_type": "post", "record_id": "1hbnmhk"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hbhzuf"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "1hbegpy"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hbegpy"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": null, "severity": null, "causality_confidence": 0.456, "quality_score": 0.525, "source_type": "post", "record_id": "1h1ztpq"}
+{"drug": "lexapro", "symptom": "lexapro been", "onset_days": null, "severity": null, "causality_confidence": 0.844, "quality_score": 0.819, "source_type": "post", "record_id": "16eoequ"}
+{"drug": "lexapro", "symptom": "dizziness", "onset_days": 42, "severity": null, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "11kiz2o"}
+{"drug": "lexapro", "symptom": "dizziness", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "11kiq0o"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1hpumq3"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hpumq3"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hpumq3"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hpumq3"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1hpdu9p"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hpdu9p"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hpansu"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hpansu"}
+{"drug": "lexapro", "symptom": "lexapro cause mouth ulcers", "onset_days": 42, "severity": null, "causality_confidence": 0.868, "quality_score": 0.86, "source_type": "post", "record_id": "1hp6pbq"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 42, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1hp6pbq"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1homtwn"}
+{"drug": "lexapro", "symptom": "parkinsons white syndrome", "onset_days": null, "severity": null, "causality_confidence": 0.556, "quality_score": 0.606, "source_type": "post", "record_id": "1hn6ljd"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hn3pnr"}
+{"drug": "lexapro", "symptom": "vomiting", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1hm0ld6"}
+{"drug": "lexapro", "symptom": "migraine", "onset_days": null, "severity": null, "causality_confidence": 0.459, "quality_score": 0.527, "source_type": "post", "record_id": "1hm0ld6"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 14, "severity": null, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1hlr1fd"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1hlq2w0"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hkxx9x"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hkwmi4"}
+{"drug": "lexapro", "symptom": "loss of interest fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hkwmi4"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hkwmi4"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1hkuq8i"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1hkuq8i"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hkpyw0"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1hjthd9"}
+{"drug": "lexapro", "symptom": "panic disorder", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1hjf7od"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1hjcyd6"}
+{"drug": "lexapro", "symptom": "ocd", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hj6wcw"}
+{"drug": "lexapro", "symptom": "headache", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1hiz8zb"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hi9sez"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1hi9sez"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hhitks"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 365, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1hgtulx"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 365, "severity": null, "causality_confidence": 0.471, "quality_score": 0.56, "source_type": "post", "record_id": "1hgtulx"}
+{"drug": "adderall", "symptom": "abilify", "onset_days": 14, "severity": null, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "1hgi9qx"}
+{"drug": "lexapro", "symptom": "panic disorder", "onset_days": 365, "severity": 1, "causality_confidence": 0.511, "quality_score": 0.586, "source_type": "post", "record_id": "1hg4z7r"}
+{"drug": "lexapro", "symptom": "abdominal pain", "onset_days": null, "severity": null, "causality_confidence": 0.45, "quality_score": 0.524, "source_type": "post", "record_id": "1hfmvha"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1hfmvha"}
+{"drug": "lexapro", "symptom": "abdominal pain", "onset_days": null, "severity": null, "causality_confidence": 0.452, "quality_score": 0.525, "source_type": "post", "record_id": "1hfdjgj"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1hfdjgj"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hf6gyc"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hf6gyc"}
+{"drug": "lexapro", "symptom": "pruritus", "onset_days": null, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1hf6gyc"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1hej1q0"}
+{"drug": "lexapro", "symptom": "hypoglycemia", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hecjcz"}
+{"drug": "lexapro", "symptom": "stomach cramps", "onset_days": null, "severity": 1, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1hdj6ep"}
+{"drug": "lexapro", "symptom": "diarrhea", "onset_days": null, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1hdj6ep"}
+{"drug": "lexapro", "symptom": "vomiting", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1hdj6ep"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hdhltz"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 60, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1hd3inm"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": 60, "severity": null, "causality_confidence": 0.489, "quality_score": 0.567, "source_type": "post", "record_id": "1hd3inm"}
+{"drug": "lexapro", "symptom": "ovarian pain", "onset_days": null, "severity": 3, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1hd272c"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1hd0lx3"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1hd0lx3"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1hcsgf4"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1hcsgf4"}
+{"drug": "lexapro", "symptom": "bad reaction", "onset_days": null, "severity": 1, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1hcpcs0"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1hcpcs0"}
+{"drug": "lexapro", "symptom": "raynauds", "onset_days": null, "severity": 3, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1hcbryi"}
+{"drug": "lexapro", "symptom": "ssri lexapro", "onset_days": null, "severity": 3, "causality_confidence": 0.844, "quality_score": 0.819, "source_type": "post", "record_id": "1hc3qom"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1hc3qom"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.474, "quality_score": 0.546, "source_type": "post", "record_id": "1hc3qom"}
+{"drug": "lexapro", "symptom": "migraine", "onset_days": null, "severity": null, "causality_confidence": 0.465, "quality_score": 0.532, "source_type": "post", "record_id": "1hbr2ov"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1hbevtd"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1h9oozr"}
+{"drug": "mounjaro", "symptom": "constipation", "onset_days": null, "severity": 1, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "1h22z15"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1gva3rw"}
+{"drug": "lexapro", "symptom": "heartburn", "onset_days": null, "severity": 1, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1gva3rw"}
+{"drug": "lexapro", "symptom": "dizziness", "onset_days": 10, "severity": 1, "causality_confidence": 0.493, "quality_score": 0.577, "source_type": "post", "record_id": "1gdj1u7"}
+{"drug": "lexapro", "symptom": "headaches", "onset_days": 10, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.624, "source_type": "post", "record_id": "1gdj1u7"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1g87fhp"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1g87fhp"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 5, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1g63btj"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1fxalma"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1fka3wk"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1fka3wk"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1fgrces"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.471, "quality_score": 0.543, "source_type": "post", "record_id": "1fgrces"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1fgj05f"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 60, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1f7uj52"}
+{"drug": "lexapro", "symptom": "anorexia", "onset_days": null, "severity": 1, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1efvyk5"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1e971v6"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1e971v6"}
+{"drug": "lexapro", "symptom": "hair loss", "onset_days": 1095, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.695, "source_type": "post", "record_id": "1e56rqb"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 1095, "severity": 2, "causality_confidence": 0.496, "quality_score": 0.572, "source_type": "post", "record_id": "1e56rqb"}
+{"drug": "bupropion", "symptom": "asthma", "onset_days": null, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1dwywp5"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1drdpqh"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 300, "severity": 3, "causality_confidence": 0.496, "quality_score": 0.572, "source_type": "post", "record_id": "1dn6rtp"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 300, "severity": 3, "causality_confidence": 0.56, "quality_score": 0.62, "source_type": "post", "record_id": "1dn6rtp"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 300, "severity": 3, "causality_confidence": 0.493, "quality_score": 0.57, "source_type": "post", "record_id": "1dn6rtp"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 300, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.62, "source_type": "post", "record_id": "1dn6rtp"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1cu6wi4"}
+{"drug": "adderall", "symptom": "no thyroid sinus tachy", "onset_days": 6, "severity": 3, "causality_confidence": 0.577, "quality_score": 0.636, "source_type": "post", "record_id": "1crzjdu"}
+{"drug": "lexapro", "symptom": "agitation", "onset_days": 7, "severity": 3, "causality_confidence": 0.572, "quality_score": 0.674, "source_type": "post", "record_id": "1cqzn8z"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 14, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.567, "source_type": "post", "record_id": "1cjmttz"}
+{"drug": "lexapro", "symptom": "dizziness", "onset_days": 1825, "severity": 3, "causality_confidence": 0.48, "quality_score": 0.567, "source_type": "post", "record_id": "1ci15b6"}
+{"drug": "lexapro", "symptom": "no drug papillary thyroid cancer", "onset_days": null, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.564, "source_type": "post", "record_id": "1ccvt0e"}
+{"drug": "lexapro", "symptom": "hyperparathyroidism", "onset_days": null, "severity": 2, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1ccvt0e"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 1, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1cbvrbd"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 1, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1cbvrbd"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1c8x6qu"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1c8x6qu"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1c8sajq"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1c8sajq"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1c6rxpi"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1c6rxpi"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 90, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1bx3lkr"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 90, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1bx3lkr"}
+{"drug": "lexapro", "symptom": "lexapro treats affective disorders like depression", "onset_days": 90, "severity": 2, "causality_confidence": 0.892, "quality_score": 0.884, "source_type": "post", "record_id": "1bx3lkr"}
+{"drug": "lexapro", "symptom": "no known allergies", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1bqkhcs"}
+{"drug": "lexapro", "symptom": "hair loss", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1bidhkc"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1bidhkc"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1bd8sw6"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1bd8sw6"}
+{"drug": "lexapro", "symptom": "allergy", "onset_days": null, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1bd8sw6"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1b8a3mq"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1azs3a2"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1azs3a2"}
+{"drug": "bupropion", "symptom": "gluten intolerance 2 pregnancies", "onset_days": null, "severity": 1, "causality_confidence": 0.601, "quality_score": 0.643, "source_type": "post", "record_id": "1azs3a2"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1asfdc4"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.475, "quality_score": 0.547, "source_type": "post", "record_id": "1919d7n"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 2, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "18pplox"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 2, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.627, "source_type": "post", "record_id": "18pplox"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "18ehb4t"}
+{"drug": "lexapro", "symptom": "gad and", "onset_days": null, "severity": 1, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "1fxo7u5"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1fxo7u5"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1fxo7u5"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.478, "quality_score": 0.549, "source_type": "post", "record_id": "1fxo7u5"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "1fxo7u5"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1d3uv0q"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1d3uv0q"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1d3uv0q"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1d3uv0q"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "186x47b"}
+{"drug": "lexapro", "symptom": "abdominal pain", "onset_days": null, "severity": null, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "180ni2q"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 2, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "15yvxkk"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "15qjw75"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "15qjw75"}
+{"drug": "sertraline", "symptom": "vomiting", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "15qjw75"}
+{"drug": "lexapro", "symptom": "migraine", "onset_days": null, "severity": null, "causality_confidence": 0.472, "quality_score": 0.582, "source_type": "post", "record_id": "14vrqh2"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": 2, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "y7eafa"}
+{"drug": "lexapro", "symptom": "no uti nausea", "onset_days": 1825, "severity": 2, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "wgfm14"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 2, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "w1hbny"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 2, "severity": 3, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "w1hbny"}
+{"drug": "lexapro", "symptom": "sexual dysfunction", "onset_days": 2, "severity": null, "causality_confidence": 0.501, "quality_score": 0.579, "source_type": "post", "record_id": "vs6z4l"}
+{"drug": "lexapro", "symptom": "nausea", "onset_days": 30, "severity": null, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "vs6z4l"}
+{"drug": "lexapro", "symptom": "anorexic", "onset_days": 21, "severity": null, "causality_confidence": 0.505, "quality_score": 0.624, "source_type": "post", "record_id": "ulsl1n"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "sel3qc"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "nz6xoc"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1b3432h"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1b3432h"}
+{"drug": "lexapro", "symptom": "cannot be escitalopram/lexapro", "onset_days": null, "severity": 3, "causality_confidence": 0.832, "quality_score": 0.807, "source_type": "post", "record_id": "1b3432h"}
+{"drug": "lexapro", "symptom": "rash", "onset_days": 30, "severity": null, "causality_confidence": 0.468, "quality_score": 0.544, "source_type": "post", "record_id": "1925bza"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "z0gyij"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "z0gyij"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "z0gyij"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": 3, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "rgiqxh"}
+{"drug": "lexapro", "symptom": "nausea", "onset_days": null, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "rgiqxh"}
+{"drug": "lexapro", "symptom": "nausea", "onset_days": null, "severity": 3, "causality_confidence": 0.467, "quality_score": 0.54, "source_type": "post", "record_id": "rgiqxh"}
+{"drug": "lexapro", "symptom": "nausea", "onset_days": null, "severity": 3, "causality_confidence": 0.465, "quality_score": 0.539, "source_type": "post", "record_id": "rgiqxh"}
+{"drug": "lexapro", "symptom": "vomiting", "onset_days": null, "severity": 3, "causality_confidence": 0.465, "quality_score": 0.539, "source_type": "post", "record_id": "rgiqxh"}
+{"drug": "adderall", "symptom": "diarrhea", "onset_days": null, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "rgiqxh"}
+{"drug": "adderall", "symptom": "stomach pain", "onset_days": null, "severity": 3, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "rgiqxh"}
+{"drug": "adderall", "symptom": "nausea", "onset_days": null, "severity": 3, "causality_confidence": 0.473, "quality_score": 0.545, "source_type": "post", "record_id": "rgiqxh"}
+{"drug": "adderall", "symptom": "vomiting", "onset_days": null, "severity": 3, "causality_confidence": 0.473, "quality_score": 0.544, "source_type": "post", "record_id": "rgiqxh"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": null, "severity": 3, "causality_confidence": 0.468, "quality_score": 0.541, "source_type": "post", "record_id": "rgiqxh"}
+{"drug": "bupropion", "symptom": "insomnia", "onset_days": null, "severity": 3, "causality_confidence": 0.456, "quality_score": 0.525, "source_type": "post", "record_id": "rgiqxh"}
+{"drug": "lexapro", "symptom": "shadows", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1admrae"}
+{"drug": "lexapro", "symptom": "lexapro, b12, contrave, and qsymia", "onset_days": null, "severity": null, "causality_confidence": 0.88, "quality_score": 0.855, "source_type": "post", "record_id": "wt8csf"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "t9e6kp"}
+{"drug": "lexapro", "symptom": "overdose", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "o7v476"}
+{"drug": "adderall", "symptom": "back/neck pain", "onset_days": null, "severity": 2, "causality_confidence": 0.501, "quality_score": 0.562, "source_type": "post", "record_id": "1h8hwin"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "18yxeij"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "18smdnp"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "18smdnp"}
+{"drug": "lexapro", "symptom": "heart palpitations", "onset_days": null, "severity": 1, "causality_confidence": 0.501, "quality_score": 0.562, "source_type": "post", "record_id": "18smdnp"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "17gh0v6"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "17gh0v6"}
+{"drug": "lexapro", "symptom": "no psychosomatic", "onset_days": 730, "severity": null, "causality_confidence": 0.565, "quality_score": 0.624, "source_type": "post", "record_id": "17cgvrv"}
+{"drug": "lexapro", "symptom": "without immense pain", "onset_days": 365, "severity": null, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "17cgvrv"}
+{"drug": "lexapro", "symptom": "no psychosomatic", "onset_days": 730, "severity": null, "causality_confidence": 0.565, "quality_score": 0.624, "source_type": "post", "record_id": "17asplr"}
+{"drug": "lexapro", "symptom": "no psychosomatic", "onset_days": 730, "severity": null, "causality_confidence": 0.565, "quality_score": 0.624, "source_type": "post", "record_id": "178gq7e"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "16yzgwu"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1677901"}
+{"drug": "lexapro", "symptom": "muscle twitching", "onset_days": null, "severity": 3, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1677901"}
+{"drug": "lexapro", "symptom": "ocd", "onset_days": 4, "severity": 3, "causality_confidence": 0.565, "quality_score": 0.617, "source_type": "post", "record_id": "126ywwy"}
+{"drug": "lexapro", "symptom": "sexual dysfunction", "onset_days": null, "severity": null, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "11dfrgd"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "yox6ds"}
+{"drug": "lexapro", "symptom": "chronic pain", "onset_days": null, "severity": 3, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "vkxcay"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "vkxcay"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "vkxcay"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.471, "quality_score": 0.543, "source_type": "post", "record_id": "tv0xy2"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "plvpwy"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "p7pf6j"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 4, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "ouwfq0"}
+{"drug": "lexapro", "symptom": "chronic pain", "onset_days": null, "severity": null, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "om0o4z"}
+{"drug": "lexapro", "symptom": "chronic pain", "onset_days": null, "severity": null, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "om0o4z"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "mb1nhf"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 14, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "lwlute"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 90, "severity": 2, "causality_confidence": 0.469, "quality_score": 0.559, "source_type": "post", "record_id": "1hojv6o"}
+{"drug": "bupropion", "symptom": "insomnia", "onset_days": 8, "severity": 3, "causality_confidence": 0.468, "quality_score": 0.551, "source_type": "post", "record_id": "1hlsybe"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1hllk5w"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1hllk5w"}
+{"drug": "lexapro", "symptom": "autism", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1hllk5w"}
+{"drug": "lexapro", "symptom": "my mood swings", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.564, "source_type": "post", "record_id": "1hllk5w"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.47, "quality_score": 0.542, "source_type": "post", "record_id": "1hllk5w"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 3, "severity": null, "causality_confidence": 0.475, "quality_score": 0.564, "source_type": "post", "record_id": "1hll2p7"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hkwnx1"}
+{"drug": "lexapro", "symptom": "loss of interest fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hkwnx1"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hkwnx1"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hkg5fs"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1hhc9nw"}
+{"drug": "lexapro", "symptom": "bad reaction", "onset_days": null, "severity": 3, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1hg3uzy"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "1hcvpw3"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1hcvpw3"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 1095, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "1hazqit"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.472, "quality_score": 0.544, "source_type": "post", "record_id": "1h9w327"}
+{"drug": "sertraline", "symptom": "brain fog", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1h9w327"}
+{"drug": "lexapro", "symptom": "brain fog", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1h9w327"}
+{"drug": "sertraline", "symptom": "abilify", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1h9w327"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1h9vame"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1h91i0l"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1h91i0l"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": 2, "severity": 1, "causality_confidence": 0.463, "quality_score": 0.547, "source_type": "post", "record_id": "1h7hu5v"}
+{"drug": "lexapro", "symptom": "brain fog", "onset_days": 2, "severity": 1, "causality_confidence": 0.489, "quality_score": 0.573, "source_type": "post", "record_id": "1h7hu5v"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1h54i21"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 90, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1h4hay5"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 90, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1h4hay5"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 14, "severity": 2, "causality_confidence": 0.477, "quality_score": 0.565, "source_type": "post", "record_id": "1h0u428"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1gwo3f4"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gwo3f4"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1gw69vu"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "1gvja3g"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1gvja3g"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 1095, "severity": null, "causality_confidence": 0.493, "quality_score": 0.57, "source_type": "post", "record_id": "1gsqsqr"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 1095, "severity": null, "causality_confidence": 0.54, "quality_score": 0.605, "source_type": "post", "record_id": "1gsqsqr"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1gse1eq"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gse1eq"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1grn81f"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1grn81f"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 7, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1gq656n"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gphd8n"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gphd8n"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 240, "severity": null, "causality_confidence": 0.517, "quality_score": 0.588, "source_type": "post", "record_id": "1gmap6i"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gm8pit"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1gm8pit"}
+{"drug": "lexapro", "symptom": "lack of nausea", "onset_days": 14, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.627, "source_type": "post", "record_id": "1gm76v7"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1gjmox1"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": 2, "causality_confidence": 0.482, "quality_score": 0.562, "source_type": "post", "record_id": "1gigsjm"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1gf82nv"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1ge1njh"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gckjop"}
+{"drug": "lexapro", "symptom": "disordered eating or lose weight", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.615, "source_type": "post", "record_id": "1gcaw0v"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1gafdjb"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 70, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1g65in9"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1g416j1"}
+{"drug": "lexapro", "symptom": "no good irritable", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1cat98i"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 90, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1bx3n2p"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 90, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1bx3n2p"}
+{"drug": "lexapro", "symptom": "lexapro treats affective disorders like depression", "onset_days": 90, "severity": 2, "causality_confidence": 0.892, "quality_score": 0.884, "source_type": "post", "record_id": "1bx3n2p"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1ameryo"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1ameryo"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1alw68y"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1alw68y"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "19drd4j"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "186wnuv"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1482f8r"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1482f8r"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 120, "severity": 3, "causality_confidence": 0.467, "quality_score": 0.602, "source_type": "post", "record_id": "xnb4ld"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 240, "severity": null, "causality_confidence": 0.517, "quality_score": 0.588, "source_type": "post", "record_id": "usrit9"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 240, "severity": null, "causality_confidence": 0.51, "quality_score": 0.583, "source_type": "post", "record_id": "usrit9"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 42, "severity": null, "causality_confidence": 0.6, "quality_score": 0.702, "source_type": "post", "record_id": "od1ipl"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 42, "severity": null, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "od1ipl"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 30, "severity": null, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "ne1bj6"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "my1f4k"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "ltesii"}
+{"drug": "lexapro", "symptom": "depressed", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "lqx9sp"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "lqx9sp"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1cg807z"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hkwo3q"}
+{"drug": "lexapro", "symptom": "loss of interest fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hkwo3q"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hkwo3q"}
+{"drug": "bupropion", "symptom": "insomnia", "onset_days": null, "severity": null, "causality_confidence": 0.465, "quality_score": 0.532, "source_type": "post", "record_id": "1hk3513"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 1825, "severity": 2, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1hhoy2o"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1hhcf78"}
+{"drug": "lexapro", "symptom": "bad reaction", "onset_days": null, "severity": 3, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1hg3vlx"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1heul98"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 1095, "severity": null, "causality_confidence": 0.491, "quality_score": 0.575, "source_type": "post", "record_id": "1hd2569"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1h9x3oj"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1h9x3oj"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1h9wl4a"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1h9wl4a"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 60, "severity": null, "causality_confidence": 0.496, "quality_score": 0.572, "source_type": "post", "record_id": "1h9amo6"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 60, "severity": null, "causality_confidence": 0.491, "quality_score": 0.568, "source_type": "post", "record_id": "1h9amo6"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 60, "severity": null, "causality_confidence": 0.485, "quality_score": 0.564, "source_type": "post", "record_id": "1h9amo6"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1h90nwm"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1h6unlf"}
+{"drug": "lexapro", "symptom": "autism", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1h6ov04"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1h6ov04"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1h6ov04"}
+{"drug": "lexapro", "symptom": "autism", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1h6ov04"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1h18xxw"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1h18xxw"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.472, "quality_score": 0.544, "source_type": "post", "record_id": "1h18xxw"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1h18xxw"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1h18xxw"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1h0rild"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1h0rild"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1h00fla"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.468, "quality_score": 0.537, "source_type": "post", "record_id": "1h00fla"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1gyro5a"}
+{"drug": "lexapro", "symptom": "depressed", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1gwcj5z"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 1460, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1gw2zsg"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 1460, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1gw2zsg"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1gviani"}
+{"drug": "lexapro", "symptom": "abilify", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1gty6yf"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 84, "severity": null, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1gqnvqo"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 84, "severity": null, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1gqnvqo"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "1gq0iq1"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "1gp5ner"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1go62fj"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1gmaqy7"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1gmaqy7"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.55, "source_type": "post", "record_id": "1gmaqy7"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1gjsph8"}
+{"drug": "lexapro", "symptom": "screaming", "onset_days": null, "severity": 2, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1gjsph8"}
+{"drug": "lexapro", "symptom": "loss of nausea", "onset_days": null, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1gjsph8"}
+{"drug": "lexapro", "symptom": "vomiting", "onset_days": null, "severity": 2, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1gjsph8"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1gjsph8"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "1gjsph8"}
+{"drug": "lexapro", "symptom": "nausea", "onset_days": 14, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.627, "source_type": "post", "record_id": "1gjrd1v"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1gjmpdr"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 7, "severity": null, "causality_confidence": 0.54, "quality_score": 0.605, "source_type": "post", "record_id": "1gg4rl4"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 7, "severity": null, "causality_confidence": 0.54, "quality_score": 0.605, "source_type": "post", "record_id": "1gg4rl4"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gfud25"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gfud25"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 2, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1fwkska"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 2, "severity": null, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1fwkska"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 1825, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1d1ehzf"}
+{"drug": "lexapro", "symptom": "tw suicide ideation", "onset_days": 730, "severity": 3, "causality_confidence": 0.556, "quality_score": 0.623, "source_type": "post", "record_id": "1cmowri"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 730, "severity": 3, "causality_confidence": 0.482, "quality_score": 0.569, "source_type": "post", "record_id": "1cmowri"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1c8s8v3"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1c8s8v3"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1c6r9le"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1c6r9le"}
+{"drug": "lexapro", "symptom": "depressed", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1bp91j4"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1bp91j4"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 730, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1bclu6f"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 730, "severity": 2, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "1bclu6f"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1953vcd"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "17x9k9g"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "13a0zh2"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "13a0zh2"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "128lwro"}
+{"drug": "lexapro", "symptom": "brain fog", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "128lwro"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "128lwro"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "128lwro"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "10ncmzf"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": null, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "zhh4wf"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "w1rqys"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "sccfia"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": 1, "severity": null, "causality_confidence": 0.482, "quality_score": 0.561, "source_type": "post", "record_id": "roapgh"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 3, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "oll1na"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 3, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "oll1na"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "ltevc3"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 60, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "lej4y0"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "l2bsyf"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "12y0n7z"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "lbyxc1"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "lbyxc1"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.635, "source_type": "comment", "record_id": "m4kzp3e"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.44, "quality_score": 0.578, "source_type": "comment", "record_id": "m4kijtz"}
+{"drug": "lexapro", "symptom": "help-- lexapro", "onset_days": null, "severity": null, "causality_confidence": 0.717, "quality_score": 0.819, "source_type": "comment", "record_id": "m4kasvd"}
+{"drug": "lexapro", "symptom": "lexapro my sleep was terrible.", "onset_days": null, "severity": null, "causality_confidence": 0.748, "quality_score": 0.855, "source_type": "comment", "record_id": "m4k30rd"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.459, "quality_score": 0.595, "source_type": "comment", "record_id": "m4iig7f"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.422, "quality_score": 0.562, "source_type": "comment", "record_id": "m4h9eor"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.44, "quality_score": 0.578, "source_type": "comment", "record_id": "m4gzcuw"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.406, "quality_score": 0.548, "source_type": "comment", "record_id": "m4grndv"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.405, "quality_score": 0.548, "source_type": "comment", "record_id": "m4grndv"}
+{"drug": "lexapro", "symptom": "no anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.389, "quality_score": 0.578, "source_type": "comment", "record_id": "m4grbn0"}
+{"drug": "lexapro", "symptom": "migraines", "onset_days": null, "severity": null, "causality_confidence": 0.452, "quality_score": 0.582, "source_type": "comment", "record_id": "m4gpsxa"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.417, "quality_score": 0.558, "source_type": "comment", "record_id": "m4g7guk"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.459, "quality_score": 0.595, "source_type": "comment", "record_id": "m4g7guk"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.448, "quality_score": 0.585, "source_type": "comment", "record_id": "m4g7guk"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.561, "quality_score": 0.685, "source_type": "comment", "record_id": "m4g4w20"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.476, "quality_score": 0.61, "source_type": "comment", "record_id": "m4g4297"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.433, "quality_score": 0.573, "source_type": "comment", "record_id": "m4g4297"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.459, "quality_score": 0.595, "source_type": "comment", "record_id": "m4g4297"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.44, "quality_score": 0.578, "source_type": "comment", "record_id": "m4g31d2"}
+{"drug": "lexapro", "symptom": "nausea", "onset_days": null, "severity": 2, "causality_confidence": 0.405, "quality_score": 0.547, "source_type": "comment", "record_id": "m4fymg3"}
+{"drug": "mounjaro", "symptom": "acid reflux", "onset_days": null, "severity": 2, "causality_confidence": 0.412, "quality_score": 0.554, "source_type": "comment", "record_id": "m4fymg3"}
+{"drug": "mounjaro", "symptom": "sulfur burps", "onset_days": null, "severity": 2, "causality_confidence": 0.426, "quality_score": 0.562, "source_type": "comment", "record_id": "m4fymg3"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.433, "quality_score": 0.573, "source_type": "comment", "record_id": "m4fxeig"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.425, "quality_score": 0.565, "source_type": "comment", "record_id": "m4fxeig"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.409, "quality_score": 0.551, "source_type": "comment", "record_id": "m4fhbgr"}
+{"drug": "lexapro", "symptom": "brain fog", "onset_days": null, "severity": 1, "causality_confidence": 0.44, "quality_score": 0.578, "source_type": "comment", "record_id": "m4cos2i"}
+{"drug": "adderall", "symptom": "brain fog", "onset_days": null, "severity": 1, "causality_confidence": 0.448, "quality_score": 0.585, "source_type": "comment", "record_id": "m4cos2i"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.408, "quality_score": 0.595, "source_type": "comment", "record_id": "m4bh7m4"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.422, "quality_score": 0.562, "source_type": "comment", "record_id": "m4bh7m4"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.476, "quality_score": 0.61, "source_type": "comment", "record_id": "m4bh7m4"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 30, "severity": null, "causality_confidence": 0.412, "quality_score": 0.571, "source_type": "comment", "record_id": "m47o3cn"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": null, "severity": 1, "causality_confidence": 0.397, "quality_score": 0.585, "source_type": "comment", "record_id": "m3e784m"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.476, "quality_score": 0.61, "source_type": "comment", "record_id": "m2nafpr"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.429, "quality_score": 0.568, "source_type": "comment", "record_id": "m222g8e"}
+{"drug": "lexapro", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.44, "quality_score": 0.578, "source_type": "comment", "record_id": "m0xg41k"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.459, "quality_score": 0.612, "source_type": "comment", "record_id": "lyo2p6l"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 7, "severity": null, "causality_confidence": 0.397, "quality_score": 0.602, "source_type": "comment", "record_id": "lyo2p6l"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.417, "quality_score": 0.558, "source_type": "comment", "record_id": "lyfks7o"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 365, "severity": 2, "causality_confidence": 0.417, "quality_score": 0.575, "source_type": "comment", "record_id": "lxtacyj"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": null, "severity": null, "causality_confidence": 0.405, "quality_score": 0.54, "source_type": "comment", "record_id": "lx39s8i"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": null, "severity": 1, "causality_confidence": 0.435, "quality_score": 0.567, "source_type": "comment", "record_id": "lx1rim8"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.459, "quality_score": 0.595, "source_type": "comment", "record_id": "lwot0ng"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.415, "quality_score": 0.556, "source_type": "comment", "record_id": "lvlzh2c"}
+{"drug": "lexapro", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.411, "quality_score": 0.553, "source_type": "comment", "record_id": "lv617vd"}
+{"drug": "lexapro", "symptom": "no big pain", "onset_days": null, "severity": null, "causality_confidence": 0.481, "quality_score": 0.607, "source_type": "comment", "record_id": "lv1r6tr"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 84, "severity": 1, "causality_confidence": 0.402, "quality_score": 0.557, "source_type": "comment", "record_id": "lx84uon"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 84, "severity": 1, "causality_confidence": 0.426, "quality_score": 0.579, "source_type": "comment", "record_id": "lx84uon"}
+{"drug": "lexapro", "symptom": "reduction of mean caps", "onset_days": 84, "severity": 1, "causality_confidence": 0.436, "quality_score": 0.593, "source_type": "comment", "record_id": "lx84uon"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 84, "severity": 1, "causality_confidence": 0.402, "quality_score": 0.557, "source_type": "comment", "record_id": "lx7lbxb"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 84, "severity": 1, "causality_confidence": 0.426, "quality_score": 0.579, "source_type": "comment", "record_id": "lx7lbxb"}
+{"drug": "lexapro", "symptom": "reduction of mean caps", "onset_days": 84, "severity": 1, "causality_confidence": 0.436, "quality_score": 0.593, "source_type": "comment", "record_id": "lx7lbxb"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 7, "severity": null, "causality_confidence": 0.415, "quality_score": 0.573, "source_type": "comment", "record_id": "lp5u0fg"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.411, "quality_score": 0.57, "source_type": "comment", "record_id": "lp5u0fg"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.731, "quality_score": 0.835, "source_type": "comment", "record_id": "lo6bc4c"}
+{"drug": "lexapro", "symptom": "depressed", "onset_days": 730, "severity": 1, "causality_confidence": 0.435, "quality_score": 0.584, "source_type": "comment", "record_id": "llidwyj"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.44, "quality_score": 0.578, "source_type": "comment", "record_id": "l4c9ug6"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.433, "quality_score": 0.573, "source_type": "comment", "record_id": "l2wmb0s"}
+{"drug": "bupropion", "symptom": "hair loss", "onset_days": null, "severity": null, "causality_confidence": 0.561, "quality_score": 0.685, "source_type": "comment", "record_id": "l2wmb0s"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.459, "quality_score": 0.595, "source_type": "comment", "record_id": "kpp51jc"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.448, "quality_score": 0.585, "source_type": "comment", "record_id": "kpp51jc"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.412, "quality_score": 0.554, "source_type": "comment", "record_id": "k8mjjkj"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.476, "quality_score": 0.61, "source_type": "comment", "record_id": "j6bnwda"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.448, "quality_score": 0.585, "source_type": "comment", "record_id": "j6bnwda"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.433, "quality_score": 0.573, "source_type": "comment", "record_id": "iept0g8"}
+{"drug": "lexapro", "symptom": "gad", "onset_days": 42, "severity": null, "causality_confidence": 0.435, "quality_score": 0.584, "source_type": "comment", "record_id": "i92wb3s"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 7, "severity": null, "causality_confidence": 0.419, "quality_score": 0.577, "source_type": "comment", "record_id": "i92wb3s"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.415, "quality_score": 0.573, "source_type": "comment", "record_id": "i92wb3s"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 7, "severity": null, "causality_confidence": 0.425, "quality_score": 0.582, "source_type": "comment", "record_id": "i92wb3s"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": 17, "severity": null, "causality_confidence": 0.402, "quality_score": 0.562, "source_type": "comment", "record_id": "hy83ghr"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 730, "severity": null, "causality_confidence": 0.41, "quality_score": 0.569, "source_type": "comment", "record_id": "hxc0024"}
+{"drug": "lexapro", "symptom": "insomnia", "onset_days": null, "severity": null, "causality_confidence": 0.416, "quality_score": 0.55, "source_type": "comment", "record_id": "hfitoym"}
+{"drug": "bupropion", "symptom": "fatigue", "onset_days": 365, "severity": null, "causality_confidence": 0.476, "quality_score": 0.627, "source_type": "comment", "record_id": "h9asxaw"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 14, "severity": 3, "causality_confidence": 0.433, "quality_score": 0.59, "source_type": "comment", "record_id": "gjyu90o"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 14, "severity": 3, "causality_confidence": 0.504, "quality_score": 0.652, "source_type": "comment", "record_id": "gjyu90o"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 14, "severity": 3, "causality_confidence": 0.561, "quality_score": 0.702, "source_type": "comment", "record_id": "gjyu90o"}
+{"drug": "lexapro", "symptom": "bad dry mouth", "onset_days": 365, "severity": null, "causality_confidence": 0.558, "quality_score": 0.698, "source_type": "comment", "record_id": "gjwnl3c"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 365, "severity": null, "causality_confidence": 0.397, "quality_score": 0.602, "source_type": "comment", "record_id": "m1q1k20"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 365, "severity": null, "causality_confidence": 0.425, "quality_score": 0.582, "source_type": "comment", "record_id": "m1q1k20"}
+{"drug": "lexapro", "symptom": "gastrointestinal problems", "onset_days": null, "severity": 3, "causality_confidence": 0.426, "quality_score": 0.562, "source_type": "comment", "record_id": "m1ki17b"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": null, "causality_confidence": 0.397, "quality_score": 0.595, "source_type": "comment", "record_id": "ly8qhpb"}

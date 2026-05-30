@@ -1,0 +1,192 @@
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hq1dbj"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hpmz6e"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1hoq0x7"}
+{"drug": "ozempic", "symptom": "constipation", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hok9g5"}
+{"drug": "ozempic", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hok9g5"}
+{"drug": "ozempic", "symptom": "vomiting", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hoj5g6"}
+{"drug": "ozempic", "symptom": "vomiting", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1hoj5g6"}
+{"drug": "ozempic", "symptom": "dizziness", "onset_days": 365, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.695, "source_type": "post", "record_id": "1hoa24x"}
+{"drug": "ozempic", "symptom": "insomnia", "onset_days": null, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hnfcrz"}
+{"drug": "ozempic", "symptom": "constipation", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hnevke"}
+{"drug": "ozempic", "symptom": "hoarse voice", "onset_days": null, "severity": null, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "1hnapr1"}
+{"drug": "ozempic", "symptom": "vomiting", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hn5xju"}
+{"drug": "ozempic", "symptom": "compulsive and addictive behaviors", "onset_days": null, "severity": null, "causality_confidence": 0.518, "quality_score": 0.581, "source_type": "post", "record_id": "1hb0q1e"}
+{"drug": "rybelsus", "symptom": "nausea", "onset_days": 60, "severity": 2, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1gxc37l"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1gncap9"}
+{"drug": "ozempic", "symptom": "weight loss", "onset_days": 35, "severity": null, "causality_confidence": 0.544, "quality_score": 0.611, "source_type": "post", "record_id": "1dmczaa"}
+{"drug": "ozempic", "symptom": "cramps", "onset_days": null, "severity": 1, "causality_confidence": 0.468, "quality_score": 0.534, "source_type": "post", "record_id": "1c9ybcz"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": 120, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "18g02ab"}
+{"drug": "ozempic", "symptom": "gastroparesis", "onset_days": 120, "severity": 2, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "18g02ab"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": 120, "severity": 2, "causality_confidence": 0.491, "quality_score": 0.575, "source_type": "post", "record_id": "18g02ab"}
+{"drug": "metformin", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "18abx4j"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.471, "quality_score": 0.543, "source_type": "post", "record_id": "17jel1m"}
+{"drug": "ozempic", "symptom": "hair loss", "onset_days": 90, "severity": null, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "17gvwti"}
+{"drug": "ozempic", "symptom": "hair loss", "onset_days": 90, "severity": null, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "17gvwti"}
+{"drug": "ozempic", "symptom": "hair loss", "onset_days": 90, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "17gvwti"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": 2, "causality_confidence": 0.474, "quality_score": 0.546, "source_type": "post", "record_id": "16gj1j5"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": 2, "causality_confidence": 0.471, "quality_score": 0.543, "source_type": "post", "record_id": "16gj1j5"}
+{"drug": "metformin", "symptom": "morning hunger... supposedly. anyway, first three days were awesome and i", "onset_days": null, "severity": null, "causality_confidence": 0.585, "quality_score": 0.652, "source_type": "post", "record_id": "15yf0zt"}
+{"drug": "ozempic", "symptom": "cancers", "onset_days": null, "severity": 3, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1fbk7u8"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.474, "quality_score": 0.546, "source_type": "post", "record_id": "1fjusye"}
+{"drug": "semaglutide", "symptom": "alcoholism", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "uf38kt"}
+{"drug": "ozempic", "symptom": "insomnia", "onset_days": 7, "severity": 1, "causality_confidence": 0.572, "quality_score": 0.674, "source_type": "post", "record_id": "1hotfno"}
+{"drug": "ozempic", "symptom": "gallstones", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1hna9by"}
+{"drug": "ozempic", "symptom": "weight loss", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1hn7gqf"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": 28, "severity": null, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1hmwxgp"}
+{"drug": "ozempic", "symptom": "vomiting", "onset_days": 28, "severity": null, "causality_confidence": 0.493, "quality_score": 0.577, "source_type": "post", "record_id": "1hmwxgp"}
+{"drug": "ozempic", "symptom": "diarrhea", "onset_days": 28, "severity": null, "causality_confidence": 0.491, "quality_score": 0.575, "source_type": "post", "record_id": "1hmwxgp"}
+{"drug": "ozempic", "symptom": "abdominal pain", "onset_days": 28, "severity": null, "causality_confidence": 0.473, "quality_score": 0.557, "source_type": "post", "record_id": "1hmwxgp"}
+{"drug": "ozempic", "symptom": "pancreatitis", "onset_days": 28, "severity": null, "causality_confidence": 0.477, "quality_score": 0.565, "source_type": "post", "record_id": "1hmwxgp"}
+{"drug": "ozempic", "symptom": "endocrine neoplasia syndrome", "onset_days": 28, "severity": null, "causality_confidence": 0.523, "quality_score": 0.598, "source_type": "post", "record_id": "1hmwxgp"}
+{"drug": "adderall", "symptom": "add", "onset_days": 1825, "severity": null, "causality_confidence": 0.512, "quality_score": 0.577, "source_type": "post", "record_id": "1hjgsuo"}
+{"drug": "ozempic", "symptom": "constipation", "onset_days": 1825, "severity": null, "causality_confidence": 0.504, "quality_score": 0.578, "source_type": "post", "record_id": "1hjgsuo"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hfjlmk"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hf8pc6"}
+{"drug": "ozempic", "symptom": "thyroid cancer", "onset_days": null, "severity": null, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "1hetnpz"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1awsssw"}
+{"drug": "ozempic", "symptom": "appetite and hunger pains", "onset_days": null, "severity": null, "causality_confidence": 0.535, "quality_score": 0.593, "source_type": "post", "record_id": "158px0f"}
+{"drug": "ozempic", "symptom": "bloating", "onset_days": null, "severity": null, "causality_confidence": 0.468, "quality_score": 0.534, "source_type": "post", "record_id": "12lgr9e"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "11ogptg"}
+{"drug": "semaglutide", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1eerywc"}
+{"drug": "semaglutide", "symptom": "vomiting", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1eerywc"}
+{"drug": "ozempic", "symptom": "thyroid tumors", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1eerywc"}
+{"drug": "semaglutide", "symptom": "pancreatitis", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1eerywc"}
+{"drug": "semaglutide", "symptom": "hypoglycemia", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1eerywc"}
+{"drug": "ozempic", "symptom": "corneal infection", "onset_days": null, "severity": 2, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "1gq3dod"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1fe35k4"}
+{"drug": "ozempic", "symptom": "hair loss", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1ebknt2"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1dxhhzs"}
+{"drug": "metformin", "symptom": "intestinal pain", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1dstgs0"}
+{"drug": "saxenda", "symptom": "headaches", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1do3fq5"}
+{"drug": "semaglutide", "symptom": "weight loss", "onset_days": null, "severity": null, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "1dke60s"}
+{"drug": "ozempic", "symptom": "acid reflux", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1gec142"}
+{"drug": "ozempic", "symptom": "acid reflux", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1gec142"}
+{"drug": "ozempic", "symptom": "acid reflux / gerd", "onset_days": null, "severity": null, "causality_confidence": 0.568, "quality_score": 0.618, "source_type": "post", "record_id": "1gec142"}
+{"drug": "wegovy", "symptom": "muscle loss", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1fkx78e"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.47, "quality_score": 0.542, "source_type": "post", "record_id": "1etsv40"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": 2, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1890auv"}
+{"drug": "ozempic", "symptom": "bad my doctor wrote me an emergency prescription of xanax", "onset_days": 7, "severity": null, "causality_confidence": 0.502, "quality_score": 0.649, "source_type": "post", "record_id": "1hpuzbi"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.467, "quality_score": 0.602, "source_type": "post", "record_id": "1hpuzbi"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1hp6ysf"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1hp6ysf"}
+{"drug": "metformin", "symptom": "hypoglycemia", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hp6ysf"}
+{"drug": "metformin", "symptom": "hypoglycemia", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1hp6ysf"}
+{"drug": "sertraline", "symptom": "panic disorder", "onset_days": null, "severity": 1, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1hnpvpc"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1hmefbn"}
+{"drug": "ozempic", "symptom": "depressive", "onset_days": null, "severity": 2, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1hk5jp4"}
+{"drug": "metformin", "symptom": "taltz", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hj1upv"}
+{"drug": "ozempic", "symptom": "constipation", "onset_days": null, "severity": 2, "causality_confidence": 0.86, "quality_score": 0.835, "source_type": "post", "record_id": "1hgl3xg"}
+{"drug": "ozempic", "symptom": "ulcer", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1hfwpwx"}
+{"drug": "saxenda", "symptom": "heartburn", "onset_days": 60, "severity": null, "causality_confidence": 0.481, "quality_score": 0.568, "source_type": "post", "record_id": "1hfmo71"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1hbnez5"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1h89ldn"}
+{"drug": "ozempic", "symptom": "panic disorder", "onset_days": null, "severity": 1, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1h89ldn"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1h89ldn"}
+{"drug": "ozempic", "symptom": "gastro problems", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1h7jkbs"}
+{"drug": "metformin", "symptom": "hypothyroidism", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1h3z567"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1h3xea5"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1h3xea5"}
+{"drug": "metformin", "symptom": "hypoglycemia", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1h3xea5"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1gxqapx"}
+{"drug": "sertraline", "symptom": "abdominal pain", "onset_days": null, "severity": 3, "causality_confidence": 0.461, "quality_score": 0.532, "source_type": "post", "record_id": "1gxfesu"}
+{"drug": "sertraline", "symptom": "migraines endometriosis psoriasis psoriatic arthritis", "onset_days": null, "severity": 3, "causality_confidence": 0.537, "quality_score": 0.598, "source_type": "post", "record_id": "1gxfesu"}
+{"drug": "ozempic", "symptom": "famotadine", "onset_days": null, "severity": 2, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1gww35h"}
+{"drug": "ozempic", "symptom": "migraine", "onset_days": null, "severity": 2, "causality_confidence": 0.499, "quality_score": 0.557, "source_type": "post", "record_id": "1gww35h"}
+{"drug": "ozempic", "symptom": "diarrhea", "onset_days": 330, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "1gwjtcx"}
+{"drug": "ozempic", "symptom": "muscle wasting", "onset_days": 2, "severity": 3, "causality_confidence": 0.644, "quality_score": 0.686, "source_type": "post", "record_id": "1gulwif"}
+{"drug": "metformin", "symptom": "lower back pain", "onset_days": 7, "severity": 2, "causality_confidence": 0.536, "quality_score": 0.608, "source_type": "post", "record_id": "1gtu5qw"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.469, "quality_score": 0.541, "source_type": "post", "record_id": "1gnmzoy"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": 3, "severity": 2, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1ewlcxe"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": 3, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.567, "source_type": "post", "record_id": "1ewlcxe"}
+{"drug": "ozempic", "symptom": "fatigue", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1beootf"}
+{"drug": "ozempic", "symptom": "fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.465, "quality_score": 0.539, "source_type": "post", "record_id": "1afzu1d"}
+{"drug": "ozempic", "symptom": "fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.474, "quality_score": 0.545, "source_type": "post", "record_id": "1afzu1d"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.47, "quality_score": 0.542, "source_type": "post", "record_id": "17vl5lf"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.469, "quality_score": 0.542, "source_type": "post", "record_id": "17vl5lf"}
+{"drug": "ozempic", "symptom": "dizziness", "onset_days": null, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.55, "source_type": "post", "record_id": "15x80ir"}
+{"drug": "ozempic", "symptom": "fatigue", "onset_days": null, "severity": 1, "causality_confidence": 0.47, "quality_score": 0.542, "source_type": "post", "record_id": "15f5p4z"}
+{"drug": "ozempic", "symptom": "gallstones", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "15f5p4z"}
+{"drug": "ozempic", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "10t257d"}
+{"drug": "sertraline", "symptom": "panic disorder", "onset_days": null, "severity": null, "causality_confidence": 0.501, "quality_score": 0.562, "source_type": "post", "record_id": "xk4zdz"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": 14, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.57, "source_type": "post", "record_id": "wczi9r"}
+{"drug": "ozempic", "symptom": "gallstones", "onset_days": 14, "severity": 2, "causality_confidence": 0.456, "quality_score": 0.535, "source_type": "post", "record_id": "wczi9r"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "uve0xn"}
+{"drug": "bupropion", "symptom": "overactive bladder", "onset_days": null, "severity": 1, "causality_confidence": 0.501, "quality_score": 0.562, "source_type": "post", "record_id": "uve0xn"}
+{"drug": "ozempic", "symptom": "headache", "onset_days": null, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "s6vmyc"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.468, "quality_score": 0.541, "source_type": "post", "record_id": "1aph31y"}
+{"drug": "ozempic", "symptom": "lack of t2dm", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1dft7ef"}
+{"drug": "ozempic", "symptom": "peripheral neuropathy", "onset_days": null, "severity": null, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "17qqrs4"}
+{"drug": "ozempic", "symptom": "trigeminal neuralgia", "onset_days": 30, "severity": null, "causality_confidence": 0.501, "quality_score": 0.579, "source_type": "post", "record_id": "1ai46cm"}
+{"drug": "ozempic", "symptom": "pancreatitis", "onset_days": 30, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1ai46cm"}
+{"drug": "ozempic", "symptom": "rheumatoid arthritis", "onset_days": 30, "severity": null, "causality_confidence": 0.544, "quality_score": 0.611, "source_type": "post", "record_id": "1ai46cm"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.55, "source_type": "post", "record_id": "1gf7fq2"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "1gf7fq2"}
+{"drug": "ozempic", "symptom": "can", "onset_days": 1460, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "1d11ppw"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1cuiim1"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1cuiim1"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": 3, "causality_confidence": 0.86, "quality_score": 0.835, "source_type": "post", "record_id": "1cuiim1"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1cuiim1"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1cuiim1"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "1cuiim1"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "17irwly"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "17irwly"}
+{"drug": "tirzepatide", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "17irwly"}
+{"drug": "tirzepatide", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "17irwly"}
+{"drug": "ozempic", "symptom": "depressive", "onset_days": null, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1go41l0"}
+{"drug": "ozempic", "symptom": "constipation", "onset_days": 30, "severity": null, "causality_confidence": 0.433, "quality_score": 0.59, "source_type": "comment", "record_id": "m4kibbc"}
+{"drug": "ozempic", "symptom": "death", "onset_days": null, "severity": null, "causality_confidence": 0.43, "quality_score": 0.607, "source_type": "comment", "record_id": "m4kia5a"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.537, "quality_score": 0.657, "source_type": "comment", "record_id": "m4iiitd"}
+{"drug": "ozempic", "symptom": "b12 deficiency", "onset_days": null, "severity": null, "causality_confidence": 0.462, "quality_score": 0.594, "source_type": "comment", "record_id": "m4h1ezu"}
+{"drug": "ozempic", "symptom": "fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.425, "quality_score": 0.565, "source_type": "comment", "record_id": "m4etndb"}
+{"drug": "mounjaro", "symptom": "& appetite suppression", "onset_days": null, "severity": 2, "causality_confidence": 0.436, "quality_score": 0.574, "source_type": "comment", "record_id": "m4etndb"}
+{"drug": "ozempic", "symptom": "anorexic", "onset_days": null, "severity": null, "causality_confidence": 0.435, "quality_score": 0.567, "source_type": "comment", "record_id": "m4d293o"}
+{"drug": "ozempic", "symptom": "fatigue", "onset_days": 14, "severity": 1, "causality_confidence": 0.429, "quality_score": 0.585, "source_type": "comment", "record_id": "l3ljt6h"}
+{"drug": "semaglutide", "symptom": "nausea", "onset_days": 30, "severity": 2, "causality_confidence": 0.448, "quality_score": 0.602, "source_type": "comment", "record_id": "jh0be5g"}
+{"drug": "semaglutide", "symptom": "diarrhea", "onset_days": 30, "severity": 2, "causality_confidence": 0.476, "quality_score": 0.627, "source_type": "comment", "record_id": "jh0be5g"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.405, "quality_score": 0.547, "source_type": "comment", "record_id": "ic048cx"}
+{"drug": "ozempic", "symptom": "heartburn", "onset_days": null, "severity": null, "causality_confidence": 0.401, "quality_score": 0.544, "source_type": "comment", "record_id": "ic048cx"}
+{"drug": "ozempic", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.4, "quality_score": 0.543, "source_type": "comment", "record_id": "ic048cx"}
+{"drug": "ozempic", "symptom": "pancreatitis", "onset_days": null, "severity": null, "causality_confidence": 0.476, "quality_score": 0.61, "source_type": "comment", "record_id": "m4gqwgs"}
+{"drug": "ozempic", "symptom": "constipation", "onset_days": null, "severity": null, "causality_confidence": 0.422, "quality_score": 0.562, "source_type": "comment", "record_id": "m4gqwgs"}
+{"drug": "ozempic", "symptom": "acid reflux", "onset_days": null, "severity": null, "causality_confidence": 0.417, "quality_score": 0.558, "source_type": "comment", "record_id": "m4gqwgs"}
+{"drug": "metformin", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.407, "quality_score": 0.549, "source_type": "comment", "record_id": "m4gj42d"}
+{"drug": "ozempic", "symptom": "diseass", "onset_days": null, "severity": null, "causality_confidence": 0.452, "quality_score": 0.582, "source_type": "comment", "record_id": "m4dtmvq"}
+{"drug": "ozempic", "symptom": "diarrhea", "onset_days": 6, "severity": null, "causality_confidence": 0.476, "quality_score": 0.627, "source_type": "comment", "record_id": "m4d9vpb"}
+{"drug": "ozempic", "symptom": "diarrhea", "onset_days": 6, "severity": null, "causality_confidence": 0.406, "quality_score": 0.565, "source_type": "comment", "record_id": "m4d9vpb"}
+{"drug": "ozempic", "symptom": "vomiting", "onset_days": 6, "severity": null, "causality_confidence": 0.404, "quality_score": 0.564, "source_type": "comment", "record_id": "m4d9vpb"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.425, "quality_score": 0.61, "source_type": "comment", "record_id": "m4c7slr"}
+{"drug": "ozempic", "symptom": "from bile acid malabsorption", "onset_days": null, "severity": null, "causality_confidence": 0.483, "quality_score": 0.618, "source_type": "comment", "record_id": "m4akwqp"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.426, "quality_score": 0.562, "source_type": "comment", "record_id": "m48o1aw"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.476, "quality_score": 0.61, "source_type": "comment", "record_id": "m476o66"}
+{"drug": "wegovy", "symptom": "ideation", "onset_days": null, "severity": 3, "causality_confidence": 0.452, "quality_score": 0.582, "source_type": "comment", "record_id": "m46ybn9"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.459, "quality_score": 0.595, "source_type": "comment", "record_id": "m45xbm0"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.635, "source_type": "comment", "record_id": "m45x6sq"}
+{"drug": "ozempic", "symptom": "low mood", "onset_days": null, "severity": 3, "causality_confidence": 0.491, "quality_score": 0.619, "source_type": "comment", "record_id": "m45w5q2"}
+{"drug": "ozempic", "symptom": "rash", "onset_days": 14, "severity": null, "causality_confidence": 0.424, "quality_score": 0.574, "source_type": "comment", "record_id": "m45pzp3"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.448, "quality_score": 0.585, "source_type": "comment", "record_id": "m444pay"}
+{"drug": "ozempic", "symptom": "gall bladder", "onset_days": null, "severity": 2, "causality_confidence": 0.491, "quality_score": 0.619, "source_type": "comment", "record_id": "m43breh"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.476, "quality_score": 0.61, "source_type": "comment", "record_id": "lsj02h3"}
+{"drug": "metformin", "symptom": "panic disorder", "onset_days": null, "severity": null, "causality_confidence": 0.547, "quality_score": 0.669, "source_type": "comment", "record_id": "lp3lhxl"}
+{"drug": "ozempic", "symptom": "diarrhea", "onset_days": null, "severity": 2, "causality_confidence": 0.453, "quality_score": 0.635, "source_type": "comment", "record_id": "lkztrvx"}
+{"drug": "ozempic", "symptom": "diarrhea", "onset_days": null, "severity": 2, "causality_confidence": 0.561, "quality_score": 0.685, "source_type": "comment", "record_id": "lkztrvx"}
+{"drug": "ozempic", "symptom": "no problems bleeding", "onset_days": 730, "severity": null, "causality_confidence": 0.481, "quality_score": 0.624, "source_type": "comment", "record_id": "lghn22h"}
+{"drug": "ozempic", "symptom": "contrave", "onset_days": null, "severity": null, "causality_confidence": 0.481, "quality_score": 0.607, "source_type": "comment", "record_id": "l1183go"}
+{"drug": "semaglutide", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.459, "quality_score": 0.595, "source_type": "comment", "record_id": "kxld75t"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.448, "quality_score": 0.585, "source_type": "comment", "record_id": "kxld75t"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.448, "quality_score": 0.585, "source_type": "comment", "record_id": "kxld75t"}
+{"drug": "ozempic", "symptom": "fat loss", "onset_days": null, "severity": null, "causality_confidence": 0.445, "quality_score": 0.579, "source_type": "comment", "record_id": "kjz6x5v"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.389, "quality_score": 0.578, "source_type": "comment", "record_id": "kijtk1f"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.425, "quality_score": 0.61, "source_type": "comment", "record_id": "kejxp98"}
+{"drug": "semaglutide", "symptom": "gallstones", "onset_days": null, "severity": null, "causality_confidence": 0.459, "quality_score": 0.595, "source_type": "comment", "record_id": "lczql58"}
+{"drug": "semaglutide", "symptom": "cholelithiasis", "onset_days": null, "severity": null, "causality_confidence": 0.435, "quality_score": 0.567, "source_type": "comment", "record_id": "lczql58"}
+{"drug": "semaglutide", "symptom": "gallstones", "onset_days": null, "severity": null, "causality_confidence": 0.412, "quality_score": 0.554, "source_type": "comment", "record_id": "lczql58"}
+{"drug": "ozempic", "symptom": "gallstones", "onset_days": null, "severity": null, "causality_confidence": 0.707, "quality_score": 0.807, "source_type": "comment", "record_id": "lczql58"}
+{"drug": "ozempic", "symptom": "weight loss", "onset_days": null, "severity": null, "causality_confidence": 0.434, "quality_score": 0.569, "source_type": "comment", "record_id": "lh7v9tg"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.448, "quality_score": 0.585, "source_type": "comment", "record_id": "ljzl2xa"}
+{"drug": "ozempic", "symptom": "no pcos", "onset_days": null, "severity": null, "causality_confidence": 0.435, "quality_score": 0.567, "source_type": "comment", "record_id": "lgt7vg1"}
+{"drug": "ozempic", "symptom": "hair loss", "onset_days": 730, "severity": 2, "causality_confidence": 0.459, "quality_score": 0.612, "source_type": "comment", "record_id": "lc6kv5g"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": 540, "severity": null, "causality_confidence": 0.453, "quality_score": 0.652, "source_type": "comment", "record_id": "lbrd1fe"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": 540, "severity": null, "causality_confidence": 0.51, "quality_score": 0.702, "source_type": "comment", "record_id": "lbrd1fe"}
+{"drug": "wegovy", "symptom": "weight loss", "onset_days": null, "severity": 2, "causality_confidence": 0.434, "quality_score": 0.569, "source_type": "comment", "record_id": "labwsjk"}
+{"drug": "ozempic", "symptom": "constipation", "onset_days": null, "severity": 3, "causality_confidence": 0.448, "quality_score": 0.585, "source_type": "comment", "record_id": "l6x74ar"}
+{"drug": "ozempic", "symptom": "bowel obstruction", "onset_days": null, "severity": 3, "causality_confidence": 0.491, "quality_score": 0.619, "source_type": "comment", "record_id": "l6x74ar"}

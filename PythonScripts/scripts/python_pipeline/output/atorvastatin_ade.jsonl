@@ -1,0 +1,93 @@
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.476, "quality_score": 0.547, "source_type": "post", "record_id": "1homahc"}
+{"drug": "atorvastatin", "symptom": "mirena iud vitamin d vitamin b12", "onset_days": null, "severity": 1, "causality_confidence": 0.592, "quality_score": 0.642, "source_type": "post", "record_id": "1homahc"}
+{"drug": "atorvastatin", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1hl8kq1"}
+{"drug": "atorvastatin", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.473, "quality_score": 0.544, "source_type": "post", "record_id": "1hl8kq1"}
+{"drug": "atorvastatin", "symptom": "no dizziness", "onset_days": null, "severity": null, "causality_confidence": 0.469, "quality_score": 0.542, "source_type": "post", "record_id": "1hl8kq1"}
+{"drug": "atorvastatin", "symptom": "throat pain", "onset_days": 3, "severity": 1, "causality_confidence": 0.511, "quality_score": 0.586, "source_type": "post", "record_id": "1hi8gid"}
+{"drug": "atorvastatin", "symptom": "fatigue", "onset_days": 3, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "1hi8gid"}
+{"drug": "atorvastatin", "symptom": "constipation", "onset_days": 7, "severity": 1, "causality_confidence": 0.468, "quality_score": 0.558, "source_type": "post", "record_id": "1hhlnba"}
+{"drug": "ozempic", "symptom": "constipation", "onset_days": null, "severity": 2, "causality_confidence": 0.86, "quality_score": 0.835, "source_type": "post", "record_id": "1hgl3xg"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1hbnez5"}
+{"drug": "atorvastatin", "symptom": "iron deficiency", "onset_days": null, "severity": 3, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "1haeydf"}
+{"drug": "atorvastatin", "symptom": "hereditary", "onset_days": null, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1haeydf"}
+{"drug": "metformin", "symptom": "hypothyroidism", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1h3z567"}
+{"drug": "atorvastatin", "symptom": "hypothyroidism", "onset_days": 730, "severity": null, "causality_confidence": 0.512, "quality_score": 0.577, "source_type": "post", "record_id": "1h0isrh"}
+{"drug": "atorvastatin", "symptom": "autoimmune hashimotos thyroiditis", "onset_days": null, "severity": 3, "causality_confidence": 0.523, "quality_score": 0.581, "source_type": "post", "record_id": "1gwtcr0"}
+{"drug": "lisinopril", "symptom": "white congestive heart failure", "onset_days": null, "severity": 3, "causality_confidence": 0.508, "quality_score": 0.573, "source_type": "post", "record_id": "1gw71zy"}
+{"drug": "lisinopril", "symptom": "chronic kidney disease", "onset_days": null, "severity": 3, "causality_confidence": 0.513, "quality_score": 0.574, "source_type": "post", "record_id": "1gw71zy"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1gw71zy"}
+{"drug": "atorvastatin", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gstggn"}
+{"drug": "atorvastatin", "symptom": "depressive", "onset_days": null, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1gpx63i"}
+{"drug": "atorvastatin", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.468, "quality_score": 0.534, "source_type": "post", "record_id": "1gpx63i"}
+{"drug": "atorvastatin", "symptom": "peripheral arterial disease", "onset_days": 21, "severity": 3, "causality_confidence": 0.656, "quality_score": 0.698, "source_type": "post", "record_id": "1gjlzqx"}
+{"drug": "atorvastatin", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.465, "quality_score": 0.532, "source_type": "post", "record_id": "1gi3622"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1ghu45z"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1ghu45z"}
+{"drug": "atorvastatin", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.465, "quality_score": 0.532, "source_type": "post", "record_id": "1ghpo74"}
+{"drug": "atorvastatin", "symptom": "joint/muscle pain", "onset_days": null, "severity": null, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "1ghnf49"}
+{"drug": "atorvastatin", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1ge0wrs"}
+{"drug": "atorvastatin", "symptom": "serus retinopathy", "onset_days": 2, "severity": 1, "causality_confidence": 0.577, "quality_score": 0.636, "source_type": "post", "record_id": "1gdl3ir"}
+{"drug": "atorvastatin", "symptom": "cyclic mood disorder", "onset_days": null, "severity": null, "causality_confidence": 0.536, "quality_score": 0.591, "source_type": "post", "record_id": "1gaux5w"}
+{"drug": "atorvastatin", "symptom": "lack of mania", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1gaux5w"}
+{"drug": "atorvastatin", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.596, "quality_score": 0.651, "source_type": "post", "record_id": "1gaux5w"}
+{"drug": "atorvastatin", "symptom": "acid reflux", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1c4nc1p"}
+{"drug": "atorvastatin", "symptom": "insomnia", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1c4nc1p"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1c4nc1p"}
+{"drug": "atorvastatin", "symptom": "depression", "onset_days": 7, "severity": 3, "causality_confidence": 0.487, "quality_score": 0.572, "source_type": "post", "record_id": "1bzb4aq"}
+{"drug": "sertraline", "symptom": "allergy", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "vup0ra"}
+{"drug": "atorvastatin", "symptom": "nausea", "onset_days": null, "severity": 3, "causality_confidence": 0.469, "quality_score": 0.542, "source_type": "post", "record_id": "tvz6fp"}
+{"drug": "atorvastatin", "symptom": "diarrhea", "onset_days": null, "severity": 3, "causality_confidence": 0.467, "quality_score": 0.54, "source_type": "post", "record_id": "tvz6fp"}
+{"drug": "atorvastatin", "symptom": "nausea", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "rbjc9c"}
+{"drug": "lexapro", "symptom": "headaches - pcos - hyperlipidemia", "onset_days": null, "severity": 3, "causality_confidence": 0.524, "quality_score": 0.588, "source_type": "post", "record_id": "qbnd2o"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "ph4dcn"}
+{"drug": "sertraline", "symptom": "allergy", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "pb00uh"}
+{"drug": "atorvastatin", "symptom": "depression", "onset_days": 2, "severity": 1, "causality_confidence": 0.476, "quality_score": 0.564, "source_type": "post", "record_id": "ot9thr"}
+{"drug": "atorvastatin", "symptom": "anxiety", "onset_days": 2, "severity": 1, "causality_confidence": 0.477, "quality_score": 0.565, "source_type": "post", "record_id": "ot9thr"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 2, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "ot9thr"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 2, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "ot9thr"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "os7713"}
+{"drug": "atorvastatin", "symptom": "depression", "onset_days": 14, "severity": 2, "causality_confidence": 0.484, "quality_score": 0.57, "source_type": "post", "record_id": "1fm38br"}
+{"drug": "sertraline", "symptom": "borderline personality disorder", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.564, "source_type": "post", "record_id": "1fhyv28"}
+{"drug": "sertraline", "symptom": "unspecified mood disorder", "onset_days": null, "severity": null, "causality_confidence": 0.523, "quality_score": 0.581, "source_type": "post", "record_id": "1fhyv28"}
+{"drug": "metformin", "symptom": "diarrhea", "onset_days": 7, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.575, "source_type": "post", "record_id": "1dcctve"}
+{"drug": "atorvastatin", "symptom": "muscle pain", "onset_days": 7, "severity": 3, "causality_confidence": 0.501, "quality_score": 0.572, "source_type": "post", "record_id": "1dcctve"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1dbgs0c"}
+{"drug": "atorvastatin", "symptom": "anxiety", "onset_days": 14, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "1c88k9h"}
+{"drug": "atorvastatin", "symptom": "depression", "onset_days": 14, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.612, "source_type": "post", "record_id": "1c88k9h"}
+{"drug": "ozempic", "symptom": "fatigue", "onset_days": 16, "severity": 3, "causality_confidence": 0.466, "quality_score": 0.556, "source_type": "post", "record_id": "17dgy36"}
+{"drug": "ozempic", "symptom": "no diarrhea", "onset_days": 16, "severity": 3, "causality_confidence": 0.466, "quality_score": 0.557, "source_type": "post", "record_id": "17dgy36"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": 16, "severity": 3, "causality_confidence": 0.477, "quality_score": 0.565, "source_type": "post", "record_id": "17dgy36"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": 16, "severity": 3, "causality_confidence": 0.478, "quality_score": 0.566, "source_type": "post", "record_id": "17dgy36"}
+{"drug": "atorvastatin", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "16grljx"}
+{"drug": "atorvastatin", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "162cy8b"}
+{"drug": "atorvastatin", "symptom": "dizziness", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "162cy8b"}
+{"drug": "metformin", "symptom": "schizoaffective disorder", "onset_days": null, "severity": null, "causality_confidence": 0.501, "quality_score": 0.562, "source_type": "post", "record_id": "15j3eqv"}
+{"drug": "metformin", "symptom": "apnea", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "15j3eqv"}
+{"drug": "metformin", "symptom": "hypothyroid", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "15j3eqv"}
+{"drug": "lexapro", "symptom": "abilify", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "15j3eqv"}
+{"drug": "atorvastatin", "symptom": "fatigue", "onset_days": null, "severity": 3, "causality_confidence": 0.471, "quality_score": 0.543, "source_type": "post", "record_id": "159vgyv"}
+{"drug": "atorvastatin", "symptom": "constipation", "onset_days": null, "severity": 1, "causality_confidence": 0.469, "quality_score": 0.542, "source_type": "post", "record_id": "155v60i"}
+{"drug": "atorvastatin", "symptom": "diarrhea", "onset_days": null, "severity": 1, "causality_confidence": 0.468, "quality_score": 0.541, "source_type": "post", "record_id": "155v60i"}
+{"drug": "atorvastatin", "symptom": "no symptoms hyperbilirubinemia", "onset_days": 14, "severity": null, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "105138s"}
+{"drug": "atorvastatin", "symptom": "no symptoms hyperlipidemia", "onset_days": 14, "severity": null, "causality_confidence": 0.565, "quality_score": 0.624, "source_type": "post", "record_id": "105138s"}
+{"drug": "atorvastatin", "symptom": "metabolic encephalopathy", "onset_days": 60, "severity": 3, "causality_confidence": 0.501, "quality_score": 0.579, "source_type": "post", "record_id": "ypqo7p"}
+{"drug": "lisinopril", "symptom": "cough", "onset_days": 30, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "xubhzk"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "186aguo"}
+{"drug": "ozempic", "symptom": "shakiness", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "186aguo"}
+{"drug": "semaglutide", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "186aguo"}
+{"drug": "semaglutide", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "186aguo"}
+{"drug": "atorvastatin", "symptom": "dizziness", "onset_days": 2, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "11ma4j6"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.86, "quality_score": 0.835, "source_type": "post", "record_id": "o8c78w"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "o8c78w"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1fw62zm"}
+{"drug": "atorvastatin", "symptom": "heart failure", "onset_days": null, "severity": null, "causality_confidence": 0.501, "quality_score": 0.562, "source_type": "post", "record_id": "1bvl2qf"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": 365, "severity": null, "causality_confidence": 0.477, "quality_score": 0.565, "source_type": "post", "record_id": "vbco4n"}
+{"drug": "atorvastatin", "symptom": "depression", "onset_days": 10, "severity": 2, "causality_confidence": 0.489, "quality_score": 0.573, "source_type": "post", "record_id": "rhqd1e"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "r34p7r"}
+{"drug": "atorvastatin", "symptom": "no apparent trigeminal neuralgia", "onset_days": null, "severity": 1, "causality_confidence": 0.844, "quality_score": 0.819, "source_type": "post", "record_id": "lcv4lh"}
+{"drug": "atorvastatin", "symptom": "heartburn", "onset_days": 90, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "12kr2a9"}
+{"drug": "atorvastatin", "symptom": "ldl reduction", "onset_days": null, "severity": 1, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "sxitgh"}
+{"drug": "atorvastatin", "symptom": "muscles ache", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1cajit2"}
+{"drug": "atorvastatin", "symptom": "b deficiency", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1h05x0f"}
+{"drug": "atorvastatin", "symptom": "bad reactions", "onset_days": null, "severity": null, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "11l6n04"}
+{"drug": "sertraline", "symptom": "allergy", "onset_days": null, "severity": 1, "causality_confidence": 0.505, "quality_score": 0.607, "source_type": "post", "record_id": "rbkcmb"}

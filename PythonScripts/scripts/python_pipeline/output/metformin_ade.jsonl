@@ -1,0 +1,151 @@
+{"drug": "metformin", "symptom": "hirsutism", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "192hci3"}
+{"drug": "metformin", "symptom": "acne", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "192hci3"}
+{"drug": "metformin", "symptom": "hidradenitis suppurativa", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "192hci3"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1hp6ysf"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1hp6ysf"}
+{"drug": "metformin", "symptom": "hypoglycemia", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hp6ysf"}
+{"drug": "metformin", "symptom": "hypoglycemia", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1hp6ysf"}
+{"drug": "metformin", "symptom": "ocd", "onset_days": null, "severity": 2, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1hna5gt"}
+{"drug": "metformin", "symptom": "vomiting", "onset_days": null, "severity": 2, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1hna5gt"}
+{"drug": "metformin", "symptom": "abilify", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1hl9ii9"}
+{"drug": "atorvastatin", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1hl8kq1"}
+{"drug": "atorvastatin", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.473, "quality_score": 0.544, "source_type": "post", "record_id": "1hl8kq1"}
+{"drug": "atorvastatin", "symptom": "no dizziness", "onset_days": null, "severity": null, "causality_confidence": 0.469, "quality_score": 0.542, "source_type": "post", "record_id": "1hl8kq1"}
+{"drug": "adderall", "symptom": "depressive", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1hk7tvf"}
+{"drug": "adderall", "symptom": "cluster b personality traits", "onset_days": null, "severity": null, "causality_confidence": 0.508, "quality_score": 0.573, "source_type": "post", "record_id": "1hk7tvf"}
+{"drug": "metformin", "symptom": "hypothyroidism", "onset_days": null, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hjwccm"}
+{"drug": "metformin", "symptom": "bipolar 2", "onset_days": null, "severity": 1, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "1hjwccm"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hjwccm"}
+{"drug": "adderall", "symptom": "cluster b personality traits", "onset_days": null, "severity": 2, "causality_confidence": 0.518, "quality_score": 0.581, "source_type": "post", "record_id": "1hj2btl"}
+{"drug": "metformin", "symptom": "taltz", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hj1upv"}
+{"drug": "metformin", "symptom": "abilify", "onset_days": 30, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "1hinhll"}
+{"drug": "atorvastatin", "symptom": "throat pain", "onset_days": 3, "severity": 1, "causality_confidence": 0.511, "quality_score": 0.586, "source_type": "post", "record_id": "1hi8gid"}
+{"drug": "atorvastatin", "symptom": "fatigue", "onset_days": 3, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "1hi8gid"}
+{"drug": "metformin", "symptom": "adhd autism hypothyroidism odd", "onset_days": null, "severity": null, "causality_confidence": 0.548, "quality_score": 0.603, "source_type": "post", "record_id": "1hh8qom"}
+{"drug": "metformin", "symptom": "sibo", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hfyv66"}
+{"drug": "metformin", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hdwrel"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hdi9qw"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1hdg4ry"}
+{"drug": "metformin", "symptom": "small bowel crohns", "onset_days": null, "severity": null, "causality_confidence": 0.523, "quality_score": 0.581, "source_type": "post", "record_id": "1hdg4ry"}
+{"drug": "metformin", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hdg4ry"}
+{"drug": "sertraline", "symptom": "psoriasis", "onset_days": null, "severity": 3, "causality_confidence": 0.505, "quality_score": 0.607, "source_type": "post", "record_id": "1hc0yhv"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1hbdfuv"}
+{"drug": "lisinopril", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "1hbdfuv"}
+{"drug": "metformin", "symptom": "thymic hyperplasia", "onset_days": null, "severity": 3, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "1h9ybvg"}
+{"drug": "metformin", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1h8y35s"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1h8y35s"}
+{"drug": "metformin", "symptom": "insomnia", "onset_days": null, "severity": 1, "causality_confidence": 0.457, "quality_score": 0.526, "source_type": "post", "record_id": "1h8y35s"}
+{"drug": "metformin", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1h8xw64"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1h8xw64"}
+{"drug": "metformin", "symptom": "insomnia", "onset_days": null, "severity": 1, "causality_confidence": 0.457, "quality_score": 0.526, "source_type": "post", "record_id": "1h8xw64"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1h8e420"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 7, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1h7h3m9"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1g7f3th"}
+{"drug": "metformin", "symptom": "hair loss", "onset_days": null, "severity": 1, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1g4rbm7"}
+{"drug": "metformin", "symptom": "allergy", "onset_days": null, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1fxm3tn"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": 3, "severity": 2, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1ewlcxe"}
+{"drug": "ozempic", "symptom": "depression", "onset_days": 3, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.567, "source_type": "post", "record_id": "1ewlcxe"}
+{"drug": "metformin", "symptom": "heart failure", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1eeoydv"}
+{"drug": "metformin", "symptom": "heart failure", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1eeoydv"}
+{"drug": "metformin", "symptom": "constipation", "onset_days": 2, "severity": null, "causality_confidence": 0.489, "quality_score": 0.573, "source_type": "post", "record_id": "1ed97or"}
+{"drug": "metformin", "symptom": "allergy", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1e462zl"}
+{"drug": "metformin", "symptom": "ovarian cysts", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1e267zg"}
+{"drug": "semaglutide", "symptom": "abdominal pain", "onset_days": null, "severity": null, "causality_confidence": 0.844, "quality_score": 0.819, "source_type": "post", "record_id": "1e267zg"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "1dqqtza"}
+{"drug": "metformin", "symptom": "allergic reaction", "onset_days": 1825, "severity": 1, "causality_confidence": 0.644, "quality_score": 0.686, "source_type": "post", "record_id": "1dfho7w"}
+{"drug": "metformin", "symptom": "allergic reaction", "onset_days": 1825, "severity": null, "causality_confidence": 0.644, "quality_score": 0.686, "source_type": "post", "record_id": "1dffjte"}
+{"drug": "metformin", "symptom": "allergic reaction", "onset_days": 1825, "severity": 1, "causality_confidence": 0.644, "quality_score": 0.686, "source_type": "post", "record_id": "1df1w2r"}
+{"drug": "metformin", "symptom": "chronic kidney disease", "onset_days": null, "severity": 3, "causality_confidence": 0.556, "quality_score": 0.606, "source_type": "post", "record_id": "1dey6tb"}
+{"drug": "adderall", "symptom": "allergy", "onset_days": 14, "severity": 2, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1daveve"}
+{"drug": "adderall", "symptom": "allergy", "onset_days": 14, "severity": 2, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1davaku"}
+{"drug": "metformin", "symptom": "no investigation pcos", "onset_days": null, "severity": 2, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1cyn34o"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.475, "quality_score": 0.546, "source_type": "post", "record_id": "1cufpg4"}
+{"drug": "adderall", "symptom": "vomiting", "onset_days": null, "severity": 3, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1cufpg4"}
+{"drug": "metformin", "symptom": "dizziness", "onset_days": null, "severity": 2, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "1b8hld4"}
+{"drug": "metformin", "symptom": "brain fog", "onset_days": null, "severity": 2, "causality_confidence": 0.473, "quality_score": 0.545, "source_type": "post", "record_id": "1b8hld4"}
+{"drug": "metformin", "symptom": "fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.473, "quality_score": 0.544, "source_type": "post", "record_id": "1b8hld4"}
+{"drug": "metformin", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1avx59s"}
+{"drug": "metformin", "symptom": "headache", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1avx59s"}
+{"drug": "metformin", "symptom": "bloating", "onset_days": null, "severity": null, "causality_confidence": 0.459, "quality_score": 0.527, "source_type": "post", "record_id": "1avx59s"}
+{"drug": "metformin", "symptom": "liver or kidney failure", "onset_days": 180, "severity": null, "causality_confidence": 0.601, "quality_score": 0.653, "source_type": "post", "record_id": "18iob6c"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "189drfz"}
+{"drug": "metformin", "symptom": "depression", "onset_days": 7, "severity": null, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "189drfz"}
+{"drug": "semaglutide", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "189drfz"}
+{"drug": "semaglutide", "symptom": "depression", "onset_days": 7, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "189drfz"}
+{"drug": "metformin", "symptom": "chronic wrist pain", "onset_days": null, "severity": null, "causality_confidence": 0.656, "quality_score": 0.681, "source_type": "post", "record_id": "187nehm"}
+{"drug": "metformin", "symptom": "lean pcos", "onset_days": 365, "severity": null, "causality_confidence": 0.544, "quality_score": 0.611, "source_type": "post", "record_id": "17zr6qf"}
+{"drug": "metformin", "symptom": "liver damage", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "17e8dvn"}
+{"drug": "metformin", "symptom": "bipolar disorder", "onset_days": null, "severity": 1, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "17awlav"}
+{"drug": "sertraline", "symptom": "migraines", "onset_days": 90, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "176o786"}
+{"drug": "metformin", "symptom": "lichen sclerosus", "onset_days": 1095, "severity": 1, "causality_confidence": 0.577, "quality_score": 0.636, "source_type": "post", "record_id": "174hxa2"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": 10, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "16unnak"}
+{"drug": "metformin", "symptom": "depression", "onset_days": 10, "severity": 1, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "16unnak"}
+{"drug": "metformin", "symptom": "gastrointestinal side-effects", "onset_days": 10, "severity": 1, "causality_confidence": 0.511, "quality_score": 0.586, "source_type": "post", "record_id": "16unnak"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": 10, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "16trx2t"}
+{"drug": "metformin", "symptom": "depression", "onset_days": 10, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "16trx2t"}
+{"drug": "metformin", "symptom": "gastrointestinal side-effects", "onset_days": 10, "severity": 2, "causality_confidence": 0.511, "quality_score": 0.586, "source_type": "post", "record_id": "16trx2t"}
+{"drug": "metformin", "symptom": "bipolar 2 disorder", "onset_days": null, "severity": 1, "causality_confidence": 0.656, "quality_score": 0.681, "source_type": "post", "record_id": "16ipbmp"}
+{"drug": "ozempic", "symptom": "dizziness", "onset_days": null, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.55, "source_type": "post", "record_id": "15x80ir"}
+{"drug": "metformin", "symptom": "constipation", "onset_days": 365, "severity": 3, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "15r8oje"}
+{"drug": "metformin", "symptom": "depression", "onset_days": 365, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "15r8oje"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": 365, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "15r8oje"}
+{"drug": "metformin", "symptom": "hyperlimpidemia - hypothyroidism", "onset_days": 14, "severity": null, "causality_confidence": 0.556, "quality_score": 0.623, "source_type": "post", "record_id": "15imrz9"}
+{"drug": "metformin", "symptom": "bad reaction", "onset_days": null, "severity": null, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "154akso"}
+{"drug": "metformin", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "150w68o"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "150w68o"}
+{"drug": "metformin", "symptom": "overdose", "onset_days": null, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "14uaim8"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 210, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.588, "source_type": "post", "record_id": "1ezyfuz"}
+{"drug": "metformin", "symptom": "diarrhea", "onset_days": 7, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.575, "source_type": "post", "record_id": "1dcctve"}
+{"drug": "atorvastatin", "symptom": "muscle pain", "onset_days": 7, "severity": 3, "causality_confidence": 0.501, "quality_score": 0.572, "source_type": "post", "record_id": "1dcctve"}
+{"drug": "metformin", "symptom": "glaucoma", "onset_days": 1, "severity": null, "causality_confidence": 0.565, "quality_score": 0.624, "source_type": "post", "record_id": "1bi6rzh"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.468, "quality_score": 0.541, "source_type": "post", "record_id": "1aph31y"}
+{"drug": "adderall", "symptom": "pancreatitis", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "10wp8bt"}
+{"drug": "lisinopril", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "rt4gr8"}
+{"drug": "metformin", "symptom": "insomnia", "onset_days": 150, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "m35lua"}
+{"drug": "metformin", "symptom": "rash", "onset_days": null, "severity": null, "causality_confidence": 0.472, "quality_score": 0.537, "source_type": "post", "record_id": "lu6p8x"}
+{"drug": "atorvastatin", "symptom": "birth defects scimitar syndrome anxiety disorder", "onset_days": null, "severity": null, "causality_confidence": 0.692, "quality_score": 0.717, "source_type": "post", "record_id": "lfmri2"}
+{"drug": "adderall", "symptom": "gallstones", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "l2f31h"}
+{"drug": "metformin", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "1et9kvk"}
+{"drug": "metformin", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "tlk0o0"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "tlk0o0"}
+{"drug": "metformin", "symptom": "hypothyroidism", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "tlk0o0"}
+{"drug": "metformin", "symptom": "heart failure", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1cogidp"}
+{"drug": "metformin", "symptom": "hypogonadism", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "ocq5d1"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1gnmvzd"}
+{"drug": "metformin", "symptom": "obese patients eating themselves", "onset_days": null, "severity": 2, "causality_confidence": 0.501, "quality_score": 0.568, "source_type": "post", "record_id": "1gnmvzd"}
+{"drug": "metformin", "symptom": "muscle spasms", "onset_days": null, "severity": null, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "15g6gsb"}
+{"drug": "metformin", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.471, "quality_score": 0.543, "source_type": "post", "record_id": "15g6gsb"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1cuiim1"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1cuiim1"}
+{"drug": "ozempic", "symptom": "nausea", "onset_days": null, "severity": 3, "causality_confidence": 0.86, "quality_score": 0.835, "source_type": "post", "record_id": "1cuiim1"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1cuiim1"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1cuiim1"}
+{"drug": "ozempic", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "1cuiim1"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "19a528d"}
+{"drug": "metformin", "symptom": "nerve pain", "onset_days": null, "severity": 1, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "19a528d"}
+{"drug": "metformin", "symptom": "brain fog", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "18japri"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 4, "severity": 2, "causality_confidence": 0.475, "quality_score": 0.564, "source_type": "post", "record_id": "13tsn3l"}
+{"drug": "metformin", "symptom": "bad reaction", "onset_days": 4, "severity": 2, "causality_confidence": 0.577, "quality_score": 0.636, "source_type": "post", "record_id": "13tsn3l"}
+{"drug": "metformin", "symptom": "loss of appetite", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "y8mxik"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "nkorls"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "nkorls"}
+{"drug": "metformin", "symptom": "acne", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "nkorls"}
+{"drug": "metformin", "symptom": "polycystic ovarian syndrome", "onset_days": null, "severity": null, "causality_confidence": 0.513, "quality_score": 0.574, "source_type": "post", "record_id": "mptou6"}
+{"drug": "metformin", "symptom": "polycystic ovarian syndrome", "onset_days": null, "severity": 1, "causality_confidence": 0.536, "quality_score": 0.591, "source_type": "post", "record_id": "ky7sc8"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": 730, "severity": 3, "causality_confidence": 0.479, "quality_score": 0.566, "source_type": "post", "record_id": "1hdweu2"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 730, "severity": 3, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1hdweu2"}
+{"drug": "metformin", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "ve3yud"}
+{"drug": "metformin", "symptom": "heart disease", "onset_days": null, "severity": 3, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "tym1sa"}
+{"drug": "metformin", "symptom": "nutritionits", "onset_days": 730, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "p0hmcg"}
+{"drug": "metformin", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "no8brr"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": 14, "severity": null, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "17av3t2"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "13e4h2n"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "10vk08g"}
+{"drug": "metformin", "symptom": "accident(thinking", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "10vk08g"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "10vk08g"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "v22czg"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 60, "severity": 3, "causality_confidence": 0.481, "quality_score": 0.568, "source_type": "post", "record_id": "r70dwk"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "olh0u7"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "olh0u7"}
+{"drug": "metformin", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.731, "quality_score": 0.835, "source_type": "comment", "record_id": "kocongi"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.425, "quality_score": 0.565, "source_type": "comment", "record_id": "kbln14i"}

@@ -1,0 +1,477 @@
+{"drug": "sertraline", "symptom": "insomnia", "onset_days": null, "severity": null, "causality_confidence": 0.472, "quality_score": 0.582, "source_type": "post", "record_id": "1gul67b"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1gg9iew"}
+{"drug": "sertraline", "symptom": "brain fog", "onset_days": null, "severity": null, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1gg9iew"}
+{"drug": "sertraline", "symptom": "iih", "onset_days": null, "severity": 2, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1gb80h1"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1gb80h1"}
+{"drug": "sertraline", "symptom": "tinnitus", "onset_days": null, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1f7xgbi"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 60, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1f5szdw"}
+{"drug": "sertraline", "symptom": "air hunger", "onset_days": null, "severity": 2, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "1f5m2xd"}
+{"drug": "sertraline", "symptom": "light-headedness", "onset_days": null, "severity": 2, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1f5m2xd"}
+{"drug": "sertraline", "symptom": "dizziness", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1f5m2xd"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 7, "severity": null, "causality_confidence": 0.5, "quality_score": 0.627, "source_type": "post", "record_id": "1ef5iug"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.6, "quality_score": 0.702, "source_type": "post", "record_id": "1ef5iug"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.475, "quality_score": 0.563, "source_type": "post", "record_id": "1ef5iug"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": 7, "severity": null, "causality_confidence": 0.477, "quality_score": 0.565, "source_type": "post", "record_id": "1ef5iug"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1dxwmin"}
+{"drug": "sertraline", "symptom": "no depression", "onset_days": null, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1dxwmin"}
+{"drug": "sertraline", "symptom": "brain fog", "onset_days": null, "severity": 2, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1dxwmin"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1dxwmin"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 5, "severity": null, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1dvkuyi"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": 2, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1ckrpyn"}
+{"drug": "sertraline", "symptom": "vomiting", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1cdgj3w"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "1cdgj3w"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "18be1iq"}
+{"drug": "sertraline", "symptom": "ocd", "onset_days": 30, "severity": null, "causality_confidence": 0.565, "quality_score": 0.624, "source_type": "post", "record_id": "1hpa8yt"}
+{"drug": "sertraline", "symptom": "insomnia", "onset_days": null, "severity": null, "causality_confidence": 0.499, "quality_score": 0.557, "source_type": "post", "record_id": "1hp6r5u"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hp6r5u"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hp6r5u"}
+{"drug": "sertraline", "symptom": "hypothyroidism sertraline", "onset_days": 3, "severity": 1, "causality_confidence": 0.844, "quality_score": 0.836, "source_type": "post", "record_id": "1houonj"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 3, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1houonj"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 3, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1houonj"}
+{"drug": "sertraline", "symptom": "chest pain", "onset_days": 3, "severity": 3, "causality_confidence": 0.644, "quality_score": 0.686, "source_type": "post", "record_id": "1hotgl0"}
+{"drug": "sertraline", "symptom": "ocd", "onset_days": 3, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1hotgl0"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 3, "severity": 3, "causality_confidence": 0.479, "quality_score": 0.566, "source_type": "post", "record_id": "1hotgl0"}
+{"drug": "sertraline", "symptom": "chest pain", "onset_days": 3, "severity": 3, "causality_confidence": 0.501, "quality_score": 0.579, "source_type": "post", "record_id": "1hotgl0"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 14, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1hoswkj"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 14, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1hoswkj"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.476, "quality_score": 0.547, "source_type": "post", "record_id": "1homahc"}
+{"drug": "atorvastatin", "symptom": "mirena iud vitamin d vitamin b12", "onset_days": null, "severity": 1, "causality_confidence": 0.592, "quality_score": 0.642, "source_type": "post", "record_id": "1homahc"}
+{"drug": "sertraline", "symptom": "infection", "onset_days": 1095, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "1hok4lk"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hoj5k0"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1hoj5k0"}
+{"drug": "sertraline", "symptom": "panic disorder", "onset_days": null, "severity": 1, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1hnpvpc"}
+{"drug": "sertraline", "symptom": "prolactinoma", "onset_days": null, "severity": 2, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1hnmzpk"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hngo61"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hngo61"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 1, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1hngiru"}
+{"drug": "sertraline", "symptom": "acid reflux", "onset_days": 1, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1hngiru"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hn69h7"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1hmzvgq"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.475, "quality_score": 0.547, "source_type": "post", "record_id": "1hmzvgq"}
+{"drug": "sertraline", "symptom": "pancreatitis", "onset_days": 14, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1hmwvph"}
+{"drug": "sertraline", "symptom": "no preexisting anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1hmby97"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 365, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.605, "source_type": "post", "record_id": "1hm9fd3"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 1, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1hm2mgc"}
+{"drug": "sertraline", "symptom": "acid reflux", "onset_days": 1, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1hm2mgc"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 1, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1hln1hg"}
+{"drug": "sertraline", "symptom": "acid reflux", "onset_days": 1, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1hln1hg"}
+{"drug": "sertraline", "symptom": "infection", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1hlgoi2"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hkwmi4"}
+{"drug": "lexapro", "symptom": "loss of interest fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hkwmi4"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hkwmi4"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1hklwhb"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "1hjvef9"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.533, "quality_score": 0.635, "source_type": "post", "record_id": "1hjvef9"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hjtn3l"}
+{"drug": "sertraline", "symptom": "hypothyroidism", "onset_days": 90, "severity": null, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "1hjjq09"}
+{"drug": "sertraline", "symptom": "headaches", "onset_days": 90, "severity": 3, "causality_confidence": 0.512, "quality_score": 0.584, "source_type": "post", "record_id": "1hion5n"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hi0h05"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hi0h05"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1hhhbvp"}
+{"drug": "sertraline", "symptom": "beta thalassemia", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.619, "source_type": "post", "record_id": "1hhh69u"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.472, "quality_score": 0.544, "source_type": "post", "record_id": "1hh9rb0"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.471, "quality_score": 0.544, "source_type": "post", "record_id": "1hh9rb0"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hgy9g6"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hgy9g6"}
+{"drug": "sertraline", "symptom": "ibs", "onset_days": null, "severity": 2, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1hgos6u"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hgkdaw"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hgcbqu"}
+{"drug": "sertraline", "symptom": "cancer of the pituitary gland", "onset_days": null, "severity": null, "causality_confidence": 0.52, "quality_score": 0.585, "source_type": "post", "record_id": "1hfz8b6"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hftgul"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hfiu7s"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1hfiu7s"}
+{"drug": "sertraline", "symptom": "panic disorder", "onset_days": 730, "severity": null, "causality_confidence": 0.511, "quality_score": 0.586, "source_type": "post", "record_id": "1hf6a9r"}
+{"drug": "adderall", "symptom": "narcolepsy", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1hf46z3"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hf46z3"}
+{"drug": "sertraline", "symptom": "allergies", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1hf46z3"}
+{"drug": "sertraline", "symptom": "headache", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hf46z3"}
+{"drug": "sertraline", "symptom": "narcolepsy", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1hf3cqm"}
+{"drug": "sertraline", "symptom": "psoriasis", "onset_days": null, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hedw5d"}
+{"drug": "sertraline", "symptom": "headache", "onset_days": null, "severity": null, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1hdws7v"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hd7bv2"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1hd7bv2"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 14, "severity": null, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "1h8arz4"}
+{"drug": "sertraline", "symptom": "constipation", "onset_days": 60, "severity": 2, "causality_confidence": 0.467, "quality_score": 0.557, "source_type": "post", "record_id": "1h2ldb6"}
+{"drug": "sertraline", "symptom": "migraines", "onset_days": 365, "severity": 2, "causality_confidence": 0.565, "quality_score": 0.624, "source_type": "post", "record_id": "1gnx75q"}
+{"drug": "sertraline", "symptom": "seizure", "onset_days": null, "severity": 3, "causality_confidence": 0.489, "quality_score": 0.55, "source_type": "post", "record_id": "1gn4esx"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gn4esx"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 1825, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1gbqwbs"}
+{"drug": "sertraline", "symptom": "heart palpitations", "onset_days": 1825, "severity": null, "causality_confidence": 0.501, "quality_score": 0.579, "source_type": "post", "record_id": "1gbqwbs"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gba36n"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 14, "severity": 2, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1g7q3cb"}
+{"drug": "bupropion", "symptom": "acid reflux", "onset_days": 14, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1g7q3cb"}
+{"drug": "bupropion", "symptom": "hair loss", "onset_days": 14, "severity": 2, "causality_confidence": 0.482, "quality_score": 0.569, "source_type": "post", "record_id": "1g7q3cb"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1g4k89w"}
+{"drug": "sertraline", "symptom": "chest pain", "onset_days": 60, "severity": null, "causality_confidence": 0.501, "quality_score": 0.579, "source_type": "post", "record_id": "1fsexkd"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 60, "severity": null, "causality_confidence": 0.493, "quality_score": 0.577, "source_type": "post", "record_id": "1fsexkd"}
+{"drug": "sertraline", "symptom": "heartburn", "onset_days": 7, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1fsbeex"}
+{"drug": "sertraline", "symptom": "heartburn", "onset_days": 7, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1fsbeex"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1flvqpr"}
+{"drug": "sertraline", "symptom": "palpitations", "onset_days": null, "severity": 1, "causality_confidence": 0.505, "quality_score": 0.607, "source_type": "post", "record_id": "1fiagx6"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1fh2pst"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1fh2pst"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 20, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1f4uwmt"}
+{"drug": "sertraline", "symptom": "chest pain", "onset_days": null, "severity": 3, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "1f4lqr1"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1ekqngx"}
+{"drug": "sertraline", "symptom": "migraine", "onset_days": null, "severity": null, "causality_confidence": 0.482, "quality_score": 0.544, "source_type": "post", "record_id": "1ekqngx"}
+{"drug": "sertraline", "symptom": "trigeminal neuralgia", "onset_days": null, "severity": null, "causality_confidence": 0.524, "quality_score": 0.579, "source_type": "post", "record_id": "1ekqngx"}
+{"drug": "metformin", "symptom": "heart failure", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1eeoydv"}
+{"drug": "metformin", "symptom": "heart failure", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1eeoydv"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1e7gglv"}
+{"drug": "sertraline", "symptom": "weird palpitations", "onset_days": 30, "severity": 1, "causality_confidence": 0.577, "quality_score": 0.636, "source_type": "post", "record_id": "1e41l1l"}
+{"drug": "sertraline", "symptom": "autism", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1dxhimi"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1dxhimi"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1dolt56"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1dolt56"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "1dlkotj"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 7, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1dlkotj"}
+{"drug": "adderall", "symptom": "schizoaffective disorder", "onset_days": 60, "severity": 1, "causality_confidence": 0.524, "quality_score": 0.596, "source_type": "post", "record_id": "1dip9o1"}
+{"drug": "adderall", "symptom": "abilify", "onset_days": 60, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1dip9o1"}
+{"drug": "bupropion", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1d8cj6t"}
+{"drug": "bupropion", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1d8cj6t"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 365, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1d86id2"}
+{"drug": "sertraline", "symptom": "traumatic", "onset_days": 365, "severity": 1, "causality_confidence": 0.512, "quality_score": 0.584, "source_type": "post", "record_id": "1d86id2"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 150, "severity": null, "causality_confidence": 0.66, "quality_score": 0.695, "source_type": "post", "record_id": "1d0eldo"}
+{"drug": "sertraline", "symptom": "add", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1csnd7t"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "1cf9dif"}
+{"drug": "sertraline", "symptom": "ibs", "onset_days": null, "severity": null, "causality_confidence": 0.505, "quality_score": 0.607, "source_type": "post", "record_id": "1cf9dif"}
+{"drug": "adderall", "symptom": "bad reaction", "onset_days": null, "severity": null, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "1ccgvfl"}
+{"drug": "atorvastatin", "symptom": "acid reflux", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1c4nc1p"}
+{"drug": "atorvastatin", "symptom": "insomnia", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1c4nc1p"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1c4nc1p"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1gqed1y"}
+{"drug": "sertraline", "symptom": "intermittent lbbb", "onset_days": null, "severity": null, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "1gqed1y"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1gnrvhq"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1ezap3w"}
+{"drug": "sertraline", "symptom": "diarrhea", "onset_days": null, "severity": 3, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1ezap3w"}
+{"drug": "sertraline", "symptom": "insomnia", "onset_days": null, "severity": 3, "causality_confidence": 0.461, "quality_score": 0.528, "source_type": "post", "record_id": "1ezap3w"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 4, "severity": 1, "causality_confidence": 0.487, "quality_score": 0.572, "source_type": "post", "record_id": "1eepvr5"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 60, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1e5y5if"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": 2, "causality_confidence": 0.485, "quality_score": 0.564, "source_type": "post", "record_id": "1e2fqj4"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1dyp8ni"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1d8q4xs"}
+{"drug": "bupropion", "symptom": "movement disorder", "onset_days": null, "severity": 3, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "1cjvisp"}
+{"drug": "ozempic", "symptom": "pancreatitis", "onset_days": null, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1c5hd8y"}
+{"drug": "bupropion", "symptom": "allergic reaction", "onset_days": 2, "severity": 2, "causality_confidence": 0.644, "quality_score": 0.686, "source_type": "post", "record_id": "1bhfi16"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 2, "severity": 2, "causality_confidence": 0.481, "quality_score": 0.568, "source_type": "post", "record_id": "1bhfi16"}
+{"drug": "adderall", "symptom": "depression", "onset_days": 2, "severity": 2, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "1bhfi16"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 90, "severity": 3, "causality_confidence": 0.493, "quality_score": 0.577, "source_type": "post", "record_id": "1bh3lo7"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1bgxjl4"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1bb5xe7"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1bb5xe7"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "1bb5xe7"}
+{"drug": "bupropion", "symptom": "tinnitus", "onset_days": 1825, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1bayoq3"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1b7tfwn"}
+{"drug": "sertraline", "symptom": "fissure,", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1b7tfwn"}
+{"drug": "sertraline", "symptom": "insomnia", "onset_days": null, "severity": 1, "causality_confidence": 0.461, "quality_score": 0.528, "source_type": "post", "record_id": "1abzv9f"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.464, "quality_score": 0.538, "source_type": "post", "record_id": "1abzv9f"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "19daze8"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.55, "source_type": "post", "record_id": "199dz1a"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "199dz1a"}
+{"drug": "sertraline", "symptom": "chiari 1 malformation", "onset_days": null, "severity": 2, "causality_confidence": 0.536, "quality_score": 0.591, "source_type": "post", "record_id": "199dz1a"}
+{"drug": "sertraline", "symptom": "headache", "onset_days": null, "severity": 2, "causality_confidence": 0.468, "quality_score": 0.541, "source_type": "post", "record_id": "199dz1a"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "18yca4n"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "18e3c1u"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": 3, "causality_confidence": 0.478, "quality_score": 0.549, "source_type": "post", "record_id": "180zgtl"}
+{"drug": "sertraline", "symptom": "diarrhea", "onset_days": null, "severity": 3, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "17yb4j7"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": 3, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "17yb4j7"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "17tv4bh"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 20, "severity": 1, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "17kryve"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "16vgbin"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "16brak5"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 1460, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "16191t1"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 1460, "severity": 2, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "16191t1"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": 1, "causality_confidence": 0.467, "quality_score": 0.595, "source_type": "post", "record_id": "15xf6xe"}
+{"drug": "sertraline", "symptom": "throat swelling", "onset_days": 180, "severity": 1, "causality_confidence": 0.524, "quality_score": 0.589, "source_type": "post", "record_id": "15xf6xe"}
+{"drug": "sertraline", "symptom": "headaches", "onset_days": 180, "severity": 1, "causality_confidence": 0.512, "quality_score": 0.577, "source_type": "post", "record_id": "15xf6xe"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 180, "severity": 1, "causality_confidence": 0.493, "quality_score": 0.57, "source_type": "post", "record_id": "15xf6xe"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 180, "severity": 1, "causality_confidence": 0.467, "quality_score": 0.595, "source_type": "post", "record_id": "15rszdy"}
+{"drug": "sertraline", "symptom": "throat swelling", "onset_days": 180, "severity": 1, "causality_confidence": 0.524, "quality_score": 0.589, "source_type": "post", "record_id": "15rszdy"}
+{"drug": "sertraline", "symptom": "headaches", "onset_days": 180, "severity": 1, "causality_confidence": 0.512, "quality_score": 0.577, "source_type": "post", "record_id": "15rszdy"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 180, "severity": 1, "causality_confidence": 0.493, "quality_score": 0.57, "source_type": "post", "record_id": "15rszdy"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "15qjw75"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "15qjw75"}
+{"drug": "sertraline", "symptom": "vomiting", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "15qjw75"}
+{"drug": "sertraline", "symptom": "overdosed", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "15p56lp"}
+{"drug": "sertraline", "symptom": "bad reaction", "onset_days": 2, "severity": null, "causality_confidence": 0.511, "quality_score": 0.586, "source_type": "post", "record_id": "15fyl0p"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "14rrud6"}
+{"drug": "sertraline", "symptom": "hashimotos thyroid disease", "onset_days": null, "severity": null, "causality_confidence": 0.589, "quality_score": 0.631, "source_type": "post", "record_id": "14rrud6"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.56, "source_type": "post", "record_id": "14q0vhf"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 7, "severity": 2, "causality_confidence": 0.479, "quality_score": 0.559, "source_type": "post", "record_id": "14q0vhf"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.473, "quality_score": 0.545, "source_type": "post", "record_id": "14n6yme"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 1825, "severity": null, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "14avl5d"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 1825, "severity": null, "causality_confidence": 0.467, "quality_score": 0.602, "source_type": "post", "record_id": "14avl5d"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "13e7yhf"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "13e7yhf"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.478, "quality_score": 0.549, "source_type": "post", "record_id": "1h1ebtl"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1h1ebtl"}
+{"drug": "bupropion", "symptom": "yeast infection", "onset_days": null, "severity": 2, "causality_confidence": 0.511, "quality_score": 0.569, "source_type": "post", "record_id": "1h1ebtl"}
+{"drug": "adderall", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1h1ebtl"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1h1ebtl"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.473, "quality_score": 0.544, "source_type": "post", "record_id": "1h1ebtl"}
+{"drug": "sertraline", "symptom": "no pmh anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1gu5yk0"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 365, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1gic6zl"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 365, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1gic6zl"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 14, "severity": 3, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1gi8m1w"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1ghk8vq"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1ghk51y"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 1825, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.595, "source_type": "post", "record_id": "1g6dk4l"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 1825, "severity": 2, "causality_confidence": 0.51, "quality_score": 0.583, "source_type": "post", "record_id": "1g6dk4l"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1g21r0g"}
+{"drug": "sertraline", "symptom": "nafld", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1fvl4lr"}
+{"drug": "sertraline", "symptom": "allergy", "onset_days": 2, "severity": 2, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "1foedyu"}
+{"drug": "sertraline", "symptom": "autism", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1fk1t8v"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1fk1t8v"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1cgasn8"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1bumt3r"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1bumt3r"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1bqsmeb"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1bq85qt"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1bq85qt"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1bm9wmf"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "1bm9wmf"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1bfkdfb"}
+{"drug": "bupropion", "symptom": "depressive disorder", "onset_days": null, "severity": 1, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "1b16bh6"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 1095, "severity": null, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "1955nvc"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 1095, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1955nvc"}
+{"drug": "sertraline", "symptom": "urticaria", "onset_days": null, "severity": 1, "causality_confidence": 0.572, "quality_score": 0.657, "source_type": "post", "record_id": "192mm48"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 365, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "192glaa"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 2, "severity": 1, "causality_confidence": 0.493, "quality_score": 0.577, "source_type": "post", "record_id": "18m1lr4"}
+{"drug": "sertraline", "symptom": "allergy", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "18ftycu"}
+{"drug": "sertraline", "symptom": "irritable bowel syndrome", "onset_days": null, "severity": 1, "causality_confidence": 0.513, "quality_score": 0.574, "source_type": "post", "record_id": "17rvgkl"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "17h6ugb"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 60, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1fkfs4v"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 60, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1fk08c9"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 60, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1fjrrp0"}
+{"drug": "sertraline", "symptom": "borderline personality disorder", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.564, "source_type": "post", "record_id": "1fhyv28"}
+{"drug": "sertraline", "symptom": "unspecified mood disorder", "onset_days": null, "severity": null, "causality_confidence": 0.523, "quality_score": 0.581, "source_type": "post", "record_id": "1fhyv28"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1f6o39a"}
+{"drug": "sertraline", "symptom": "panic disorder", "onset_days": null, "severity": null, "causality_confidence": 0.544, "quality_score": 0.594, "source_type": "post", "record_id": "1cw2cj2"}
+{"drug": "sertraline", "symptom": "headache", "onset_days": 730, "severity": null, "causality_confidence": 0.467, "quality_score": 0.602, "source_type": "post", "record_id": "1cu2nzt"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 730, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1cu2nzt"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1cig5sk"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "196k2v9"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "195a5na"}
+{"drug": "sertraline", "symptom": "headache", "onset_days": null, "severity": null, "causality_confidence": 0.533, "quality_score": 0.635, "source_type": "post", "record_id": "18fhppg"}
+{"drug": "sertraline", "symptom": "headache", "onset_days": null, "severity": null, "causality_confidence": 0.533, "quality_score": 0.635, "source_type": "post", "record_id": "18fhni3"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.48, "quality_score": 0.567, "source_type": "post", "record_id": "17z9vhr"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "17uftb3"}
+{"drug": "metformin", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "17uftb3"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.489, "quality_score": 0.566, "source_type": "post", "record_id": "16tm2au"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "16466mq"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "16466mq"}
+{"drug": "sertraline", "symptom": "allergies", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "16466mq"}
+{"drug": "bupropion", "symptom": "eoe", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "16466mq"}
+{"drug": "sertraline", "symptom": "constipation", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "159z2kv"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.476, "quality_score": 0.547, "source_type": "post", "record_id": "159z2kv"}
+{"drug": "sertraline", "symptom": "diarrhea", "onset_days": null, "severity": null, "causality_confidence": 0.474, "quality_score": 0.545, "source_type": "post", "record_id": "159z2kv"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 2, "severity": 3, "causality_confidence": 0.487, "quality_score": 0.572, "source_type": "post", "record_id": "10s5tsx"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 30, "severity": 3, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "10s5tsx"}
+{"drug": "sertraline", "symptom": "overdose", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "10mcl4f"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "z3uwv2"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "y7k3z2"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 365, "severity": 3, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "1hcd4wk"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 365, "severity": 3, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1hcd4wk"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1h377kd"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1h377kd"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1h0i7j0"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1f3o5d8"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1f3o5d8"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1dlyfvm"}
+{"drug": "sertraline", "symptom": "occipital neuralgia anxiety depression ckd stage ii", "onset_days": null, "severity": 2, "causality_confidence": 0.531, "quality_score": 0.599, "source_type": "post", "record_id": "1buavc1"}
+{"drug": "sertraline", "symptom": "migraine", "onset_days": null, "severity": 2, "causality_confidence": 0.451, "quality_score": 0.521, "source_type": "post", "record_id": "1buavc1"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1boup2x"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1be90su"}
+{"drug": "sertraline", "symptom": "connective tissue disorder", "onset_days": null, "severity": 1, "causality_confidence": 0.536, "quality_score": 0.591, "source_type": "post", "record_id": "18ywg8c"}
+{"drug": "sertraline", "symptom": "brain fog", "onset_days": null, "severity": 1, "causality_confidence": 0.533, "quality_score": 0.635, "source_type": "post", "record_id": "17b0pa8"}
+{"drug": "sertraline", "symptom": "ocd", "onset_days": null, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "17b0pa8"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "17b0pa8"}
+{"drug": "sertraline", "symptom": "adhd inattentive type, social", "onset_days": 365, "severity": 2, "causality_confidence": 0.525, "quality_score": 0.596, "source_type": "post", "record_id": "16eh4ww"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 365, "severity": 2, "causality_confidence": 0.496, "quality_score": 0.572, "source_type": "post", "record_id": "16eh4ww"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 365, "severity": 2, "causality_confidence": 0.487, "quality_score": 0.565, "source_type": "post", "record_id": "16eh4ww"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1gzsoer"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1gzsoer"}
+{"drug": "sertraline", "symptom": "overdose", "onset_days": null, "severity": null, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1edog7z"}
+{"drug": "sertraline", "symptom": "ocd", "onset_days": null, "severity": null, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "17t5b3o"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "172xvul"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "m25ano"}
+{"drug": "sertraline", "symptom": "vomiting my soul out.", "onset_days": null, "severity": 1, "causality_confidence": 0.508, "quality_score": 0.573, "source_type": "post", "record_id": "1fxpz1s"}
+{"drug": "sertraline", "symptom": "abdominal pain", "onset_days": null, "severity": 2, "causality_confidence": 0.464, "quality_score": 0.534, "source_type": "post", "record_id": "1bu9obw"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1bu9obw"}
+{"drug": "sertraline", "symptom": "abdominal pain", "onset_days": null, "severity": 2, "causality_confidence": 0.464, "quality_score": 0.534, "source_type": "post", "record_id": "1bu9nu9"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1bu9nu9"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "18pyabj"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.467, "quality_score": 0.595, "source_type": "post", "record_id": "vh9qbu"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 1095, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "oijhnl"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 730, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "mqzvs1"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": 1825, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.588, "source_type": "post", "record_id": "mew0ij"}
+{"drug": "sertraline", "symptom": "tic disorder", "onset_days": null, "severity": null, "causality_confidence": 0.644, "quality_score": 0.669, "source_type": "post", "record_id": "1hma7op"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hma7op"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1hma7op"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1hkxmfk"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hkwnx1"}
+{"drug": "lexapro", "symptom": "loss of interest fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hkwnx1"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hkwnx1"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1hie4d3"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 365, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1hgt8vn"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 365, "severity": null, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "1hgt8vn"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1hcou0k"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1halvj8"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 1095, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1h938wp"}
+{"drug": "sertraline", "symptom": "ocd", "onset_days": 1095, "severity": null, "causality_confidence": 0.512, "quality_score": 0.584, "source_type": "post", "record_id": "1h938wp"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 90, "severity": 2, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1h4hay5"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 90, "severity": 2, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1h4hay5"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 14, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1h3y1lh"}
+{"drug": "sertraline", "symptom": "sudden my mood just switched to me being really sad and crying", "onset_days": 14, "severity": null, "causality_confidence": 0.579, "quality_score": 0.667, "source_type": "post", "record_id": "1h3y1lh"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1h2pg2m"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 730, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.595, "source_type": "post", "record_id": "1gu5mwl"}
+{"drug": "bupropion", "symptom": "abilify", "onset_days": 240, "severity": 2, "causality_confidence": 0.632, "quality_score": 0.667, "source_type": "post", "record_id": "1gt1b0f"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": 240, "severity": 2, "causality_confidence": 0.517, "quality_score": 0.588, "source_type": "post", "record_id": "1gt1b0f"}
+{"drug": "sertraline", "symptom": "ocd", "onset_days": null, "severity": null, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1gsl46f"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1gsl46f"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1greogr"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": 3, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1gn3f5h"}
+{"drug": "sertraline", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1gk30l8"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1giljuf"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 4, "severity": null, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1gikcjh"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1ggavdj"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.467, "quality_score": 0.585, "source_type": "post", "record_id": "1gf82nv"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.565, "source_type": "post", "record_id": "1gcwoot"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 42, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1gchob0"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 42, "severity": 3, "causality_confidence": 0.48, "quality_score": 0.567, "source_type": "post", "record_id": "1gchob0"}
+{"drug": "sertraline", "symptom": "self-harm", "onset_days": null, "severity": 3, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "1gad174"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1cbenhh"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "193o3wy"}
+{"drug": "sertraline", "symptom": "traumatic", "onset_days": 365, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.667, "source_type": "post", "record_id": "187qigy"}
+{"drug": "sertraline", "symptom": "trauma", "onset_days": 365, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.592, "source_type": "post", "record_id": "187qigy"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "17c67oc"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "14qa9id"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.482, "quality_score": 0.552, "source_type": "post", "record_id": "qmzd7r"}
+{"drug": "sertraline", "symptom": "depressed", "onset_days": null, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1fp2fyx"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "1ehfzl7"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.475, "quality_score": 0.547, "source_type": "post", "record_id": "1ehfzl7"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 180, "severity": 3, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1c5dwxf"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 180, "severity": 3, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1c5dwxf"}
+{"drug": "bupropion", "symptom": "tinnitus", "onset_days": 1825, "severity": 1, "causality_confidence": 0.632, "quality_score": 0.674, "source_type": "post", "record_id": "1baxrlt"}
+{"drug": "sertraline", "symptom": "insomnia", "onset_days": 240, "severity": 1, "causality_confidence": 0.468, "quality_score": 0.544, "source_type": "post", "record_id": "17ler0g"}
+{"drug": "adderall", "symptom": "inattentive adhd", "onset_days": null, "severity": null, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "wcfik5"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "wcfik5"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "wcfik5"}
+{"drug": "sertraline", "symptom": "weakness", "onset_days": 30, "severity": 2, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "vzeetl"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 30, "severity": 2, "causality_confidence": 0.482, "quality_score": 0.569, "source_type": "post", "record_id": "vzeetl"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 3, "severity": null, "causality_confidence": 0.5, "quality_score": 0.627, "source_type": "post", "record_id": "1cqe00o"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 3, "severity": null, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1cqe00o"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.487, "quality_score": 0.555, "source_type": "post", "record_id": "1cish3a"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1cish3a"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "199datx"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "199datx"}
+{"drug": "sertraline", "symptom": "heart pains", "onset_days": null, "severity": 2, "causality_confidence": 0.577, "quality_score": 0.619, "source_type": "post", "record_id": "198xbiy"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 2, "severity": 1, "causality_confidence": 0.493, "quality_score": 0.577, "source_type": "post", "record_id": "18m1kyx"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "185ee52"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "14slrxg"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.475, "quality_score": 0.547, "source_type": "post", "record_id": "yutq76"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 28, "severity": null, "causality_confidence": 0.517, "quality_score": 0.595, "source_type": "post", "record_id": "vaa1yt"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.66, "quality_score": 0.685, "source_type": "post", "record_id": "1alrmuh"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.56, "quality_score": 0.61, "source_type": "post", "record_id": "10n7qmh"}
+{"drug": "sertraline", "symptom": "no external depression", "onset_days": null, "severity": 3, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "1hmk8qt"}
+{"drug": "sertraline", "symptom": "ocd", "onset_days": null, "severity": 3, "causality_confidence": 0.632, "quality_score": 0.657, "source_type": "post", "record_id": "1hmk8qt"}
+{"drug": "sertraline", "symptom": "no external depression", "onset_days": null, "severity": 3, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hmk8qt"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.473, "quality_score": 0.545, "source_type": "post", "record_id": "1hmk8qt"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 14, "severity": null, "causality_confidence": 0.482, "quality_score": 0.569, "source_type": "post", "record_id": "1hlyz40"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 14, "severity": null, "causality_confidence": 0.493, "quality_score": 0.577, "source_type": "post", "record_id": "1hlyz40"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 14, "severity": null, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "1hlyz40"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1hlhpzr"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.457, "quality_score": 0.578, "source_type": "post", "record_id": "1hkwo3q"}
+{"drug": "lexapro", "symptom": "loss of interest fatigue", "onset_days": null, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.585, "source_type": "post", "record_id": "1hkwo3q"}
+{"drug": "bupropion", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "1hkwo3q"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 4, "severity": 2, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "1hhjmlu"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 4, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1hhjmlu"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "1hgbcen"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hgbcen"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1hdoetl"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 14, "severity": null, "causality_confidence": 0.457, "quality_score": 0.595, "source_type": "post", "record_id": "1hdm2w3"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 14, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "1hdm2w3"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1ha973z"}
+{"drug": "sertraline", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "1ha973z"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.5, "quality_score": 0.61, "source_type": "post", "record_id": "1h8sk23"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1h7ynj5"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "1h7by2m"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.489, "quality_score": 0.556, "source_type": "post", "record_id": "1h7by2m"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1gxdqfe"}
+{"drug": "lexapro", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.496, "quality_score": 0.562, "source_type": "post", "record_id": "1gxdqfe"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gwz1yv"}
+{"drug": "sertraline", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "1gwhogk"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 42, "severity": null, "causality_confidence": 0.475, "quality_score": 0.557, "source_type": "post", "record_id": "1gvv3e4"}
+{"drug": "sertraline", "symptom": "overdose", "onset_days": null, "severity": 3, "causality_confidence": 0.565, "quality_score": 0.607, "source_type": "post", "record_id": "1gtjm43"}
+{"drug": "adderall", "symptom": "anxiety", "onset_days": 60, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.602, "source_type": "post", "record_id": "1grqg3v"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.47, "quality_score": 0.542, "source_type": "post", "record_id": "1gr6hwz"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 3, "causality_confidence": 0.481, "quality_score": 0.551, "source_type": "post", "record_id": "1gpyqt2"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 3, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1gpyqt2"}
+{"drug": "ozempic", "symptom": "depressive", "onset_days": null, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1go41l0"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.593, "quality_score": 0.635, "source_type": "post", "record_id": "1gniz5k"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.54, "quality_score": 0.595, "source_type": "post", "record_id": "1gniz5k"}
+{"drug": "sertraline", "symptom": "fatigue", "onset_days": null, "severity": null, "causality_confidence": 0.479, "quality_score": 0.549, "source_type": "post", "record_id": "1gniz5k"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 7, "severity": null, "causality_confidence": 0.491, "quality_score": 0.575, "source_type": "post", "record_id": "1gjvlg8"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 7, "severity": null, "causality_confidence": 0.496, "quality_score": 0.579, "source_type": "post", "record_id": "1gjvlg8"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 1095, "severity": 1, "causality_confidence": 0.54, "quality_score": 0.612, "source_type": "post", "record_id": "1gfbp9q"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 1095, "severity": 1, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1gfbp9q"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.491, "quality_score": 0.558, "source_type": "post", "record_id": "1gel4di"}
+{"drug": "bupropion", "symptom": "bad and bad tinnitus", "onset_days": 1095, "severity": 1, "causality_confidence": 0.535, "quality_score": 0.61, "source_type": "post", "record_id": "1bs988n"}
+{"drug": "bupropion", "symptom": "brain fog", "onset_days": 1095, "severity": 1, "causality_confidence": 0.476, "quality_score": 0.564, "source_type": "post", "record_id": "1bs988n"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.482, "quality_score": 0.552, "source_type": "post", "record_id": "15pyq73"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 2, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "15pyq73"}
+{"drug": "sertraline", "symptom": "bad reaction", "onset_days": 2, "severity": null, "causality_confidence": 0.644, "quality_score": 0.686, "source_type": "post", "record_id": "15fyak6"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 10, "severity": null, "causality_confidence": 0.504, "quality_score": 0.585, "source_type": "post", "record_id": "yo2fn0"}
+{"drug": "lexapro", "symptom": "anxiety", "onset_days": 10, "severity": null, "causality_confidence": 0.56, "quality_score": 0.627, "source_type": "post", "record_id": "yo2fn0"}
+{"drug": "sertraline", "symptom": "hipo-mania", "onset_days": null, "severity": null, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "tlvsw5"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.473, "quality_score": 0.545, "source_type": "post", "record_id": "t8e7xh"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.484, "quality_score": 0.553, "source_type": "post", "record_id": "t8e7xh"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.517, "quality_score": 0.578, "source_type": "post", "record_id": "t8e7xh"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 2, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "t1bh59"}
+{"drug": "sertraline", "symptom": "diarrhea", "onset_days": null, "severity": 3, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "szsugc"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 2, "severity": null, "causality_confidence": 0.66, "quality_score": 0.702, "source_type": "post", "record_id": "l8c3uu"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 2, "severity": null, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "l8c3uu"}
+{"drug": "sertraline", "symptom": "depressed", "onset_days": null, "severity": 3, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1fp2gvy"}
+{"drug": "sertraline", "symptom": "hair loss", "onset_days": null, "severity": 2, "causality_confidence": 0.48, "quality_score": 0.595, "source_type": "post", "record_id": "1d0c7up"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 14, "severity": 3, "causality_confidence": 0.593, "quality_score": 0.652, "source_type": "post", "record_id": "1b24b12"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 730, "severity": null, "causality_confidence": 0.5, "quality_score": 0.627, "source_type": "post", "record_id": "160eeoz"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 730, "severity": null, "causality_confidence": 0.5, "quality_score": 0.627, "source_type": "post", "record_id": "160eeoz"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 730, "severity": null, "causality_confidence": 0.484, "quality_score": 0.57, "source_type": "post", "record_id": "160eeoz"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 730, "severity": null, "causality_confidence": 0.487, "quality_score": 0.572, "source_type": "post", "record_id": "160eeoz"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 730, "severity": null, "causality_confidence": 0.484, "quality_score": 0.57, "source_type": "post", "record_id": "160eeoz"}
+{"drug": "sertraline", "symptom": "arritmia", "onset_days": 365, "severity": null, "causality_confidence": 0.565, "quality_score": 0.624, "source_type": "post", "record_id": "1du3xs8"}
+{"drug": "sertraline", "symptom": "no depression", "onset_days": 730, "severity": null, "causality_confidence": 0.472, "quality_score": 0.561, "source_type": "post", "record_id": "1csv32b"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 730, "severity": null, "causality_confidence": 0.493, "quality_score": 0.577, "source_type": "post", "record_id": "17cfntq"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 730, "severity": null, "causality_confidence": 0.489, "quality_score": 0.573, "source_type": "post", "record_id": "17cfntq"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.504, "quality_score": 0.568, "source_type": "post", "record_id": "17354a9"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 60, "severity": 2, "causality_confidence": 0.484, "quality_score": 0.563, "source_type": "post", "record_id": "16nt7m7"}
+{"drug": "bupropion", "symptom": "anxiety", "onset_days": 60, "severity": 2, "causality_confidence": 0.487, "quality_score": 0.565, "source_type": "post", "record_id": "16nt7m7"}
+{"drug": "bupropion", "symptom": "constipation", "onset_days": 60, "severity": 2, "causality_confidence": 0.527, "quality_score": 0.595, "source_type": "post", "record_id": "16nt7m7"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.477, "quality_score": 0.548, "source_type": "post", "record_id": "11u7ypd"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.48, "quality_score": 0.55, "source_type": "post", "record_id": "11u7ypd"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.473, "quality_score": 0.545, "source_type": "post", "record_id": "107rcf2"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "107rcf2"}
+{"drug": "sertraline", "symptom": "panic disorder", "onset_days": 21, "severity": null, "causality_confidence": 0.644, "quality_score": 0.686, "source_type": "post", "record_id": "xncf90"}
+{"drug": "sertraline", "symptom": "depressed", "onset_days": null, "severity": 1, "causality_confidence": 0.572, "quality_score": 0.657, "source_type": "post", "record_id": "uqyb9e"}
+{"drug": "sertraline", "symptom": "insomnia", "onset_days": null, "severity": 1, "causality_confidence": 0.451, "quality_score": 0.521, "source_type": "post", "record_id": "uqyb9e"}
+{"drug": "sertraline", "symptom": "insomnia", "onset_days": null, "severity": 1, "causality_confidence": 0.476, "quality_score": 0.54, "source_type": "post", "record_id": "uqyb9e"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": null, "severity": 1, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "uqyb9e"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": 1, "causality_confidence": 0.485, "quality_score": 0.554, "source_type": "post", "record_id": "uqyb9e"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "txqr1q"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.51, "quality_score": 0.573, "source_type": "post", "record_id": "pqtha8"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 365, "severity": 2, "causality_confidence": 0.5, "quality_score": 0.582, "source_type": "post", "record_id": "nbaq7w"}
+{"drug": "sertraline", "symptom": "aggression", "onset_days": null, "severity": 1, "causality_confidence": 0.532, "quality_score": 0.582, "source_type": "post", "record_id": "1ervx1h"}
+{"drug": "sertraline", "symptom": "aggressive behavior", "onset_days": null, "severity": 1, "causality_confidence": 0.501, "quality_score": 0.562, "source_type": "post", "record_id": "1ervx1h"}
+{"drug": "sertraline", "symptom": "abilify", "onset_days": 1, "severity": null, "causality_confidence": 0.532, "quality_score": 0.599, "source_type": "post", "record_id": "qv1o53"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 120, "severity": null, "causality_confidence": 0.51, "quality_score": 0.59, "source_type": "post", "record_id": "l4nkh6"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": 120, "severity": null, "causality_confidence": 0.47, "quality_score": 0.559, "source_type": "post", "record_id": "l4nkh6"}
+{"drug": "bupropion", "symptom": "psychotic", "onset_days": null, "severity": 2, "causality_confidence": 0.505, "quality_score": 0.607, "source_type": "post", "record_id": "16jby3i"}
+{"drug": "sertraline", "symptom": "depressed", "onset_days": null, "severity": 3, "causality_confidence": 0.512, "quality_score": 0.567, "source_type": "post", "record_id": "t3s8np"}
+{"drug": "sertraline", "symptom": "depression", "onset_days": null, "severity": null, "causality_confidence": 0.493, "quality_score": 0.56, "source_type": "post", "record_id": "ri9hvs"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": null, "severity": null, "causality_confidence": 0.41, "quality_score": 0.552, "source_type": "comment", "record_id": "lzudcl8"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": 1095, "severity": null, "causality_confidence": 0.44, "quality_score": 0.595, "source_type": "comment", "record_id": "lzq5bmw"}
+{"drug": "sertraline", "symptom": "diarrhea", "onset_days": 1095, "severity": null, "causality_confidence": 0.425, "quality_score": 0.582, "source_type": "comment", "record_id": "lzq5bmw"}
+{"drug": "sertraline", "symptom": "diarrhea", "onset_days": 9, "severity": null, "causality_confidence": 0.448, "quality_score": 0.602, "source_type": "comment", "record_id": "lbotzwy"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 1825, "severity": null, "causality_confidence": 0.398, "quality_score": 0.558, "source_type": "comment", "record_id": "l2u3x8t"}
+{"drug": "sertraline", "symptom": "nausea", "onset_days": 1825, "severity": null, "causality_confidence": 0.399, "quality_score": 0.559, "source_type": "comment", "record_id": "l2u3x8t"}
+{"drug": "sertraline", "symptom": "anxiety", "onset_days": 1825, "severity": null, "causality_confidence": 0.4, "quality_score": 0.56, "source_type": "comment", "record_id": "l2u3x8t"}
