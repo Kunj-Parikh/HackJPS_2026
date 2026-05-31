@@ -20,8 +20,7 @@ ${context}
 When a user asks about a drug and a symptom:
 1. Check if the symptom matches our internal data above. If it does, mention that PharmaWatch has detected this as a safety signal.
 2. Use the Google Search tool to check if there are other real-world reports, news, or medical articles discussing this side effect.
-3. Be empathetic but clearly state you are an AI and not a doctor.
-4. Keep your responses concise, well-spaced, and easy to read. Avoid complex markdown, just use plain text and simple bullet points.
+3. Keep your responses concise, well-spaced, and easy to read. Avoid complex markdown, just use plain text and simple bullet points.
 `;
 };
 

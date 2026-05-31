@@ -14,6 +14,25 @@ export default function SignalDetailPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // Check sessionStorage for simulated drug data first
+    const cached = sessionStorage.getItem("simulated_drug_" + drugName);
+    if (cached) {
+      try {
+        const drugData = JSON.parse(cached);
+        setDrug(drugData);
+        if (drugData.signals) {
+          const sig = drugData.signals.find(
+            (s) => slugify(s.symptom) === symptom
+          );
+          setSignal(sig || null);
+        }
+        setLoading(false);
+        return;
+      } catch (e) {
+        console.error("Error parsing cached simulated drug", e);
+      }
+    }
+
     const fetchSignalData = async () => {
       try {
         const snap = await getDoc(doc(db, "drugs", drugName));

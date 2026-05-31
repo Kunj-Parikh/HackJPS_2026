@@ -37,13 +37,85 @@ export default function SearchPage() {
     fetchGlobalData();
   }, []);
 
-  const filteredDrugs = query.trim()
+  const [rxNormSuggestions, setRxNormSuggestions] = useState([]);
+  const [isSearchingRxNorm, setIsSearchingRxNorm] = useState(false);
+
+  const cleanDrugName = (name) => {
+    if (!name) return null;
+    const bracketMatch = name.match(/(.+?)\[(.+?)\]/);
+    if (bracketMatch) {
+      let gen = bracketMatch[1].trim();
+      let br = bracketMatch[2].trim();
+      gen = gen.replace(/\s+\d+(\.\d+)?\s*(mg|mcg|ml|g|%)\b.*/i, "").trim();
+      gen = gen.replace(/\s+(?:Oral Tablet|Pen Injector|Injectable Product|Oral Product|Pill|Oral Suspension|Injection|Prefilled Syringe|Topical Cream|Tablet|Capsule|Solution)\b.*/i, "").trim();
+      br = br.replace(/\s+\d+(\.\d+)?\s*(mg|mcg|ml|g|%)\b.*/i, "").trim();
+      br = br.replace(/\s+(?:Oral Tablet|Pen Injector|Injectable Product|Oral Product|Pill|Oral Suspension|Injection|Prefilled Syringe|Topical Cream|Tablet|Capsule|Solution)\b.*/i, "").trim();
+      return {
+        brand: br.charAt(0).toUpperCase() + br.slice(1),
+        generic: gen.charAt(0).toLowerCase() + gen.slice(1)
+      };
+    }
+    let clean = name.trim();
+    clean = clean.replace(/\s+(?:Oral Tablet|Pen Injector|Injectable Product|Oral Product|Pill|Oral Suspension|Injection|Prefilled Syringe|Topical Cream|Tablet|Capsule|Solution)\b.*/i, "").trim();
+    clean = clean.replace(/\s+\d+(\.\d+)?\s*(mg|mcg|ml|g|%)\b.*/i, "").trim();
+    return {
+      brand: clean.charAt(0).toUpperCase() + clean.slice(1),
+      generic: ""
+    };
+  };
+
+  useEffect(() => {
+    if (searchMode !== "drug" || query.trim().length < 2) {
+      setRxNormSuggestions([]);
+      return;
+    }
+    const delayDebounce = setTimeout(async () => {
+      setIsSearchingRxNorm(true);
+      try {
+        const response = await fetch(
+          `https://rxnav.nlm.nih.gov/REST/approximateTerm.json?term=${encodeURIComponent(query)}&maxEntries=10`
+        );
+        const data = await response.json();
+        const candidates = data?.approximateGroup?.candidate || [];
+        const parsed = candidates
+          .map((c) => (c.name ? cleanDrugName(c.name) : null))
+          .filter(Boolean);
+        const unique = [];
+        const seen = new Set();
+        parsed.forEach((item) => {
+          const key = item.brand.toLowerCase();
+          if (!seen.has(key)) {
+            seen.add(key);
+            unique.push(item);
+          }
+        });
+        setRxNormSuggestions(unique);
+      } catch (err) {
+        console.error("Error fetching RxNorm suggestions:", err);
+      } finally {
+        setIsSearchingRxNorm(false);
+      }
+    }, 300);
+    return () => clearTimeout(delayDebounce);
+  }, [query, searchMode]);
+
+  const localMatches = query.trim()
     ? drugs.filter(
         (d) =>
           d.brand.toLowerCase().includes(query.toLowerCase()) ||
           d.generic.toLowerCase().includes(query.toLowerCase())
       )
     : [];
+
+  const localMatchKeys = new Set(
+    localMatches.flatMap((d) => [d.brand.toLowerCase(), d.generic.toLowerCase()])
+  );
+
+  const nonLocalRxNormSuggestions = rxNormSuggestions.filter((s) => {
+    const brandKey = s.brand.toLowerCase();
+    const genericKey = s.generic.toLowerCase();
+    return !localMatchKeys.has(brandKey) && (!genericKey || !localMatchKeys.has(genericKey));
+  });
 
   const filteredSymptoms = query.trim()
     ? allSignals.filter(
@@ -52,7 +124,6 @@ export default function SearchPage() {
       )
     : [];
 
-  // Deduplicate symptoms by name for the suggestion list if searching by symptom
   const uniqueFilteredSymptoms = [];
   const seenSymptoms = new Set();
   filteredSymptoms.forEach(s => {
@@ -81,10 +152,61 @@ export default function SearchPage() {
     navigate(`/drug/${id}`);
   };
 
+  const selectRxNormDrug = (brand, generic) => {
+    setQuery("");
+    setShowDropdown(false);
+    const drugId = brand.toLowerCase().replace(/[^a-z0-9]/g, "-");
+    navigate(`/drug/${drugId}`, { state: { brand, generic } });
+  };
+
   const selectSymptom = (drugId, symptom) => {
     setQuery("");
     setShowDropdown(false);
     navigate(`/signal/${drugId}/${slugify(symptom)}`);
+  };
+
+  const handleSearchSubmit = () => {
+    if (!query.trim()) return;
+    if (searchMode === "drug") {
+      const exactLocal = drugs.find(
+        (d) =>
+          d.brand.toLowerCase() === query.toLowerCase() ||
+          d.generic.toLowerCase() === query.toLowerCase()
+      );
+      if (exactLocal) {
+        selectDrug(exactLocal.id);
+        return;
+      }
+      const partialLocal = drugs.find(
+        (d) =>
+          d.brand.toLowerCase().includes(query.toLowerCase()) ||
+          d.generic.toLowerCase().includes(query.toLowerCase())
+      );
+      if (partialLocal) {
+        selectDrug(partialLocal.id);
+        return;
+      }
+      if (rxNormSuggestions.length > 0) {
+        selectRxNormDrug(rxNormSuggestions[0].brand, rxNormSuggestions[0].generic);
+        return;
+      }
+      selectRxNormDrug(query.trim(), "");
+    } else {
+      const exactSymptom = allSignals.find(
+        (s) => s.symptom.toLowerCase() === query.toLowerCase()
+      );
+      if (exactSymptom) {
+        selectSymptom(exactSymptom.drugId, exactSymptom.symptom);
+        return;
+      }
+      const partialSymptom = allSignals.find(
+        (s) => s.symptom.toLowerCase().includes(query.toLowerCase())
+      );
+      if (partialSymptom) {
+        selectSymptom(partialSymptom.drugId, partialSymptom.symptom);
+        return;
+      }
+    }
   };
 
   if (loading) {
@@ -199,7 +321,14 @@ export default function SearchPage() {
           </div>
 
           {/* Search Container */}
-          <div className="w-full max-w-2xl mx-auto relative z-50 animate-slide-up stagger-3" ref={ref}>
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              handleSearchSubmit();
+            }}
+            className="w-full max-w-2xl mx-auto relative z-50 animate-slide-up stagger-3"
+            ref={ref}
+          >
             <div className="relative flex items-center bg-base-100 shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-full p-1.5 border border-base-200 focus-within:border-primary/50 focus-within:ring-4 focus-within:ring-primary/20 transition-all duration-300">
               <span className="absolute left-6 text-base-content/40 text-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -222,32 +351,70 @@ export default function SearchPage() {
                 }}
                 onFocus={() => query && setShowDropdown(true)}
               />
-              <button className="absolute right-2 btn btn-primary rounded-full px-8 h-11 min-h-0 font-bold hover:scale-105 transition-transform">
+              <button type="submit" className="absolute right-2 btn btn-primary rounded-full px-8 h-11 min-h-0 font-bold hover:scale-105 transition-transform text-white border-none bg-gradient-to-r from-primary to-teal-500">
                 Search
               </button>
             </div>
-
+ 
             {/* Dropdown list for Drug mode */}
-            {showDropdown && searchMode === "drug" && filteredDrugs.length > 0 && (
+            {showDropdown && searchMode === "drug" && (localMatches.length > 0 || nonLocalRxNormSuggestions.length > 0 || isSearchingRxNorm) && (
               <div className="absolute left-0 right-0 mt-3 bg-base-100 border border-base-200 rounded-3xl shadow-[0_20px_50px_rgb(0,0,0,0.1)] overflow-hidden z-40 max-h-72 overflow-y-auto animate-fade-in">
-                {filteredDrugs.map((d) => (
+                {/* Local Monitored Matches */}
+                {localMatches.map((d) => (
                   <div
-                    key={d.id}
+                    key={`local-${d.id}`}
                     className="flex justify-between items-center px-6 py-4 hover:bg-base-200/50 cursor-pointer border-b border-base-200/50 last:border-0 transition-colors"
                     onClick={() => selectDrug(d.id)}
                   >
                     <div className="text-left">
                       <span className="font-bold text-base-content text-base">{d.brand}</span>
-                      <span className="text-xs text-base-content/50 font-medium ml-2">{d.generic}</span>
+                      {d.generic && <span className="text-xs text-base-content/50 font-medium ml-2">{d.generic}</span>}
                     </div>
-                    <span className="badge border-none bg-base-200 text-base-content/70 font-bold text-xs py-3 px-3">
-                      {d.signalCount} signals
+                    <div className="flex items-center gap-2">
+                      <span className="badge border-none bg-success/10 text-success font-bold text-[10px] py-2.5 px-2.5">
+                        Monitored
+                      </span>
+                      <span className="badge border-none bg-primary/10 text-primary font-bold text-xs py-2.5 px-3">
+                        {d.signalCount} signals
+                      </span>
+                    </div>
+                  </div>
+                ))}
+
+                {/* RxNorm Non-monitored Suggestions */}
+                {nonLocalRxNormSuggestions.map((s, idx) => (
+                  <div
+                    key={`rxnorm-${idx}-${s.brand}`}
+                    className="flex justify-between items-center px-6 py-4 hover:bg-base-200/50 cursor-pointer border-b border-base-200/50 last:border-0 transition-colors"
+                    onClick={() => selectRxNormDrug(s.brand, s.generic)}
+                  >
+                    <div className="text-left">
+                      <span className="font-bold text-base-content text-base">{s.brand}</span>
+                      {s.generic && <span className="text-xs text-base-content/50 font-medium ml-2">{s.generic}</span>}
+                    </div>
+                    <span className="badge border-none bg-base-200 text-base-content/60 font-bold text-xs py-2.5 px-3">
+                      🔍 Scan Available
                     </span>
                   </div>
                 ))}
+
+                {/* Loading indicator inside dropdown */}
+                {isSearchingRxNorm && (
+                  <div className="flex items-center justify-center py-4 gap-2 text-base-content/50 border-t border-base-200/20 bg-base-200/10">
+                    <span className="loading loading-spinner loading-xs text-primary animate-spin"></span>
+                    <span className="text-xs font-semibold">Searching RxNorm database...</span>
+                  </div>
+                )}
+                
+                {/* No results */}
+                {!isSearchingRxNorm && localMatches.length === 0 && nonLocalRxNormSuggestions.length === 0 && query.trim().length >= 2 && (
+                  <div className="px-6 py-4 text-center text-sm text-base-content/50 font-semibold bg-base-200/10">
+                    No drugs found matching "{query}"
+                  </div>
+                )}
               </div>
             )}
-
+ 
             {/* Dropdown list for Symptom mode */}
             {showDropdown && searchMode === "symptom" && uniqueFilteredSymptoms.length > 0 && (
               <div className="absolute left-0 right-0 mt-3 bg-base-100 border border-base-200 rounded-3xl shadow-[0_20px_50px_rgb(0,0,0,0.1)] overflow-hidden z-40 max-h-72 overflow-y-auto animate-fade-in">
@@ -273,7 +440,7 @@ export default function SearchPage() {
                 ))}
               </div>
             )}
-          </div>
+          </form>
         </div>
       </section>
 
