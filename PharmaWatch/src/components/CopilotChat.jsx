@@ -2,144 +2,164 @@ import { useState, useRef, useEffect } from "react";
 import { GoogleGenAI } from "@google/genai";
 import { getAllSignals } from "../data/mockData";
 
-// Initialize Gemini Client
-// In a real production app, you'd want to call a backend endpoint to hide the key.
 const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 
-// System instruction using our mock data
 const buildSystemInstruction = () => {
   const signals = getAllSignals();
-  const context = signals.map(s => `- ${s.drugBrand} (${s.drugGeneric}): ${s.symptom} (Confidence: ${s.tier}, Reporters: ${s.uniqueReporters})`).join("\n");
-  
-  return `You are PharmaWatch Copilot, an AI assistant for a drug safety platform.
-Your job is to answer users' questions about drug side effects and symptoms.
+  const context = signals
+    .map(
+      (s) =>
+        `- ${s.drugBrand} (${s.drugGeneric}): ${s.symptom} (${s.tier}, ${s.uniqueReporters} reporters)`
+    )
+    .join("\n");
 
-Here is the internal data PharmaWatch has detected from analyzing patient reports on Reddit:
+  return `You are a research assistant for PharmaWatch, a drug safety signal platform.
+Answer questions about side effects using the detected signals below when relevant.
+Keep responses concise and plain. Use simple bullet points when helpful.
+
+Detected signals:
 ${context}
-
-When a user asks about a drug and a symptom:
-1. Check if the symptom matches our internal data above. If it does, mention that PharmaWatch has detected this as a safety signal.
-2. Use the Google Search tool to check if there are other real-world reports, news, or medical articles discussing this side effect.
-3. Keep your responses concise, well-spaced, and easy to read. Avoid complex markdown, just use plain text and simple bullet points.
 `;
 };
 
 export default function CopilotChat() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { role: "model", parts: [{ text: "Hi! I'm the PharmaWatch Copilot. Ask me about a drug and any symptoms you're feeling, and I'll check our data and Google to see if others have reported the same thing." }] }
+    {
+      role: "model",
+      parts: [
+        {
+          text: "Ask about a drug and symptom. I'll check our signal index and public sources when available.",
+        },
+      ],
+    },
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
 
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-
   useEffect(() => {
-    scrollToBottom();
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
   const handleSend = async () => {
     if (!input.trim() || isLoading) return;
 
     const userMessage = { role: "user", parts: [{ text: input.trim() }] };
-    // Keep only last 10 messages to avoid context overflow and rate limits
     const chatHistory = [...messages.slice(-9), userMessage];
-    
-    setMessages(prev => [...prev, userMessage]);
+
+    setMessages((prev) => [...prev, userMessage]);
     setInput("");
     setIsLoading(true);
 
     try {
       const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: "gemini-2.5-flash",
         contents: chatHistory,
         config: {
           systemInstruction: buildSystemInstruction(),
           tools: [{ googleSearch: {} }],
-        }
+        },
       });
-      
-      const text = response.text || "I'm sorry, I couldn't generate a response.";
-      setMessages(prev => [...prev, { role: "model", parts: [{ text }] }]);
+
+      const text = response.text || "No response generated.";
+      setMessages((prev) => [...prev, { role: "model", parts: [{ text }] }]);
     } catch (error) {
       console.error("Gemini API Error:", error);
-      setMessages(prev => [...prev, { role: "model", parts: [{ text: "Sorry, I encountered an error checking the data. Please try again later." }] }]);
+      setMessages((prev) => [
+        ...prev,
+        {
+          role: "model",
+          parts: [{ text: "Could not reach the assistant. Try again in a moment." }],
+        },
+      ]);
     } finally {
       setIsLoading(false);
     }
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end">
+    <div className="fixed bottom-5 right-5 z-50 flex flex-col items-end">
       {isOpen && (
-        <div className="bg-base-100 border border-base-300 shadow-[0_20px_50px_rgb(0,0,0,0.2)] rounded-3xl w-[350px] md:w-[400px] h-[550px] flex flex-col overflow-hidden mb-4 animate-fade-in">
-          {/* Header */}
-          <div className="bg-primary text-primary-content p-4 font-bold flex justify-between items-center shadow-sm z-10">
-            <div className="flex items-center gap-2">
-              <span className="text-xl"></span> 
-              <div>
-                <div className="leading-tight">PharmaWatch Copilot</div>
-                <div className="text-[10px] font-medium opacity-80 uppercase tracking-widest">Powered by Gemini 2.5</div>
-              </div>
+        <div className="bg-base-100 border border-base-300 shadow-lg rounded-2xl w-[340px] md:w-[380px] h-[480px] flex flex-col overflow-hidden mb-3">
+          <div className="border-b border-base-300 px-4 py-3 flex justify-between items-center">
+            <div>
+              <div className="text-sm font-semibold text-base-content">Research assistant</div>
+              <div className="text-[11px] text-base-content/50">Drug & symptom questions</div>
             </div>
-            <button onClick={() => setIsOpen(false)} className="btn btn-ghost btn-xs btn-circle hover:bg-primary-focus">✕</button>
+            <button
+              type="button"
+              onClick={() => setIsOpen(false)}
+              className="btn btn-ghost btn-xs btn-square"
+              aria-label="Close"
+            >
+              ✕
+            </button>
           </div>
-          
-          {/* Messages */}
-          <div className="flex-1 overflow-y-auto p-4 space-y-5 bg-base-200/30">
+
+          <div className="flex-1 overflow-y-auto p-4 space-y-3 bg-base-200/30">
             {messages.map((msg, idx) => (
-              <div key={idx} className={`chat ${msg.role === "user" ? "chat-end" : "chat-start"}`}>
-                <div className={`chat-bubble text-sm whitespace-pre-wrap ${msg.role === "user" ? "chat-bubble-primary text-white font-medium" : "bg-base-100 border border-base-300 text-base-content/90 shadow-sm"}`}>
+              <div
+                key={idx}
+                className={`text-sm max-w-[90%] ${
+                  msg.role === "user" ? "ml-auto" : ""
+                }`}
+              >
+                <div
+                  className={`px-3 py-2 rounded-xl whitespace-pre-wrap ${
+                    msg.role === "user"
+                      ? "bg-primary text-primary-content"
+                      : "bg-base-100 border border-base-300 text-base-content/90"
+                  }`}
+                >
                   {msg.parts[0].text}
                 </div>
               </div>
             ))}
             {isLoading && (
-              <div className="chat chat-start animate-pulse">
-                <div className="chat-bubble bg-base-100 border border-base-300 shadow-sm flex items-center gap-2 px-4 py-3">
-                  <span className="loading loading-dots loading-xs text-primary"></span>
-                  <span className="text-xs font-bold text-base-content/50 uppercase tracking-wider">Searching Data & Web</span>
-                </div>
+              <div className="text-xs text-base-content/50 flex items-center gap-2">
+                <span className="loading loading-spinner loading-xs" />
+                Searching…
               </div>
             )}
             <div ref={messagesEndRef} />
           </div>
 
-          {/* Input */}
-          <div className="p-4 bg-base-100 border-t border-base-300/80">
-            <form onSubmit={(e) => { e.preventDefault(); handleSend(); }} className="flex gap-2">
-              <input 
-                type="text" 
-                className="input input-md input-bordered flex-1 rounded-full bg-base-200/50 focus:bg-base-100 focus:outline-none focus:border-primary/50 focus:ring-2 focus:ring-primary/20 transition-all text-sm font-medium" 
-                placeholder="Ask about a symptom..." 
+          <div className="p-3 border-t border-base-300">
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                handleSend();
+              }}
+              className="flex gap-2"
+            >
+              <input
+                type="text"
+                className="input input-bordered input-sm flex-1 rounded-lg"
+                placeholder="e.g. Ozempic and hair loss"
                 value={input}
-                onChange={e => setInput(e.target.value)}
+                onChange={(e) => setInput(e.target.value)}
                 disabled={isLoading}
               />
-              <button 
-                type="submit" 
-                className="btn btn-md btn-primary btn-circle"
+              <button
+                type="submit"
+                className="btn btn-primary btn-sm"
                 disabled={!input.trim() || isLoading}
               >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                  <path d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
-                </svg>
+                Send
               </button>
             </form>
           </div>
         </div>
       )}
 
-      {/* Toggle Button */}
       {!isOpen && (
-        <button 
-          onClick={() => setIsOpen(true)} 
-          className="btn btn-primary btn-circle w-14 h-14 shadow-[0_8px_30px_rgb(0,0,0,0.12)] animate-float hover:scale-110 transition-transform duration-300"
+        <button
+          type="button"
+          onClick={() => setIsOpen(true)}
+          className="btn btn-primary btn-sm rounded-xl shadow-md"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-white"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+          Ask a question
         </button>
       )}
     </div>

@@ -269,51 +269,38 @@ export default function DrugPage() {
 
   if (loading) {
     return (
-      <div className="flex-1 bg-base-100 dark:bg-mesh-dark relative overflow-hidden flex flex-col justify-center items-center min-h-[80vh] transition-colors duration-500">
-        <div className="absolute inset-0 bg-mesh-light dark:opacity-0 transition-opacity duration-500 pointer-events-none" />
-        <div className="flex flex-col items-center gap-4 animate-pulse">
-          <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-          <p className="text-base-content/75 font-bold tracking-wide">Fetching safety signals...</p>
-        </div>
+      <div className="page-shell flex flex-col justify-center items-center min-h-[60vh]">
+        <span className="loading loading-spinner loading-md text-primary" />
+        <p className="text-sm text-base-content/60 mt-4">Loading drug data…</p>
       </div>
     );
   }
 
   if (!drug && !isSimulated) {
     return (
-      <div className="flex-1 bg-base-100 dark:bg-mesh-dark relative overflow-hidden transition-colors duration-500">
-        <div className="absolute inset-0 bg-mesh-light dark:opacity-0 transition-opacity duration-500 pointer-events-none" />
-        <div className="absolute top-10 left-10 w-72 h-72 hero-glow-blob rounded-full pointer-events-none animate-float opacity-40" />
-        
-        <div className="container mx-auto px-4 py-8 max-w-4xl relative z-10">
+      <div className="page-shell">
+        <div className="page-container max-w-4xl">
           <Link to="/" className="btn btn-ghost btn-sm gap-1 pl-1 text-base-content/75 hover:text-primary mb-6 font-semibold">
             ← Back to search
           </Link>
 
           {isAnalyzing ? (
             /* ANALYZING STEP-BY-STEP PROGRESS SCREEN */
-            <div className="saas-card p-8 md:p-12 text-center max-w-2xl mx-auto mt-10">
+            <div className="panel-card p-8 md:p-10 text-center max-w-2xl mx-auto mt-10">
               <div className="flex flex-col items-center gap-6">
-                <div className="relative w-24 h-24 flex items-center justify-center">
-                  {/* Outer spinning gradient border */}
-                  <div className="absolute inset-0 rounded-full border-4 border-primary/20 border-t-primary animate-spin"></div>
-                  {/* Inner breathing orb */}
-                  <div className="w-16 h-16 bg-gradient-to-tr from-primary to-teal-400 rounded-full animate-pulse flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-primary/30">
-                    AI
-                  </div>
-                </div>
+                <span className="loading loading-spinner loading-lg text-primary" />
 
                 <div className="space-y-2">
-                  <h2 className="text-2xl font-black text-base-content tracking-tight">
-                    Running PharmaWatch AI Scanner
+                  <h2 className="font-display text-xl font-semibold text-base-content">
+                    Running signal scan
                   </h2>
-                  <p className="text-sm text-base-content/60 font-semibold max-w-md mx-auto">
-                    Analyzing Reddit comments and FAERS data for {displayName} ({genericName || "generic"})
+                  <p className="text-sm text-base-content/60 max-w-md mx-auto">
+                    Indexing patient reports for {displayName}
+                    {genericName ? ` (${genericName})` : ""}
                   </p>
                 </div>
 
-                {/* Steps List */}
-                <div className="w-full max-w-md space-y-3 mt-6 text-left border border-base-200/50 bg-base-200/20 p-5 rounded-2xl">
+                <div className="w-full max-w-md space-y-2 mt-4 text-left border border-base-300 bg-base-200/40 p-5 rounded-xl">
                   {[
                     "Discovering subreddits & patient communities...",
                     "Downloading latest patient posts & testimonies...",
@@ -336,7 +323,7 @@ export default function DrugPage() {
                         )}
                         <span className={`text-sm font-semibold transition-colors duration-300 ${
                           isDone ? "text-base-content/55 line-through decoration-base-content/30" : 
-                          isActive ? "text-primary font-bold animate-pulse-slow" : "text-base-content/40"
+                          isActive ? "text-primary font-medium" : "text-base-content/40"
                         }`}>
                           {step}
                         </span>
@@ -348,49 +335,32 @@ export default function DrugPage() {
             </div>
           ) : (
             /* PRE-ANALYSIS WELCOME SCREEN */
-            <div className="saas-card p-8 md:p-12 text-center max-w-2xl mx-auto mt-10">
-              <div className="badge border-none bg-warning/10 text-warning font-bold uppercase tracking-wider text-[10px] px-3.5 py-2 mb-6">
-                ⚠️ Scan Available
-              </div>
-              <h2 className="text-3xl font-black text-base-content tracking-tight mb-2">
+            <div className="panel-card p-8 md:p-10 text-center max-w-2xl mx-auto mt-10">
+              <p className="text-xs uppercase tracking-wide text-base-content/50 mb-4">
+                Not yet indexed
+              </p>
+              <h2 className="font-display text-2xl font-semibold text-base-content mb-1">
                 {displayName}
               </h2>
               {genericName && (
-                <div className="text-sm font-bold text-primary mb-6">
-                  {genericName}
-                </div>
+                <p className="text-sm text-primary mb-4">{genericName}</p>
               )}
-              <p className="text-base text-base-content/70 max-w-md mx-auto leading-relaxed">
-                PharmaWatch has not yet indexed side effect signals for this drug from Reddit patient forums. 
+              <p className="text-sm text-base-content/65 max-w-md mx-auto leading-relaxed">
+                We have not pulled Reddit safety signals for this drug yet. You can run a one-time scan to generate a preview.
               </p>
-              
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md mx-auto mt-8 text-left text-xs font-semibold text-base-content/65">
-                <div className="flex gap-3 items-center bg-base-200/40 p-3 rounded-xl border border-base-200/50">
-                  <span className="text-lg">🤖</span>
-                  <span>BioBERT NLP Entity Extraction</span>
-                </div>
-                <div className="flex gap-3 items-center bg-base-200/40 p-3 rounded-xl border border-base-200/50">
-                  <span className="text-lg">📈</span>
-                  <span>Causality Timeline Mapping</span>
-                </div>
-                <div className="flex gap-3 items-center bg-base-200/40 p-3 rounded-xl border border-base-200/50">
-                  <span className="text-lg">💬</span>
-                  <span>Patient Testimonial Scraper</span>
-                </div>
-                <div className="flex gap-3 items-center bg-base-200/40 p-3 rounded-xl border border-base-200/50">
-                  <span className="text-lg">⭐</span>
-                  <span>FDA FAERS Lag Cross-check</span>
-                </div>
-              </div>
+
+              <ul className="text-left text-xs text-base-content/60 max-w-sm mx-auto mt-6 space-y-2 list-disc list-inside">
+                <li>Subreddit discovery & post collection</li>
+                <li>Symptom extraction (BioBERT NER)</li>
+                <li>FDA label similarity check</li>
+                <li>FAERS timeline comparison</li>
+              </ul>
 
               <div className="mt-8 flex flex-col sm:flex-row justify-center gap-3">
-                <button
-                  onClick={startAnalysis}
-                  className="btn btn-primary rounded-full px-8 h-12 font-black shadow-lg shadow-primary/20 hover:scale-105 transition-all text-white bg-gradient-to-r from-primary to-teal-500 border-none cursor-pointer"
-                >
-                  ✨ Run PharmaWatch NER Pipeline
+                <button type="button" onClick={startAnalysis} className="btn btn-primary px-6">
+                  Run signal scan
                 </button>
-                <Link to="/" className="btn btn-ghost rounded-full px-8 h-12 font-bold hover:bg-base-200">
+                <Link to="/" className="btn btn-ghost px-6">
                   Cancel
                 </Link>
               </div>
@@ -424,26 +394,24 @@ export default function DrugPage() {
   const timelineData = Object.values(allTimeline).sort((a, b) => a.month.localeCompare(b.month));
 
   return (
-    <div className="flex-1 bg-base-100 dark:bg-mesh-dark relative overflow-hidden transition-colors duration-500">
-      <div className="absolute inset-0 bg-mesh-light dark:opacity-0 transition-opacity duration-500 pointer-events-none" />
-      <div className="absolute top-10 left-10 w-72 h-72 hero-glow-blob rounded-full pointer-events-none animate-float opacity-40" />
-      <div className="container mx-auto px-4 py-8 max-w-5xl relative z-10">
+    <div className="page-shell">
+      <div className="page-container">
       {/* Back button */}
       <Link to="/" className="btn btn-ghost btn-sm gap-1 pl-1 text-base-content/75 hover:text-primary mb-6 font-semibold">
         ← Back to search
       </Link>
 
       {/* Drug Header Card */}
-      <div className="saas-card p-6 md:p-8 animate-fade-in">
+      <div className="panel-card p-6 md:p-8">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <div>
-            <h1 className="text-3xl md:text-4xl font-black text-base-content tracking-tight">{drug.brand}</h1>
+            <h1 className="font-display text-3xl font-semibold text-base-content">{drug.brand}</h1>
             <div className="text-sm font-bold text-primary mt-1">
               {drug.generic} • <span className="opacity-90">{drug.class}</span>
             </div>
             <div className="flex flex-wrap gap-x-6 gap-y-2 mt-5 text-xs font-semibold text-base-content/70">
               <div>
-                <span className="block text-[10px] uppercase tracking-wider text-base-content/50 font-black mb-0.5">
+                <span className="block text-[10px] uppercase tracking-wide text-base-content/50 mb-0.5">
                   FDA Approved
                 </span>
                 <span>
@@ -455,7 +423,7 @@ export default function DrugPage() {
                 </span>
               </div>
               <div>
-                <span className="block text-[10px] uppercase tracking-wider text-base-content/50 font-black mb-0.5">
+                <span className="block text-[10px] uppercase tracking-wide text-base-content/50 mb-0.5">
                   Indications
                 </span>
                 <span>{drug.indications.join(", ")}</span>
@@ -464,9 +432,9 @@ export default function DrugPage() {
           </div>
 
           {/* Stats widget inside header */}
-          <div className="stats stats-horizontal bg-base-100 border border-base-300/60 shadow-sm w-full md:w-auto">
+          <div className="stats stats-horizontal bg-base-100 border border-base-300/60 w-full md:w-auto rounded-xl overflow-hidden">
             <div className="stat text-center py-3 px-4 md:px-6">
-              <div className="stat-title text-[9px] font-black uppercase tracking-wider text-base-content/50">
+              <div className="stat-title text-[9px] uppercase tracking-wide text-base-content/50">
                 Unlisted Signals
               </div>
               <div className="stat-value text-lg md:text-xl font-extrabold text-base-content mt-0.5">
@@ -474,7 +442,7 @@ export default function DrugPage() {
               </div>
             </div>
             <div className="stat text-center py-3 px-4 md:px-6 border-x border-base-300/60">
-              <div className="stat-title text-[9px] font-black uppercase tracking-wider text-base-content/50">
+              <div className="stat-title text-[9px] uppercase tracking-wide text-base-content/50">
                 Total Reporters
               </div>
               <div className="stat-value text-lg md:text-xl font-extrabold text-base-content mt-0.5">
@@ -482,7 +450,7 @@ export default function DrugPage() {
               </div>
             </div>
             <div className="stat text-center py-3 px-4 md:px-6">
-              <div className="stat-title text-[9px] font-black uppercase tracking-wider text-base-content/50">
+              <div className="stat-title text-[9px] uppercase tracking-wide text-base-content/50">
                 Highest Tier
               </div>
               <div className="stat-value text-lg md:text-xl font-extrabold text-primary capitalize mt-0.5">
@@ -494,7 +462,7 @@ export default function DrugPage() {
       </div>
 
       {/* Collapse component for listed side effects */}
-      <div className="collapse collapse-plus border border-base-300 bg-base-100 mt-6 shadow-sm">
+      <div className="collapse collapse-plus border border-base-300 bg-base-100 mt-6 rounded-xl overflow-hidden">
         <input type="checkbox" checked={showListed} onChange={() => setShowListed(!showListed)} />
         <div className="collapse-title text-sm font-bold text-base-content flex justify-between items-center pr-12">
           <span>Known Side Effects (FDA Label)</span>
@@ -516,15 +484,15 @@ export default function DrugPage() {
       {/* User Reports Section */}
       <div className="mt-10">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-5 gap-4">
-          <h2 className="text-xl md:text-2xl font-black text-base-content tracking-tight flex items-center gap-2">
-            User Reported Symptoms
+          <h2 className="font-display text-lg font-semibold text-base-content flex items-center gap-2">
+            User-reported symptoms
             {drug.userReports && drug.userReports.length > 0 && (
               <span className="badge badge-primary badge-sm font-bold">{drug.userReports.length}</span>
             )}
           </h2>
           <button 
             onClick={() => setIsReportModalOpen(true)}
-            className="btn btn-primary btn-sm rounded-full shadow-md shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-0.5 transition-all"
+            className="btn btn-primary btn-sm"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clipRule="evenodd" />
@@ -536,7 +504,7 @@ export default function DrugPage() {
         {drug.userReports && drug.userReports.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {drug.userReports.map((report, i) => (
-              <div key={i} className="collapse collapse-arrow bg-base-100 border border-base-200 shadow-sm hover:shadow-md transition-shadow saas-card">
+              <div key={i} className="collapse collapse-arrow panel-card">
                 <input type="checkbox" />
                 <div className="collapse-title p-4 flex flex-col gap-2">
                   <div className="flex justify-between items-start w-full">
@@ -580,23 +548,21 @@ export default function DrugPage() {
 
       {/* Unlisted Signals Title */}
       <div className="mt-10 mb-5">
-        <h2 className="text-xl md:text-2xl font-black text-base-content tracking-tight flex items-center gap-2">
-          Unlisted Signals Detected
+        <h2 className="font-display text-lg font-semibold text-base-content">
+          Unlisted signals
         </h2>
       </div>
 
       {/* Grid of Signals */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {sortedSignals.map((s, i) => (
-          <div key={s.symptom} className={`animate-fade-in stagger-${(i % 5) + 1}`}>
-            <SignalCard signal={s} drugId={drugName} />
-          </div>
+          <SignalCard key={s.symptom} signal={s} drugId={drugName} />
         ))}
       </div>
 
       {/* Charts Section */}
       {timelineData.length > 0 && (
-        <div className="animate-fade-in mt-12">
+        <div className="mt-12">
           <TimelineChart data={timelineData} />
         </div>
       )}
@@ -605,14 +571,14 @@ export default function DrugPage() {
       {/* Report Symptom Modal */}
       {isReportModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-base-300/80 backdrop-blur-sm animate-fade-in">
-          <div className="relative bg-base-100 rounded-3xl shadow-2xl border border-base-200 p-6 w-full max-w-md animate-fade-in">
+          <div className="relative bg-base-100 rounded-2xl shadow-lg border border-base-300 p-6 w-full max-w-md">
             <button 
               onClick={() => setIsReportModalOpen(false)}
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
             >
               ✕
             </button>
-            <h3 className="font-black text-xl mb-1 text-base-content tracking-tight">Report a Symptom</h3>
+            <h3 className="font-display text-lg font-semibold mb-1 text-base-content">Report a symptom</h3>
             <p className="py-2 text-sm text-base-content/70">
               Help crowdsource safety signals. If you experienced a side effect while taking <span className="font-bold text-primary">{drug.brand}</span>, let us know.
             </p>

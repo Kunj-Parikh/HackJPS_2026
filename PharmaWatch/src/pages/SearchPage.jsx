@@ -211,154 +211,109 @@ export default function SearchPage() {
 
   if (loading) {
     return (
-      <div className="flex-1 bg-base-100 dark:bg-mesh-dark relative overflow-hidden flex flex-col justify-center items-center min-h-[80vh] transition-colors duration-500">
-        <div className="absolute inset-0 bg-mesh-light dark:opacity-0 transition-opacity duration-500 pointer-events-none" />
-        <div className="flex flex-col items-center gap-4 animate-pulse">
-          <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-          <p className="text-base-content/75 font-bold tracking-wide">Syncing with Firestore...</p>
-        </div>
+      <div className="page-shell flex flex-col justify-center items-center min-h-[60vh]">
+        <span className="loading loading-spinner loading-md text-primary" />
+        <p className="text-sm text-base-content/60 mt-4">Loading index…</p>
       </div>
     );
   }
 
   return (
-    <div className="flex-1 bg-base-100 dark:bg-mesh-dark relative overflow-hidden transition-colors duration-500">
-      {/* SaaS mesh light overlay - visible only in light mode */}
-      <div className="absolute inset-0 bg-mesh-light dark:opacity-0 transition-opacity duration-500 pointer-events-none" />
+    <div className="page-shell">
+      <section className="max-w-3xl mx-auto px-4 pt-12 pb-10 md:pt-16 md:pb-14">
+        <p className="text-xs uppercase tracking-widest text-base-content/50 mb-4">
+          Patient-reported safety signals
+        </p>
 
-      {/* Animated Glow Blobs in the background */}
-      <div className="absolute top-10 left-10 md:left-1/4 w-72 h-72 hero-glow-blob rounded-full pointer-events-none animate-float opacity-50" />
-      <div 
-        className="absolute top-48 right-10 md:right-1/4 w-80 h-80 hero-glow-blob rounded-full pointer-events-none animate-float opacity-50" 
-        style={{ animationDelay: "2s" }}
-      />
+        <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] font-semibold text-base-content leading-tight">
+          Find unlisted side effects before they reach the label
+        </h1>
 
-      {/* Hero Section */}
-      <section className="py-20 px-4 md:py-32 relative overflow-visible flex flex-col justify-center items-center text-center z-10 min-h-[70vh]">
-        
-        {/* Floating Stat Card - Top Left */}
-        <div className="hidden lg:block absolute top-16 left-10 xl:left-32 saas-card p-4 animate-float stagger-1 w-48 text-left bg-base-100/90 backdrop-blur-md">
-          <div className="text-[10px] font-bold uppercase text-base-content/50 tracking-wider mb-1">Signals Detected</div>
-          <div className="text-xl font-black text-base-content">{globalStats.signalsDetected}</div>
-          <div className="text-[10px] text-success font-bold mt-1 flex items-center gap-1">
-            <span className="bg-success/20 p-0.5 rounded">↑ 12</span> new this week
+        <p className="text-base text-base-content/65 max-w-xl mt-4 leading-relaxed">
+          PharmaWatch scans Reddit patient discussions for adverse reactions that are not yet reflected in FDA labeling.
+        </p>
+
+        <dl className="stat-strip mt-8 gap-x-10 gap-y-3">
+          <div>
+            <dt>Signals</dt>
+            <dd>{globalStats.signalsDetected}</dd>
           </div>
-        </div>
-
-        {/* Floating Stat Card - Top Right */}
-        <div className="hidden lg:block absolute top-24 right-10 xl:right-32 saas-card p-4 animate-float stagger-2 w-48 text-left bg-base-100/90 backdrop-blur-md" style={{ animationDelay: '1.5s' }}>
-          <div className="text-[10px] font-bold uppercase text-base-content/50 tracking-wider mb-1">Drugs Monitored</div>
-          <div className="text-xl font-black text-base-content">{globalStats.drugsMonitored}</div>
-          <div className="text-[10px] text-base-content/50 font-medium mt-1">Across 8 categories</div>
-        </div>
-
-        {/* Floating Stat Card - Bottom Left */}
-        <div className="hidden lg:block absolute bottom-24 left-4 xl:left-12 saas-card p-4 animate-float stagger-3 w-52 text-left bg-base-100/90 backdrop-blur-md" style={{ animationDelay: '0.8s' }}>
-          <div className="text-[10px] font-bold uppercase text-base-content/50 tracking-wider mb-1">Reports Analyzed</div>
-          <div className="text-xl font-black text-base-content">{globalStats.reportsAnalyzed.toLocaleString()}</div>
-          <div className="text-[10px] text-success font-bold mt-1 flex items-center gap-1">
-            <span className="bg-success/20 p-0.5 rounded">↑ 5.2k</span> today
+          <div>
+            <dt>Drugs monitored</dt>
+            <dd>{globalStats.drugsMonitored}</dd>
           </div>
-        </div>
-
-        {/* Floating Stat Card - Bottom Right */}
-        <div className="hidden lg:block absolute bottom-32 right-4 xl:right-12 saas-card p-4 animate-float stagger-4 w-48 text-left bg-base-100/90 backdrop-blur-md" style={{ animationDelay: '2.2s' }}>
-          <div className="text-[10px] font-bold uppercase text-base-content/50 tracking-wider mb-1">Confidence Score</div>
-          <div className="text-xl font-black text-base-content">94% <span className="text-success text-sm">↑</span></div>
-          <div className="text-[10px] text-base-content/50 font-medium mt-1">Avg causality rating</div>
-        </div>
-
-        <div className="max-w-3xl flex flex-col items-center relative z-20">
-          {/* Signal Badge */}
-          <div className="badge border-none bg-primary/10 text-primary font-bold uppercase tracking-wider text-xs px-4 py-3 animate-slide-up mb-6 shadow-sm">
-            <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse mr-2" />
-            Live Signal Detection
+          <div>
+            <dt>Reports analyzed</dt>
+            <dd>{globalStats.reportsAnalyzed.toLocaleString()}</dd>
           </div>
+        </dl>
 
-          {/* Heading */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tight text-base-content leading-[1.1] animate-slide-up stagger-1">
-            Discover drug side effects <br className="hidden sm:inline" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-teal-400">
-              before they're official
-            </span>
-          </h1>
-
-          {/* Subtitle */}
-          <p className="text-base md:text-lg text-base-content/70 max-w-xl mx-auto mt-6 leading-relaxed animate-slide-up stagger-2 font-medium">
-            PharmaWatch analyzes millions of patient reports across Reddit to detect unlisted adverse drug reactions — months before they appear in FDA labels.
-          </p>
-
-          {/* Search Toggle Options */}
-          <div className="flex gap-2 mt-8 mb-4 animate-slide-up stagger-2 bg-base-200/50 p-1.5 rounded-full border border-base-300 max-w-[280px] mx-auto relative z-50">
-            <button
-              onClick={() => {
-                setSearchMode("drug");
-                setQuery("");
-                setShowDropdown(false);
-              }}
-              className={`flex-1 px-5 py-2 rounded-full text-xs font-black transition-all duration-300 ${
-                searchMode === "drug"
-                  ? "bg-primary text-white shadow-md scale-[1.02]"
-                  : "text-base-content/70 hover:text-base-content hover:bg-base-300/30"
-              }`}
-            >
-              Search Drugs
-            </button>
-            <button
-              onClick={() => {
-                setSearchMode("symptom");
-                setQuery("");
-                setShowDropdown(false);
-              }}
-              className={`flex-1 px-5 py-2 rounded-full text-xs font-black transition-all duration-300 ${
-                searchMode === "symptom"
-                  ? "bg-primary text-white shadow-md scale-[1.02]"
-                  : "text-base-content/70 hover:text-base-content hover:bg-base-300/30"
-              }`}
-            >
-              Search Symptoms
-            </button>
-          </div>
-
-          {/* Search Container */}
-          <form
-            onSubmit={(e) => {
-              e.preventDefault();
-              handleSearchSubmit();
+        <div className="flex border border-base-300 rounded-xl overflow-hidden mt-8 max-w-xs text-sm">
+          <button
+            type="button"
+            onClick={() => {
+              setSearchMode("drug");
+              setQuery("");
+              setShowDropdown(false);
             }}
-            className="w-full max-w-2xl mx-auto relative z-50 animate-slide-up stagger-3"
-            ref={ref}
+            className={`flex-1 px-4 py-2 transition-colors ${
+              searchMode === "drug"
+                ? "bg-primary text-primary-content font-medium"
+                : "bg-base-100 text-base-content/70 hover:bg-base-200"
+            }`}
           >
-            <div className="relative flex items-center bg-base-100 shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-full p-1.5 border border-base-200 focus-within:border-primary/50 focus-within:ring-4 focus-within:ring-primary/20 transition-all duration-300">
-              <span className="absolute left-6 text-base-content/40 text-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </span>
-              <input
-                id="drug-search"
-                type="text"
-                className="input border-none w-full pl-14 pr-32 rounded-full bg-transparent focus:outline-none transition-all text-base font-medium h-14"
-                placeholder={
-                  searchMode === "drug"
-                    ? "Search a drug (e.g., Ozempic, Lexapro...)"
-                    : "Search a symptom or side effect (e.g., Hair Loss...)"
-                }
-                value={query}
-                onChange={(e) => {
-                  setQuery(e.target.value);
-                  setShowDropdown(true);
-                }}
-                onFocus={() => query && setShowDropdown(true)}
-              />
-              <button type="submit" className="absolute right-2 btn btn-primary rounded-full px-8 h-11 min-h-0 font-bold hover:scale-105 transition-transform text-white border-none bg-gradient-to-r from-primary to-teal-500">
-                Search
-              </button>
-            </div>
+            By drug
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              setSearchMode("symptom");
+              setQuery("");
+              setShowDropdown(false);
+            }}
+            className={`flex-1 px-4 py-2 border-l border-base-300 transition-colors ${
+              searchMode === "symptom"
+                ? "bg-primary text-primary-content font-medium"
+                : "bg-base-100 text-base-content/70 hover:bg-base-200"
+            }`}
+          >
+            By symptom
+          </button>
+        </div>
+
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            handleSearchSubmit();
+          }}
+          className="mt-4 max-w-2xl relative"
+          ref={ref}
+        >
+          <div className="flex gap-2 p-1.5 border border-base-300 rounded-xl bg-base-100 focus-within:ring-2 focus-within:ring-primary/20">
+            <input
+              id="drug-search"
+              type="text"
+              className="input input-ghost flex-1 rounded-lg border-0 focus:outline-none min-h-10"
+              placeholder={
+                searchMode === "drug"
+                  ? "Drug name (e.g. Ozempic, Lexapro)"
+                  : "Symptom (e.g. hair loss, brain fog)"
+              }
+              value={query}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                setShowDropdown(true);
+              }}
+              onFocus={() => query && setShowDropdown(true)}
+            />
+            <button type="submit" className="btn btn-primary rounded-lg min-h-10 px-6">
+              Search
+            </button>
+          </div>
  
             {/* Dropdown list for Drug mode */}
             {showDropdown && searchMode === "drug" && (localMatches.length > 0 || nonLocalRxNormSuggestions.length > 0 || isSearchingRxNorm) && (
-              <div className="absolute left-0 right-0 mt-3 bg-base-100 border border-base-200 rounded-3xl shadow-[0_20px_50px_rgb(0,0,0,0.1)] overflow-hidden z-40 max-h-72 overflow-y-auto animate-fade-in">
+              <div className="absolute left-0 right-0 mt-2 bg-base-100 border border-base-300 rounded-xl shadow-sm overflow-hidden z-40 max-h-72 overflow-y-auto">
                 {/* Local Monitored Matches */}
                 {localMatches.map((d) => (
                   <div
@@ -392,8 +347,8 @@ export default function SearchPage() {
                       <span className="font-bold text-base-content text-base">{s.brand}</span>
                       {s.generic && <span className="text-xs text-base-content/50 font-medium ml-2">{s.generic}</span>}
                     </div>
-                    <span className="badge border-none bg-base-200 text-base-content/60 font-bold text-xs py-2.5 px-3">
-                      🔍 Scan Available
+                    <span className="text-xs text-base-content/50 font-medium">
+                      Not indexed
                     </span>
                   </div>
                 ))}
@@ -417,7 +372,7 @@ export default function SearchPage() {
  
             {/* Dropdown list for Symptom mode */}
             {showDropdown && searchMode === "symptom" && uniqueFilteredSymptoms.length > 0 && (
-              <div className="absolute left-0 right-0 mt-3 bg-base-100 border border-base-200 rounded-3xl shadow-[0_20px_50px_rgb(0,0,0,0.1)] overflow-hidden z-40 max-h-72 overflow-y-auto animate-fade-in">
+              <div className="absolute left-0 right-0 mt-2 bg-base-100 border border-base-300 rounded-xl shadow-sm overflow-hidden z-40 max-h-72 overflow-y-auto">
                 {uniqueFilteredSymptoms.map((s) => (
                   <div
                     key={`${s.drugId}-${s.symptom}`}
@@ -441,23 +396,19 @@ export default function SearchPage() {
               </div>
             )}
           </form>
-        </div>
       </section>
 
-      {/* Trending Section */}
-      <section className="bg-base-200/25 border-t border-base-300 relative z-10 backdrop-blur-sm">
-        <div className="container mx-auto px-4 py-16 max-w-6xl">
-          <h2 className="text-2xl md:text-3xl font-black text-center text-base-content tracking-tight animate-fade-in">
-            Trending Signals
+      <section className="border-t border-base-300 bg-base-200/40">
+        <div className="max-w-6xl mx-auto px-4 py-12">
+          <h2 className="font-display text-xl font-semibold text-base-content">
+            Recent signals
           </h2>
-          <p className="text-center text-sm text-base-content/60 mt-2 animate-fade-in stagger-1">
-            Recently detected unlisted adverse reactions, ranked by confidence
+          <p className="text-sm text-base-content/55 mt-1">
+            Unlisted reactions with low FDA label similarity
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
-            {topSignals.map((s, i) => (
-              <div key={`${s.drugId}-${s.symptom}`} className={`animate-fade-in stagger-${(i % 5) + 1}`}>
-                <SignalCard signal={s} drugId={s.drugId} showDrug />
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+            {topSignals.map((s) => (
+              <SignalCard key={`${s.drugId}-${s.symptom}`} signal={s} drugId={s.drugId} showDrug />
             ))}
           </div>
         </div>

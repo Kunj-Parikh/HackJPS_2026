@@ -8,14 +8,14 @@ export default function SignalCard({ signal, drugId, showDrug = false }) {
   return (
     <Link
       to={path}
-      className="saas-card h-full block overflow-hidden group"
+      className="panel-card panel-card-hover h-full block overflow-hidden transition-colors"
     >
       <div className="p-6 flex flex-col justify-between h-full relative z-10">
         <div>
           <div className="flex justify-between items-start gap-2 mb-2">
             <div className="flex-1">
               {showDrug && (
-                <div className="text-[10px] text-base-content/50 uppercase tracking-widest font-black">
+                <div className="text-[10px] text-base-content/50 uppercase tracking-wide">
                   {signal.drugBrand || drugId}
                 </div>
               )}
@@ -26,7 +26,7 @@ export default function SignalCard({ signal, drugId, showDrug = false }) {
             <TierBadge tier={signal.tier} />
           </div>
 
-          <div className="grid grid-cols-3 gap-1 text-center py-2 bg-base-200/40 rounded-lg border border-base-300/30">
+          <div className="grid grid-cols-3 gap-1 text-center py-2 bg-base-200/60 rounded-lg border border-base-300/50 text-sm">
             <div>
               <span className="block font-bold text-xs text-base-content">
                 {signal.uniqueReporters}

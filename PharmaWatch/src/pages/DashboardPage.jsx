@@ -56,16 +56,13 @@ export default function DashboardPage() {
   };
 
   return (
-    <div className="flex-1 bg-base-100 dark:bg-mesh-dark relative overflow-hidden transition-colors duration-500">
-      <div className="absolute inset-0 bg-mesh-light dark:opacity-0 transition-opacity duration-500 pointer-events-none" />
-      <div className="absolute top-10 left-10 w-72 h-72 hero-glow-blob rounded-full pointer-events-none animate-float opacity-40" />
-      <div className="container mx-auto px-4 py-8 max-w-4xl relative z-10">
-      {/* Dashboard Header */}
-      <div className="saas-card p-6 md:p-8 animate-fade-in">
+    <div className="page-shell">
+      <div className="page-container max-w-4xl">
+      <div className="panel-card p-6 md:p-8">
         <div className="flex justify-between items-center gap-4">
           <div>
-            <h1 className="text-2xl md:text-3xl font-black text-base-content tracking-tight">Dashboard</h1>
-            <p className="text-xs md:text-sm font-semibold text-base-content/60 mt-1">
+            <h1 className="font-display text-2xl font-semibold text-base-content">Dashboard</h1>
+            <p className="text-sm text-base-content/60 mt-1">
               {user?.primaryEmailAddress?.emailAddress}
             </p>
           </div>
@@ -73,10 +70,9 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* Track a Drug Card */}
-      <div className="saas-card p-6 mt-6 animate-fade-in stagger-1">
-        <h2 className="text-lg font-black text-base-content mb-4 flex items-center gap-1.5">
-          Track a Drug
+      <div className="panel-card p-6 mt-6">
+        <h2 className="text-base font-semibold text-base-content mb-4">
+          Track a drug
         </h2>
         <div className="flex flex-col sm:flex-row gap-3">
           <input
@@ -87,16 +83,16 @@ export default function DashboardPage() {
             onKeyDown={(e) => e.key === "Enter" && saveSearch()}
             className="input input-bordered input-primary flex-1 bg-base-200/40 focus:bg-base-100 font-medium"
           />
-          <button onClick={saveSearch} className="btn btn-primary font-bold text-white px-6">
-            Track Drug
+          <button type="button" onClick={saveSearch} className="btn btn-primary px-6">
+            Save
           </button>
         </div>
       </div>
 
       {/* Saved Searches Card */}
-      <div className="saas-card p-6 mt-6 animate-fade-in stagger-2">
-        <h2 className="text-lg font-black text-base-content mb-4 flex items-center gap-1.5">
-          Saved Searches
+      <div className="panel-card p-6 mt-6">
+        <h2 className="text-base font-semibold text-base-content mb-4">
+          Saved searches
         </h2>
         {searches.length === 0 ? (
           <p className="text-sm font-medium text-base-content/50 italic py-4">
@@ -109,7 +105,7 @@ export default function DashboardPage() {
               return (
                 <div
                   key={s.id}
-                  className="flex justify-between items-center p-4 bg-base-200/30 hover:bg-base-200/60 border border-base-300/80 rounded-xl shadow-sm hover:border-primary transition-all"
+                  className="flex justify-between items-center p-4 bg-base-200/40 border border-base-300 rounded-xl hover:border-base-content/25 transition-colors"
                 >
                   {drugId ? (
                     <Link

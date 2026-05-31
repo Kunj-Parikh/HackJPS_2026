@@ -7,95 +7,85 @@ export default function Navbar() {
   const { pathname } = useLocation();
   const { theme, toggleTheme } = useTheme();
 
-  return (
-    <div className="navbar bg-base-100 border-b border-base-300 px-4 md:px-8 sticky top-0 z-50 backdrop-blur-md bg-opacity-90">
-      {/* Brand logo */}
-      <div className="flex-1">
-        <Link to="/" className="btn btn-ghost text-xl font-black gap-1 tracking-tight text-primary normal-case">
-          PharmaWatch
-        </Link>
-      </div>
+  const linkClass = (path) =>
+    pathname === path
+      ? "text-primary font-medium"
+      : "text-base-content/70 hover:text-base-content";
 
-      {/* Right nav group */}
-      <div className="flex-none flex items-center gap-2 md:gap-4 flex-nowrap">
-        {/* Desktop Menu */}
-        <ul className="menu menu-horizontal px-1 gap-1 hidden md:flex font-medium">
-          <li>
-            <Link to="/" className={pathname === "/" ? "active text-primary" : "text-base-content/80"}>
+  return (
+    <header className="border-b border-base-300 bg-base-100 sticky top-0 z-50">
+      <div className="navbar max-w-6xl mx-auto px-4 md:px-6 min-h-14">
+        <div className="flex-1">
+          <Link
+            to="/"
+            className="font-display text-lg font-semibold text-base-content tracking-tight normal-case hover:opacity-80"
+          >
+            PharmaWatch
+          </Link>
+        </div>
+
+        <div className="flex-none flex items-center gap-3 md:gap-5">
+          <nav className="hidden md:flex items-center gap-5 text-sm">
+            <Link to="/" className={linkClass("/")}>
               Search
             </Link>
-          </li>
-          <li>
-            <Link to="/methodology" className={pathname === "/methodology" ? "active text-primary" : "text-base-content/80"}>
+            <Link to="/methodology" className={linkClass("/methodology")}>
               Methodology
             </Link>
-          </li>
-          {isSignedIn && (
-            <li>
-              <Link to="/dashboard" className={pathname === "/dashboard" ? "active text-primary" : "text-base-content/80"}>
+            {isSignedIn && (
+              <Link to="/dashboard" className={linkClass("/dashboard")}>
                 Dashboard
               </Link>
-            </li>
-          )}
-        </ul>
-
-        {/* Theme Toggle Slider */}
-        <label className="theme-switch" aria-label="Toggle Theme">
-          <input 
-            type="checkbox" 
-            checked={theme === "night"} 
-            onChange={toggleTheme} 
-          />
-          <span className="theme-slider"></span>
-        </label>
-
-        {/* User Auth Info */}
-        <div className="flex items-center">
-          {isSignedIn ? (
-            <UserButton afterSignOutUrl="/" />
-          ) : (
-            <div className="flex gap-2 flex-nowrap">
-              <Link to="/sign-in" className="btn btn-outline btn-sm font-semibold whitespace-nowrap">
-                Sign In
-              </Link>
-              <Link to="/sign-up" className="btn btn-primary btn-sm font-bold text-white whitespace-nowrap">
-                Sign Up
-              </Link>
-            </div>
-          )}
-        </div>
-
-        {/* Mobile Dropdown Menu */}
-        <div className="dropdown dropdown-end md:hidden">
-          <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h7" />
-            </svg>
-          </div>
-          <ul
-            tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 border border-base-300 rounded-box w-52 gap-1"
-          >
-            <li>
-              <Link to="/" className={pathname === "/" ? "active" : ""}>
-                Search
-              </Link>
-            </li>
-            <li>
-              <Link to="/methodology" className={pathname === "/methodology" ? "active" : ""}>
-                Methodology
-              </Link>
-            </li>
-            {isSignedIn && (
-              <li>
-                <Link to="/dashboard" className={pathname === "/dashboard" ? "active" : ""}>
-                  Dashboard
-                </Link>
-              </li>
             )}
-          </ul>
+          </nav>
+
+          <button
+            type="button"
+            className="theme-toggle-btn"
+            onClick={toggleTheme}
+            aria-label={theme === "night" ? "Switch to light mode" : "Switch to dark mode"}
+            title={theme === "night" ? "Light mode" : "Dark mode"}
+          >
+            {theme === "night" ? (
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+            ) : (
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+              </svg>
+            )}
+          </button>
+
+          <div className="flex items-center">
+            {isSignedIn ? (
+              <UserButton afterSignOutUrl="/" />
+            ) : (
+              <div className="flex gap-2">
+                <Link to="/sign-in" className="btn btn-ghost btn-sm">
+                  Sign in
+                </Link>
+                <Link to="/sign-up" className="btn btn-primary btn-sm">
+                  Sign up
+                </Link>
+              </div>
+            )}
+          </div>
+
+          <div className="dropdown dropdown-end md:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost btn-sm btn-square">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </div>
+            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-2 z-[1] p-2 shadow-sm bg-base-100 border border-base-300 rounded-xl w-44">
+              <li><Link to="/">Search</Link></li>
+              <li><Link to="/methodology">Methodology</Link></li>
+              {isSignedIn && <li><Link to="/dashboard">Dashboard</Link></li>}
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 }

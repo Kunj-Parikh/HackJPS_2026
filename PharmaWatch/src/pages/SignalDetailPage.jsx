@@ -57,12 +57,9 @@ export default function SignalDetailPage() {
 
   if (loading) {
     return (
-      <div className="flex-1 bg-base-100 dark:bg-mesh-dark relative overflow-hidden flex flex-col justify-center items-center min-h-[80vh] transition-colors duration-500">
-        <div className="absolute inset-0 bg-mesh-light dark:opacity-0 transition-opacity duration-500 pointer-events-none" />
-        <div className="flex flex-col items-center gap-4 animate-pulse">
-          <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-          <p className="text-base-content/75 font-bold tracking-wide">Analyzing safety signal details...</p>
-        </div>
+      <div className="page-shell flex flex-col justify-center items-center min-h-[60vh]">
+        <span className="loading loading-spinner loading-md text-primary" />
+        <p className="text-sm text-base-content/60 mt-4">Loading signal…</p>
       </div>
     );
   }
@@ -70,7 +67,7 @@ export default function SignalDetailPage() {
   if (!signal || !drug) {
     return (
       <div className="container mx-auto px-4 py-16 text-center max-w-xl">
-        <h2 className="text-2xl font-black text-base-content">Signal not found</h2>
+        <h2 className="font-display text-xl font-semibold text-base-content">Signal not found</h2>
         <p className="mt-4">
           <Link to="/" className="btn btn-primary font-bold">
             ← Back to Search
@@ -95,10 +92,8 @@ export default function SignalDetailPage() {
     : null;
 
   return (
-    <div className="flex-1 bg-base-100 dark:bg-mesh-dark relative overflow-hidden transition-colors duration-500">
-      <div className="absolute inset-0 bg-mesh-light dark:opacity-0 transition-opacity duration-500 pointer-events-none" />
-      <div className="absolute top-10 left-10 w-72 h-72 hero-glow-blob rounded-full pointer-events-none animate-float opacity-40" />
-      <div className="container mx-auto px-4 py-8 max-w-5xl relative z-10">
+    <div className="page-shell">
+      <div className="page-container">
       {/* Back button */}
       <Link
         to={`/drug/${drugName}`}
@@ -108,13 +103,13 @@ export default function SignalDetailPage() {
       </Link>
 
       {/* Signal Details Header */}
-      <div className="card bg-base-200 border border-base-300 p-6 md:p-8 animate-fade-in shadow-sm">
+      <div className="panel-card p-6 md:p-8 bg-base-200/30">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <div>
-            <div className="text-xs font-black text-primary uppercase tracking-widest">
+            <div className="text-xs text-primary uppercase tracking-wide">
               {drug.brand} ({drug.generic})
             </div>
-            <h1 className="text-3xl md:text-4xl font-black text-base-content tracking-tight mt-1">
+            <h1 className="font-display text-2xl md:text-3xl font-semibold text-base-content mt-1">
               {signal.symptom}
             </h1>
           </div>
@@ -123,34 +118,34 @@ export default function SignalDetailPage() {
 
         {/* Dynamic Metric Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 mt-6">
-          <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center">
-            <span className="text-[10px] font-black uppercase tracking-wider text-base-content/50">
+          <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center rounded-xl">
+            <span className="text-[10px] uppercase tracking-wide text-base-content/50">
               Unique Reporters
             </span>
             <span className="text-lg font-extrabold text-base-content mt-1">{signal.uniqueReporters}</span>
           </div>
-          <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center">
-            <span className="text-[10px] font-black uppercase tracking-wider text-base-content/50">
+          <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center rounded-xl">
+            <span className="text-[10px] uppercase tracking-wide text-base-content/50">
               Avg Onset
             </span>
             <span className="text-lg font-extrabold text-base-content mt-1">~{signal.avgOnsetDays}d</span>
           </div>
-          <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center">
-            <span className="text-[10px] font-black uppercase tracking-wider text-base-content/50">
+          <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center rounded-xl">
+            <span className="text-[10px] uppercase tracking-wide text-base-content/50">
               Onset Std Dev
             </span>
             <span className="text-lg font-extrabold text-base-content mt-1">± {signal.onsetStdDev}d</span>
           </div>
-          <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center">
-            <span className="text-[10px] font-black uppercase tracking-wider text-base-content/50">
+          <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center rounded-xl">
+            <span className="text-[10px] uppercase tracking-wide text-base-content/50">
               Causality
             </span>
             <span className="text-lg font-extrabold text-base-content mt-1">
               {Math.round(signal.causalityAvg * 100)}%
             </span>
           </div>
-          <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center col-span-2 sm:col-span-1">
-            <span className="text-[10px] font-black uppercase tracking-wider text-base-content/50">
+          <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center rounded-xl col-span-2 sm:col-span-1">
+            <span className="text-[10px] uppercase tracking-wide text-base-content/50">
               Subreddits
             </span>
             <span className="text-lg font-extrabold text-base-content mt-1">{signal.subreddits.length}</span>
@@ -173,10 +168,10 @@ export default function SignalDetailPage() {
 
       {/* Grid containing charts */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
-        <div className="animate-fade-in stagger-1">
+        <div>
           <TimelineChart data={signal.timeline} height={260} />
         </div>
-        <div className="animate-fade-in stagger-2">
+        <div>
           <OnsetHistogram data={signal.onsetDistribution} height={260} />
         </div>
       </div>
@@ -184,7 +179,7 @@ export default function SignalDetailPage() {
       {/* Detailed analysis breakdown */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
         {/* Quotes list */}
-        <div className="card bg-base-100 border border-base-300 p-6 shadow-sm animate-fade-in stagger-3">
+        <div className="panel-card p-6">
           <h3 className="card-title text-sm font-bold text-base-content mb-4">
             Anonymized Patient Reports
           </h3>
@@ -202,7 +197,7 @@ export default function SignalDetailPage() {
         </div>
 
         {/* Score calculations */}
-        <div className="card bg-base-100 border border-base-300 p-6 shadow-sm animate-fade-in stagger-4 flex flex-col gap-6">
+        <div className="panel-card p-6 flex flex-col gap-6">
           <div>
             <h3 className="card-title text-sm font-bold text-base-content mb-3">
               Signal Score Formula & Breakdown
@@ -224,7 +219,7 @@ export default function SignalDetailPage() {
                 <span className="text-base-content/75">Subreddit Diversity Weight</span>
                 <span className="font-bold text-base-content">{subDiversity}x</span>
               </div>
-              <div className="flex justify-between py-3 text-base font-black text-primary border-t border-base-300">
+              <div className="flex justify-between py-3 text-base font-semibold text-primary border-t border-base-300">
                 <span>Final Signal Score</span>
                 <span>{finalScore}</span>
               </div>
@@ -232,7 +227,7 @@ export default function SignalDetailPage() {
           </div>
 
           <div>
-            <h4 className="text-xs font-black uppercase tracking-wider text-base-content/60 mb-2">
+            <h4 className="text-xs uppercase tracking-wide text-base-content/60 mb-2">
               Source Subreddits
             </h4>
             <div className="flex flex-wrap gap-1.5">
@@ -245,8 +240,8 @@ export default function SignalDetailPage() {
           </div>
 
           <div className="border-t border-base-300/60 pt-4 flex flex-col gap-2">
-            <h4 className="text-xs font-black uppercase tracking-wider text-base-content/60">
-              Detection Metadata
+            <h4 className="text-xs uppercase tracking-wide text-base-content/60">
+              Detection metadata
             </h4>
             <div className="text-xs text-base-content/80 space-y-1.5 font-medium">
               <div className="flex justify-between">
@@ -260,7 +255,7 @@ export default function SignalDetailPage() {
               <div className="flex justify-between items-center">
                 <span>FDA label semantic similarity:</span>
                 <span
-                  className={`badge font-black text-[10px] px-2.5 py-2.5 ${
+                  className={`badge font-medium text-[10px] px-2.5 py-2.5 ${
                     signal.listedSimilarity < 0.5 ? "badge-success text-success-content" : "badge-warning text-warning-content"
                   }`}
                 >

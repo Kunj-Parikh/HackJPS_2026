@@ -2,26 +2,26 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="footer footer-center bg-base-200 text-base-content p-8 md:p-12 border-t border-base-300 mt-auto">
-      <nav className="grid grid-flow-col gap-6 font-medium">
-        <Link to="/" className="link link-hover text-base-content/80 hover:text-primary">
-          Search
-        </Link>
-        <Link to="/methodology" className="link link-hover text-base-content/80 hover:text-primary">
-          Methodology
-        </Link>
-        <Link to="/dashboard" className="link link-hover text-base-content/80 hover:text-primary">
-          Dashboard
-        </Link>
-      </nav>
-      <aside className="max-w-xl text-center text-xs text-base-content/70 leading-relaxed">
-        <p className="mb-3">
-          PharmaWatch is a research tool and does not provide medical advice. Signals detected are statistical patterns and should not replace consultation with a healthcare professional. Always talk to your doctor about medication concerns.
+    <footer className="border-t border-base-300 bg-base-200/50 mt-auto">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 py-8">
+        <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm mb-6">
+          <Link to="/" className="text-base-content/70 hover:text-base-content">
+            Search
+          </Link>
+          <Link to="/methodology" className="text-base-content/70 hover:text-base-content">
+            Methodology
+          </Link>
+          <Link to="/dashboard" className="text-base-content/70 hover:text-base-content">
+            Dashboard
+          </Link>
+        </nav>
+        <p className="text-xs text-base-content/60 leading-relaxed max-w-2xl">
+          PharmaWatch is a research tool, not medical advice. Detected signals are statistical patterns from patient reports and should not replace consultation with a healthcare professional.
         </p>
-        <p className="font-semibold">
-          Built by <span className="text-primary font-bold">PharmaWatch</span> — Hackathon 2026
+        <p className="text-xs text-base-content/45 mt-4">
+          HackJPS 2026
         </p>
-      </aside>
+      </div>
     </footer>
   );
 }
