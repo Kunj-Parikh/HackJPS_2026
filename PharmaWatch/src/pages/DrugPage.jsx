@@ -464,11 +464,8 @@ export default function DrugPage() {
       {/* Collapse component for listed side effects */}
       <div className="collapse collapse-plus border border-base-300 bg-base-100 mt-6 rounded-xl overflow-hidden">
         <input type="checkbox" checked={showListed} onChange={() => setShowListed(!showListed)} />
-        <div className="collapse-title text-sm font-bold text-base-content flex justify-between items-center pr-12">
-          <span>Known Side Effects (FDA Label)</span>
-          <span className="badge badge-neutral font-bold text-xs py-2.5 px-3 bg-base-200">
-            {drug.listedEffects.length} listed
-          </span>
+        <div className="collapse-title text-sm font-bold text-base-content pr-12">
+          Known Side Effects (FDA Label)
         </div>
         <div className="collapse-content">
           <div className="flex flex-wrap gap-1.5 pt-2">
@@ -546,6 +543,12 @@ export default function DrugPage() {
         )}
       </div>
 
+      {timelineData.length > 0 && (
+        <div className="mt-10">
+          <TimelineChart data={timelineData} />
+        </div>
+      )}
+
       {/* Unlisted Signals Title */}
       <div className="mt-10 mb-5">
         <h2 className="font-display text-lg font-semibold text-base-content">
@@ -560,12 +563,6 @@ export default function DrugPage() {
         ))}
       </div>
 
-      {/* Charts Section */}
-      {timelineData.length > 0 && (
-        <div className="mt-12">
-          <TimelineChart data={timelineData} />
-        </div>
-      )}
       </div>
 
       {/* Report Symptom Modal */}
