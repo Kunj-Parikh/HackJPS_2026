@@ -1,16 +1,26 @@
 import { useState, useEffect } from "react";
 import { useParams, Link, useLocation } from "react-router-dom";
-import { doc, getDoc } from "firebase/firestore";
+import { doc, getDoc, updateDoc } from "firebase/firestore";
 import { db } from "../firebase";
 import SignalCard from "../components/SignalCard";
 import TimelineChart from "../components/TimelineChart";
+import { useUser } from "@clerk/clerk-react";
 
 export default function DrugPage() {
+  const { user } = useUser();
   const { drugName } = useParams();
   const location = useLocation();
   const [drug, setDrug] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showListed, setShowListed] = useState(false);
+
+  // States for reporting a symptom
+  const [isReportModalOpen, setIsReportModalOpen] = useState(false);
+  const [newSymptomText, setNewSymptomText] = useState("");
+  const [newSymptomDesc, setNewSymptomDesc] = useState("");
+  const [newSymptomDuration, setNewSymptomDuration] = useState("");
+  const [newSymptomOnset, setNewSymptomOnset] = useState("");
+  const [isSubmittingReport, setIsSubmittingReport] = useState(false);
 
   // States for interactive analysis simulator
   const [isSimulated, setIsSimulated] = useState(false);
@@ -182,6 +192,80 @@ export default function DrugPage() {
       setIsSimulated(true);
     }
   }, [analysisStep, isAnalyzing]);
+
+  const handleReportSubmit = async (e) => {
+    e.preventDefault();
+    if (!newSymptomText.trim()) return;
+
+    setIsSubmittingReport(true);
+    
+    // Format symptom string (Capitalize first letter)
+    const formattedSymptom = newSymptomText.trim().charAt(0).toUpperCase() + newSymptomText.trim().slice(1).toLowerCase();
+    
+    try {
+      // Create a deep copy of the current drug data to modify
+      const updatedDrug = JSON.parse(JSON.stringify(drug));
+      
+      // Ensure userReports array exists
+      updatedDrug.userReports = updatedDrug.userReports || [];
+      
+      // Check if symptom already exists
+      const existingReportIndex = updatedDrug.userReports.findIndex(
+        (s) => s.symptom.toLowerCase() === formattedSymptom.toLowerCase()
+      );
+
+      const reporterName = user?.firstName ? user.firstName : "A User";
+      const todayStr = new Date().toISOString().split('T')[0];
+
+      const newReportDetail = {
+        reporter: reporterName,
+        dateReported: todayStr,
+        description: newSymptomDesc.trim(),
+        duration: newSymptomDuration.trim(),
+        onset: newSymptomOnset.trim()
+      };
+
+      if (existingReportIndex >= 0) {
+        // Increment count
+        updatedDrug.userReports[existingReportIndex].count = (updatedDrug.userReports[existingReportIndex].count || 1) + 1;
+        updatedDrug.userReports[existingReportIndex].reports = updatedDrug.userReports[existingReportIndex].reports || [];
+        updatedDrug.userReports[existingReportIndex].reports.push(newReportDetail);
+      } else {
+        // Create new user report entry
+        const newEntry = {
+          symptom: formattedSymptom,
+          count: 1,
+          reports: [newReportDetail]
+        };
+        updatedDrug.userReports.push(newEntry);
+      }
+
+      // Save changes
+      if (isSimulated) {
+        // Update local session storage
+        sessionStorage.setItem("simulated_drug_" + drugName, JSON.stringify(updatedDrug));
+        setDrug(updatedDrug);
+      } else {
+        // Update Firestore
+        const docRef = doc(db, "drugs", drugName);
+        await updateDoc(docRef, { userReports: updatedDrug.userReports });
+        setDrug(updatedDrug);
+      }
+      
+      // Close modal and reset
+      setIsReportModalOpen(false);
+      setNewSymptomText("");
+      setNewSymptomDesc("");
+      setNewSymptomDuration("");
+      setNewSymptomOnset("");
+      
+    } catch (error) {
+      console.error("Error submitting report:", error);
+      alert("Failed to submit report. Please try again.");
+    } finally {
+      setIsSubmittingReport(false);
+    }
+  };
 
   if (loading) {
     return (
@@ -429,10 +513,77 @@ export default function DrugPage() {
         </div>
       </div>
 
+      {/* User Reports Section */}
+      <div className="mt-10">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-5 gap-4">
+          <h2 className="text-xl md:text-2xl font-black text-base-content tracking-tight flex items-center gap-2">
+            User Reported Symptoms
+            {drug.userReports && drug.userReports.length > 0 && (
+              <span className="badge badge-primary badge-sm font-bold">{drug.userReports.length}</span>
+            )}
+          </h2>
+          <button 
+            onClick={() => setIsReportModalOpen(true)}
+            className="btn btn-primary btn-sm rounded-full shadow-md shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-0.5 transition-all"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clipRule="evenodd" />
+            </svg>
+            Report a Symptom
+          </button>
+        </div>
+
+        {drug.userReports && drug.userReports.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {drug.userReports.map((report, i) => (
+              <div key={i} className="collapse collapse-arrow bg-base-100 border border-base-200 shadow-sm hover:shadow-md transition-shadow saas-card">
+                <input type="checkbox" />
+                <div className="collapse-title p-4 flex flex-col gap-2">
+                  <div className="flex justify-between items-start w-full">
+                    <h3 className="font-bold text-base-content text-lg leading-tight pr-4">{report.symptom}</h3>
+                    <span className="badge badge-neutral text-[10px] font-bold uppercase py-2 shrink-0">
+                      {report.count} {report.count === 1 ? 'Report' : 'Reports'}
+                    </span>
+                  </div>
+                  {report.reports && report.reports.length > 0 && (
+                    <div className="text-xs text-base-content/60 font-medium">
+                      Latest by: {report.reports[report.reports.length - 1].reporter}
+                    </div>
+                  )}
+                </div>
+                <div className="collapse-content px-4 pb-4">
+                  <div className="border-t border-base-200 pt-3 flex flex-col gap-3">
+                    {report.reports && report.reports.map((detail, idx) => (
+                      <div key={idx} className="bg-base-200/40 p-3 rounded-xl border border-base-200/60">
+                        <div className="flex justify-between items-center mb-1">
+                          <span className="text-xs font-bold">{detail.reporter}</span>
+                          <span className="text-[10px] text-base-content/50">{new Date(detail.dateReported).toLocaleDateString()}</span>
+                        </div>
+                        {detail.description && <p className="text-sm italic mb-2 text-base-content/80">"{detail.description}"</p>}
+                        <div className="grid grid-cols-2 gap-2 text-xs">
+                          {detail.duration && <div><span className="font-bold opacity-60 block text-[9px] uppercase">Duration</span>{detail.duration}</div>}
+                          {detail.onset && <div><span className="font-bold opacity-60 block text-[9px] uppercase">Onset</span>{detail.onset}</div>}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center p-8 bg-base-200/50 rounded-2xl border border-base-200/50 border-dashed">
+            <p className="text-sm font-semibold text-base-content/60">No community symptoms reported yet. Be the first to share your experience.</p>
+          </div>
+        )}
+      </div>
+
       {/* Unlisted Signals Title */}
-      <h2 className="text-xl md:text-2xl font-black text-base-content tracking-tight mt-10 mb-5 flex items-center gap-2">
-        Unlisted Signals Detected
-      </h2>
+      <div className="mt-10 mb-5">
+        <h2 className="text-xl md:text-2xl font-black text-base-content tracking-tight flex items-center gap-2">
+          Unlisted Signals Detected
+        </h2>
+      </div>
 
       {/* Grid of Signals */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -450,6 +601,100 @@ export default function DrugPage() {
         </div>
       )}
       </div>
+
+      {/* Report Symptom Modal */}
+      {isReportModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-base-300/80 backdrop-blur-sm animate-fade-in">
+          <div className="relative bg-base-100 rounded-3xl shadow-2xl border border-base-200 p-6 w-full max-w-md animate-fade-in">
+            <button 
+              onClick={() => setIsReportModalOpen(false)}
+              className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+            >
+              ✕
+            </button>
+            <h3 className="font-black text-xl mb-1 text-base-content tracking-tight">Report a Symptom</h3>
+            <p className="py-2 text-sm text-base-content/70">
+              Help crowdsource safety signals. If you experienced a side effect while taking <span className="font-bold text-primary">{drug.brand}</span>, let us know.
+            </p>
+            
+            <form onSubmit={handleReportSubmit} className="mt-4 space-y-4">
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text font-bold">Symptom</span>
+                </label>
+                <input 
+                  type="text" 
+                  placeholder="e.g. Brain fog, Severe joint pain" 
+                  className="input input-bordered w-full focus:input-primary transition-colors"
+                  value={newSymptomText}
+                  onChange={(e) => setNewSymptomText(e.target.value)}
+                  required
+                />
+              </div>
+              
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text font-bold">Description</span>
+                </label>
+                <textarea 
+                  placeholder="Exactly what is happening?" 
+                  className="textarea textarea-bordered w-full h-20 focus:textarea-primary transition-colors"
+                  value={newSymptomDesc}
+                  onChange={(e) => setNewSymptomDesc(e.target.value)}
+                ></textarea>
+              </div>
+
+              <div className="grid grid-cols-2 gap-4">
+                <div className="form-control">
+                  <label className="label">
+                    <span className="label-text font-bold text-xs">Duration</span>
+                  </label>
+                  <input 
+                    type="text" 
+                    placeholder="e.g. 3 weeks" 
+                    className="input input-sm input-bordered w-full focus:input-primary transition-colors"
+                    value={newSymptomDuration}
+                    onChange={(e) => setNewSymptomDuration(e.target.value)}
+                  />
+                </div>
+                <div className="form-control">
+                  <label className="label">
+                    <span className="label-text font-bold text-xs">Onset Time</span>
+                  </label>
+                  <input 
+                    type="text" 
+                    placeholder="e.g. 2 days after starting" 
+                    className="input input-sm input-bordered w-full focus:input-primary transition-colors"
+                    value={newSymptomOnset}
+                    onChange={(e) => setNewSymptomOnset(e.target.value)}
+                  />
+                </div>
+              </div>
+              
+              <div className="modal-action mt-6">
+                <button 
+                  type="button" 
+                  className="btn btn-ghost"
+                  onClick={() => setIsReportModalOpen(false)}
+                >
+                  Cancel
+                </button>
+                <button 
+                  type="submit" 
+                  className="btn btn-primary"
+                  disabled={isSubmittingReport || !newSymptomText.trim()}
+                >
+                  {isSubmittingReport ? (
+                    <span className="loading loading-spinner loading-sm"></span>
+                  ) : (
+                    "Submit Report"
+                  )}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
