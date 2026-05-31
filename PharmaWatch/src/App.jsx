@@ -10,6 +10,7 @@ import SignInPage from "./pages/SignInPage";
 import SignUpPage from "./pages/SignUpPage";
 import ProtectedRoute from "./ProtectedRoute";
 import { ThemeProvider } from "./ThemeContext";
+import CopilotChat from "./components/CopilotChat";
 import "./App.css";
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="/dashboard" element={<ProtectedRoute><DashboardPage /></ProtectedRoute>} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+      <CopilotChat />
       <Footer />
       </BrowserRouter>
     </ThemeProvider>
