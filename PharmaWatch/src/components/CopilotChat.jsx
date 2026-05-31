@@ -80,7 +80,7 @@ export default function CopilotChat() {
           {/* Header */}
           <div className="bg-primary text-primary-content p-4 font-bold flex justify-between items-center shadow-sm z-10">
             <div className="flex items-center gap-2">
-              <span className="text-xl">⚕</span> 
+              <span className="text-xl"></span> 
               <div>
                 <div className="leading-tight">PharmaWatch Copilot</div>
                 <div className="text-[10px] font-medium opacity-80 uppercase tracking-widest">Powered by Gemini 2.5</div>

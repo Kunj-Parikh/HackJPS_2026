@@ -108,13 +108,13 @@ export default function SignalDetailPage() {
             <span className="text-[10px] font-black uppercase tracking-wider text-base-content/50">
               Unique Reporters
             </span>
-            <span className="text-lg font-extrabold text-base-content mt-1">👥 {signal.uniqueReporters}</span>
+            <span className="text-lg font-extrabold text-base-content mt-1">{signal.uniqueReporters}</span>
           </div>
           <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center">
             <span className="text-[10px] font-black uppercase tracking-wider text-base-content/50">
               Avg Onset
             </span>
-            <span className="text-lg font-extrabold text-base-content mt-1">⏱ ~{signal.avgOnsetDays}d</span>
+            <span className="text-lg font-extrabold text-base-content mt-1">~{signal.avgOnsetDays}d</span>
           </div>
           <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center">
             <span className="text-[10px] font-black uppercase tracking-wider text-base-content/50">
@@ -127,21 +127,21 @@ export default function SignalDetailPage() {
               Causality
             </span>
             <span className="text-lg font-extrabold text-base-content mt-1">
-              📊 {Math.round(signal.causalityAvg * 100)}%
+              {Math.round(signal.causalityAvg * 100)}%
             </span>
           </div>
           <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center col-span-2 sm:col-span-1">
             <span className="text-[10px] font-black uppercase tracking-wider text-base-content/50">
               Subreddits
             </span>
-            <span className="text-lg font-extrabold text-base-content mt-1">📢 {signal.subreddits.length}</span>
+            <span className="text-lg font-extrabold text-base-content mt-1">{signal.subreddits.length}</span>
           </div>
         </div>
 
         {/* FAERS Lag Alert Banner */}
         {faersLag !== null && (
           <div className="alert alert-info border border-info/20 shadow-sm mt-5 text-xs md:text-sm font-semibold flex items-start gap-2">
-            <span>💡</span>
+            <span>Note:</span>
             <div>
               <span className="font-extrabold">{faersLag} Months Early Detection:</span>
               <span className="opacity-90 ml-1">
@@ -167,7 +167,7 @@ export default function SignalDetailPage() {
         {/* Quotes list */}
         <div className="card bg-base-100 border border-base-300 p-6 shadow-sm animate-fade-in stagger-3">
           <h3 className="card-title text-sm font-bold text-base-content mb-4">
-            💬 Anonymized Patient Reports
+            Anonymized Patient Reports
           </h3>
           <div className="flex flex-col gap-3.5">
             {signal.quotes.map((q, i) => (
@@ -186,7 +186,7 @@ export default function SignalDetailPage() {
         <div className="card bg-base-100 border border-base-300 p-6 shadow-sm animate-fade-in stagger-4 flex flex-col gap-6">
           <div>
             <h3 className="card-title text-sm font-bold text-base-content mb-3">
-              🧮 Signal Score Formula & Breakdown
+              Signal Score Formula & Breakdown
             </h3>
             <div className="divide-y divide-base-300/50 text-sm font-medium">
               <div className="flex justify-between py-2.5">

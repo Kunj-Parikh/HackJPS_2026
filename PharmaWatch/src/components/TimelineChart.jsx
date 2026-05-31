@@ -4,11 +4,10 @@ const CustomTooltip = ({ active, payload, label }) => {
   if (!active || !payload?.length) return null;
   return (
     <div
-      className="card card-compact shadow-xl border p-3 text-xs"
+      className="card card-compact shadow-xl border p-3 text-xs bg-base-100"
       style={{
-        background: "oklch(var(--b2))",
         borderColor: "oklch(var(--bc) / 0.1)",
-        color: "oklch(var(--bc))"
+        color: 'oklch(var(--bc))'
       }}
     >
       <div className="font-bold mb-2 text-base-content">{label}</div>
@@ -25,7 +24,7 @@ export default function TimelineChart({ data, height = 300 }) {
   return (
     <div className="card bg-base-100 border border-base-300 p-6 shadow-sm">
       <h3 className="card-title text-sm font-bold text-base-content mb-4 flex items-center gap-1.5">
-        📈 Report Volume Over Time
+        Report Volume Over Time
       </h3>
       <ResponsiveContainer width="100%" height={height}>
         <AreaChart data={data} margin={{ top: 5, right: 10, bottom: 5, left: -25 }}>
@@ -42,12 +41,12 @@ export default function TimelineChart({ data, height = 300 }) {
           <CartesianGrid strokeDasharray="3 3" stroke="oklch(var(--bc) / 0.1)" />
           <XAxis
             dataKey="month"
-            tick={{ fill: "oklch(var(--bc) / 0.6)", fontSize: 11 }}
+            tick={{ fill: '#0070f3', fontSize: 11 }}
             axisLine={{ stroke: "oklch(var(--bc) / 0.1)" }}
             tickLine={false}
           />
           <YAxis
-            tick={{ fill: "oklch(var(--bc) / 0.6)", fontSize: 11 }}
+            tick={{ fill: '#0070f3', fontSize: 11 }}
             axisLine={{ stroke: "oklch(var(--bc) / 0.1)" }}
             tickLine={false}
           />

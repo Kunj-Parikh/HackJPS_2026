@@ -12,7 +12,7 @@ export default function Navbar() {
       {/* Brand logo */}
       <div className="flex-1">
         <Link to="/" className="btn btn-ghost text-xl font-black gap-1 tracking-tight text-primary normal-case">
-          ⚕ PharmaWatch
+          PharmaWatch
         </Link>
       </div>
 
