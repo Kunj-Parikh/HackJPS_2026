@@ -1,3 +1,19 @@
+"""
+ner_pipeline.py - Stage 3: BioBERT Verification
+================================================
+
+This is the final gate. After collect.py has:
+  Stage 1: Generated candidates (raw pulls + symptom queries)
+  Stage 2: Filtered for experiential language
+
+This script:
+  1. Runs BioBERT NER on every surviving post/comment
+  2. Extracts drug mentions and symptom entities
+  3. DISCARDS any row where BioBERT finds zero symptom entities
+     (eliminates insurance questions, coupon posts, pharmacy shortage complaints)
+  4. Saves only verified symptom-containing rows to data/processed/
+"""
+
 import os
 import pandas as pd
 from transformers import pipeline
@@ -13,9 +29,9 @@ os.makedirs(PROCESSED_DIR, exist_ok=True)
 # Detect if GPU is available
 device = 0 if torch.cuda.is_available() else -1
 if device == 0:
-    print("🚀 CUDA GPU Detected: Using Hardware Acceleration for NER.")
+    print("[GPU] CUDA GPU Detected: Using Hardware Acceleration for NER.")
 else:
-    print("⏳ No GPU Detected: Falling back to CPU. This will be slow!")
+    print("[CPU] No GPU Detected: Falling back to CPU. This will be slower.")
 
 # Initialize the BioBERT NER Pipeline
 # aggregation_strategy="simple" groups subtokens back into full words
@@ -74,11 +90,23 @@ def process_file(filepath):
     df["extracted_drugs"] = extracted.apply(lambda x: x[0])
     df["extracted_symptoms"] = extracted.apply(lambda x: x[1])
     
+    # ── Stage 3: BioBERT Verification ─────────────────────
+    # Only keep rows where BioBERT actually found symptom entities.
+    # This is the final gate that eliminates noise like:
+    #   "How do I get insurance approval?"
+    #   "Coupon not working"
+    #   "Pharmacy shortage"
+    #   "Where can I buy it?"
+    before_count = len(df)
+    df = df[df["extracted_symptoms"].apply(lambda syms: len(syms) > 0)]
+    after_count = len(df)
+    print(f"  BioBERT verification: {before_count} rows -> {after_count} with symptoms ({before_count - after_count} discarded)")
+
     # Drop intermediate column and save
     df = df.drop(columns=["full_text"])
     out_path = os.path.join(PROCESSED_DIR, f"ner_{filename}")
     df.to_csv(out_path, index=False)
-    print(f"✓ Saved processed file to {out_path}")
+    print(f"  [OK] Saved {len(df)} verified rows to {out_path}")
 
 
 if __name__ == "__main__":
@@ -90,4 +118,8 @@ if __name__ == "__main__":
         for file in raw_files:
             process_file(os.path.join(RAW_DIR, file))
         
-        print("\n🎉 Stage 2 NER Pipeline Complete!")
+        print("\n" + "=" * 60)
+        print("Stage 3 NER Pipeline Complete!")
+        print("Only rows with BioBERT-verified symptoms were kept.")
+        print("Run aggregate.py next to generate realData.json.")
+        print("=" * 60)
