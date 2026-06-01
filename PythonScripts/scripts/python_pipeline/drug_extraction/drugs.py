@@ -79,4 +79,16 @@ def extract_drugs_from_text(text: str, drug_query: str | None = None) -> list[Dr
 
 
 def extract_drugs(record: TextRecord) -> list[DrugMention]:
-    return extract_drugs_from_text(record.text, record.drug_query)
+    mentions = extract_drugs_from_text(record.text, record.drug_query)
+    if not mentions and record.drug_query:
+        canon = record.drug_query.strip().lower()
+        mentions.append(
+            DrugMention(
+                text=canon,
+                start=0,
+                end=min(len(canon), len(record.text)),
+                normalized=canon,
+                source="query_implicit",
+            )
+        )
+    return mentions

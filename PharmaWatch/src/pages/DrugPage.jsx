@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { useParams, Link, useLocation } from "react-router-dom";
 import { doc, getDoc, updateDoc } from "firebase/firestore";
 import { db } from "../firebase";
@@ -22,10 +22,29 @@ export default function DrugPage() {
   const [newSymptomOnset, setNewSymptomOnset] = useState("");
   const [isSubmittingReport, setIsSubmittingReport] = useState(false);
 
-  // States for interactive analysis simulator
-  const [isSimulated, setIsSimulated] = useState(false);
+  // States for live pipeline analysis
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [analysisStep, setAnalysisStep] = useState(0);
+  const [analysisMode, setAnalysisMode] = useState(null);
+  const [analysisMessage, setAnalysisMessage] = useState("");
+  const [analysisError, setAnalysisError] = useState(null);
+  const pollRef = useRef(null);
+
+  const STAGE_INDEX = {
+    collecting: 0,
+    extracting: 1,
+    linking: 2,
+    aggregating: 3,
+    done: 4,
+  };
+
+  const ANALYSIS_STEPS = [
+    "Discovering subreddits & patient communities…",
+    "Downloading patient posts & testimonies…",
+    "Extracting symptoms (fast lexicon matching)…",
+    "Linking drugs to symptoms & filtering reports…",
+    "Synthesizing causality scores & timelines…",
+  ];
 
   const displayName = location.state?.brand || (drugName.charAt(0).toUpperCase() + drugName.slice(1).replace(/-/g, " "));
   const genericName = location.state?.generic || "";
@@ -36,11 +55,10 @@ export default function DrugPage() {
       try {
         const parsed = JSON.parse(cached);
         setDrug(parsed);
-        setIsSimulated(true);
         setLoading(false);
         return;
       } catch (e) {
-        console.error("Error parsing cached simulated drug", e);
+        console.error("Error parsing cached scanned drug", e);
       }
     }
 
@@ -59,139 +77,88 @@ export default function DrugPage() {
     fetchDrugData();
   }, [drugName]);
 
-  const startAnalysis = () => {
+  const stopPolling = useCallback(() => {
+    if (pollRef.current) {
+      clearInterval(pollRef.current);
+      pollRef.current = null;
+    }
+  }, []);
+
+  useEffect(() => () => stopPolling(), [stopPolling]);
+
+  const pollJobStatus = useCallback(
+    (jobId) => {
+      stopPolling();
+      pollRef.current = setInterval(async () => {
+        try {
+          const res = await fetch(`/api/analyze/${jobId}`);
+          if (!res.ok) throw new Error("Failed to check analysis status");
+          const data = await res.json();
+
+          if (data.message) setAnalysisMessage(data.message);
+          if (data.stage && STAGE_INDEX[data.stage] !== undefined) {
+            setAnalysisStep(STAGE_INDEX[data.stage]);
+          }
+
+          if (data.status === "complete" && data.result) {
+            stopPolling();
+            sessionStorage.setItem("simulated_drug_" + drugName, JSON.stringify(data.result));
+            setDrug(data.result);
+            setIsAnalyzing(false);
+            setAnalysisMode(null);
+          } else if (data.status === "error") {
+            stopPolling();
+            setAnalysisError(data.error || "Analysis failed.");
+            setIsAnalyzing(false);
+            setAnalysisMode(null);
+          }
+        } catch (err) {
+          stopPolling();
+          setAnalysisError(err.message || "Could not reach analysis server.");
+          setIsAnalyzing(false);
+          setAnalysisMode(null);
+        }
+      }, 1500);
+    },
+    [drugName, stopPolling]
+  );
+
+  const startAnalysis = async (mode = "quick", isRerun = false) => {
+    if (isRerun) {
+      sessionStorage.removeItem("simulated_drug_" + drugName);
+      setDrug(null);
+    }
     setIsAnalyzing(true);
     setAnalysisStep(0);
-  };
+    setAnalysisMode(mode);
+    setAnalysisError(null);
+    setAnalysisMessage(mode === "full" ? "Starting full corpus scan…" : "Starting quick scan…");
 
-  useEffect(() => {
-    if (!isAnalyzing) return;
-    if (analysisStep < 5) {
-      const timer = setTimeout(() => {
-        setAnalysisStep((prev) => prev + 1);
-      }, 1200);
-      return () => clearTimeout(timer);
-    } else {
+    try {
+      const res = await fetch("/api/analyze", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          drugName: genericName || displayName,
+          brand: displayName,
+          generic: genericName || "",
+          mode,
+        }),
+      });
+
+      if (!res.ok) {
+        const errBody = await res.json().catch(() => ({}));
+        throw new Error(errBody.detail || "Failed to start analysis");
+      }
+
+      const { jobId } = await res.json();
+      pollJobStatus(jobId);
+    } catch (err) {
+      setAnalysisError(err.message || "Could not reach analysis server. Is the API running?");
       setIsAnalyzing(false);
-      const simulatedDrug = {
-        brand: displayName,
-        generic: genericName || displayName.toLowerCase(),
-        class: "Simulated Watchlist Drug",
-        approvalDate: new Date(Date.now() - 365 * 24 * 60 * 60 * 1000 * 5).toISOString().split('T')[0],
-        indications: ["Patient Selected Watchlist"],
-        listedEffects: ["Nausea", "Headache", "Fatigue", "Dizziness", "Dry mouth"],
-        signals: [
-          {
-            symptom: "Anhedonia (Emotional Numbness)",
-            tier: "validated",
-            uniqueReporters: 184,
-            avgOnsetDays: 45,
-            onsetStdDev: 12,
-            causalityAvg: 0.82,
-            subreddits: [`r/${displayName.toLowerCase().replace(/\s+/g, "")}`, "r/AskDocs", "r/pharmacy"],
-            firstSeen: "2024-08-15",
-            faersFirstSeen: "2025-02-10",
-            listedSimilarity: 0.18,
-            quotes: [
-              {
-                text: `About 6 weeks after starting ${displayName}, I noticed I didn't feel anything anymore. I couldn't cry, couldn't get excited. Total anhedonia.`,
-                sub: `r/${displayName.toLowerCase().replace(/\s+/g, "")}`,
-                date: "2024-10-02"
-              },
-              {
-                text: "Does this drug cause emotional blunting? I feel like a robot. 2 months in.",
-                sub: "r/AskDocs",
-                date: "2024-11-14"
-              }
-            ],
-            timeline: [
-              { month: "2024-08", reddit: 4, faers: 0 },
-              { month: "2024-09", reddit: 12, faers: 0 },
-              { month: "2024-10", reddit: 25, faers: 1 },
-              { month: "2024-11", reddit: 38, faers: 3 },
-              { month: "2024-12", reddit: 45, faers: 8 },
-              { month: "2025-01", reddit: 32, faers: 14 },
-              { month: "2025-02", reddit: 18, faers: 24 }
-            ],
-            onsetDistribution: [
-              { range: "0-15", count: 12 },
-              { range: "16-30", count: 28 },
-              { range: "31-45", count: 82 },
-              { range: "46-60", count: 48 },
-              { range: "61+", count: 14 }
-            ]
-          },
-          {
-            symptom: "Night Sweats",
-            tier: "strong",
-            uniqueReporters: 98,
-            avgOnsetDays: 14,
-            onsetStdDev: 5,
-            causalityAvg: 0.76,
-            subreddits: [`r/${displayName.toLowerCase().replace(/\s+/g, "")}`, "r/medical"],
-            firstSeen: "2024-09-01",
-            faersFirstSeen: null,
-            listedSimilarity: 0.28,
-            quotes: [
-              {
-                text: `Waking up absolutely drenched in sweat every single night since starting ${displayName}. Never had this issue in my life.`,
-                sub: `r/${displayName.toLowerCase().replace(/\s+/g, "")}`,
-                date: "2024-09-20"
-              }
-            ],
-            timeline: [
-              { month: "2024-09", reddit: 8, faers: 0 },
-              { month: "2024-10", reddit: 22, faers: 0 },
-              { month: "2024-11", reddit: 35, faers: 0 },
-              { month: "2024-12", reddit: 18, faers: 1 },
-              { month: "2025-01", reddit: 10, faers: 2 }
-            ],
-            onsetDistribution: [
-              { range: "0-7", count: 18 },
-              { range: "8-14", count: 45 },
-              { range: "15-21", count: 25 },
-              { range: "22-28", count: 8 },
-              { range: "29+", count: 2 }
-            ]
-          },
-          {
-            symptom: "Severe Joint Pain",
-            tier: "moderate",
-            uniqueReporters: 42,
-            avgOnsetDays: 30,
-            onsetStdDev: 10,
-            causalityAvg: 0.64,
-            subreddits: [`r/${displayName.toLowerCase().replace(/\s+/g, "")}`],
-            firstSeen: "2024-10-10",
-            faersFirstSeen: null,
-            listedSimilarity: 0.35,
-            quotes: [
-              {
-                text: `My knees and hips started aching like crazy about a month in. Doctor says it's unrelated, but the joint pain is so sudden.`,
-                sub: `r/${displayName.toLowerCase().replace(/\s+/g, "")}`,
-                date: "2024-11-05"
-              }
-            ],
-            timeline: [
-              { month: "2024-10", reddit: 5, faers: 0 },
-              { month: "2024-11", reddit: 15, faers: 0 },
-              { month: "2024-12", reddit: 12, faers: 0 },
-              { month: "2025-01", reddit: 7, faers: 1 }
-            ],
-            onsetDistribution: [
-              { range: "0-14", count: 6 },
-              { range: "15-30", count: 22 },
-              { range: "31-45", count: 10 },
-              { range: "46+", count: 4 }
-            ]
-          }
-        ]
-      };
-      sessionStorage.setItem("simulated_drug_" + drugName, JSON.stringify(simulatedDrug));
-      setDrug(simulatedDrug);
-      setIsSimulated(true);
+      setAnalysisMode(null);
     }
-  }, [analysisStep, isAnalyzing]);
+  };
 
   const handleReportSubmit = async (e) => {
     e.preventDefault();
@@ -241,8 +208,7 @@ export default function DrugPage() {
       }
 
       // Save changes
-      if (isSimulated) {
-        // Update local session storage
+      if (drug.isLiveScan) {
         sessionStorage.setItem("simulated_drug_" + drugName, JSON.stringify(updatedDrug));
         setDrug(updatedDrug);
       } else {
@@ -276,7 +242,7 @@ export default function DrugPage() {
     );
   }
 
-  if (!drug && !isSimulated) {
+  if (!drug) {
     return (
       <div className="page-shell">
         <div className="page-container max-w-4xl">
@@ -292,22 +258,19 @@ export default function DrugPage() {
 
                 <div className="space-y-2">
                   <h2 className="font-display text-xl font-semibold text-base-content">
-                    Running signal scan
+                    {analysisMode === "full" ? "Running full corpus scan" : "Running quick scan"}
                   </h2>
                   <p className="text-sm text-base-content/60 max-w-md mx-auto">
                     Indexing patient reports for {displayName}
                     {genericName ? ` (${genericName})` : ""}
                   </p>
+                  {analysisMessage && (
+                    <p className="text-xs text-primary/80 max-w-md mx-auto">{analysisMessage}</p>
+                  )}
                 </div>
 
                 <div className="w-full max-w-md space-y-2 mt-4 text-left border border-base-300 bg-base-200/40 p-5 rounded-xl">
-                  {[
-                    "Discovering subreddits & patient communities...",
-                    "Downloading latest patient posts & testimonies...",
-                    "Extracting symptoms using BioBERT Named Entity Recognition...",
-                    "Comparing signals with FDA labeled adverse events...",
-                    "Synthesizing causality scores & timelines..."
-                  ].map((step, idx) => {
+                  {ANALYSIS_STEPS.map((step, idx) => {
                     const isDone = analysisStep > idx;
                     const isActive = analysisStep === idx;
                     return (
@@ -346,19 +309,28 @@ export default function DrugPage() {
                 <p className="text-sm text-primary mb-4">{genericName}</p>
               )}
               <p className="text-sm text-base-content/65 max-w-md mx-auto leading-relaxed">
-                We have not pulled Reddit safety signals for this drug yet. You can run a one-time scan to generate a preview.
+                We have not pulled Reddit safety signals for this drug yet. Run a quick scan (~200 posts, under a minute) for a fast preview, or a full corpus scan if you have more time.
               </p>
+
+              {analysisError && (
+                <div className="alert alert-error text-sm mt-4 max-w-md mx-auto">
+                  <span>{analysisError}</span>
+                </div>
+              )}
 
               <ul className="text-left text-xs text-base-content/60 max-w-sm mx-auto mt-6 space-y-2 list-disc list-inside">
                 <li>Subreddit discovery & post collection</li>
                 <li>Symptom extraction (BioBERT NER)</li>
-                <li>FDA label similarity check</li>
-                <li>FAERS timeline comparison</li>
+                <li>Drug–symptom linking & filtering</li>
+                <li>Signal aggregation & timelines</li>
               </ul>
 
               <div className="mt-8 flex flex-col sm:flex-row justify-center gap-3">
-                <button type="button" onClick={startAnalysis} className="btn btn-primary px-6">
-                  Run signal scan
+                <button type="button" onClick={() => startAnalysis("quick")} className="btn btn-primary px-6">
+                  Quick scan (~200 posts)
+                </button>
+                <button type="button" onClick={() => startAnalysis("full")} className="btn btn-outline btn-primary px-6">
+                  Full corpus scan
                 </button>
                 <Link to="/" className="btn btn-ghost px-6">
                   Cancel
@@ -401,6 +373,37 @@ export default function DrugPage() {
         ← Back to search
       </Link>
 
+      {drug.isLiveScan && (
+        <div className="alert alert-info mb-6 text-sm">
+          <span>
+            Live scan preview
+            {drug.scanMode === "full" ? " (full corpus)" : " (quick, ~200 posts)"}
+            {drug.records_analyzed != null && ` — ${drug.records_analyzed} Reddit records analyzed`}
+            . Results are session-only and not FDA-validated.
+          </span>
+          {!isAnalyzing && (
+            <div className="flex gap-2 shrink-0">
+              {drug.scanMode !== "full" && (
+                <button
+                  type="button"
+                  className="btn btn-xs btn-primary"
+                  onClick={() => startAnalysis("full", true)}
+                >
+                  Full corpus scan
+                </button>
+              )}
+              <button
+                type="button"
+                className="btn btn-xs btn-outline"
+                onClick={() => startAnalysis(drug.scanMode === "full" ? "full" : "quick", true)}
+              >
+                Re-run scan
+              </button>
+            </div>
+          )}
+        </div>
+      )}
+
       {/* Drug Header Card */}
       <div className="panel-card p-6 md:p-8">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
@@ -415,18 +418,20 @@ export default function DrugPage() {
                   FDA Approved
                 </span>
                 <span>
-                  {new Date(drug.approvalDate).toLocaleDateString("en-US", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
+                  {drug.approvalDate && drug.approvalDate !== "Unknown"
+                    ? new Date(drug.approvalDate).toLocaleDateString("en-US", {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      })
+                    : "Unknown"}
                 </span>
               </div>
               <div>
                 <span className="block text-[10px] uppercase tracking-wide text-base-content/50 mb-0.5">
                   Indications
                 </span>
-                <span>{drug.indications.join(", ")}</span>
+                <span>{(drug.indications || []).length ? drug.indications.join(", ") : "—"}</span>
               </div>
             </div>
           </div>
@@ -467,12 +472,12 @@ export default function DrugPage() {
         <div className="collapse-title text-sm font-bold text-base-content flex justify-between items-center pr-12">
           <span>Known Side Effects (FDA Label)</span>
           <span className="badge badge-neutral font-bold text-xs py-2.5 px-3 bg-base-200">
-            {drug.listedEffects.length} listed
+            {(drug.listedEffects || []).length} listed
           </span>
         </div>
         <div className="collapse-content">
           <div className="flex flex-wrap gap-1.5 pt-2">
-            {drug.listedEffects.map((e) => (
+            {(drug.listedEffects || []).map((e) => (
               <span key={e} className="badge badge-ghost font-bold text-xs py-2.5 px-3 bg-base-200/50">
                 {e}
               </span>
@@ -554,11 +559,19 @@ export default function DrugPage() {
       </div>
 
       {/* Grid of Signals */}
+      {sortedSignals.length > 0 ? (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {sortedSignals.map((s, i) => (
           <SignalCard key={s.symptom} signal={s} drugId={drugName} />
         ))}
       </div>
+      ) : (
+        <div className="text-center p-8 bg-base-200/50 rounded-2xl border border-base-200/50 border-dashed">
+          <p className="text-sm font-semibold text-base-content/60">
+            No unlisted signals detected in this scan. Try the full corpus scan for more coverage.
+          </p>
+        </div>
+      )}
 
       {/* Charts Section */}
       {timelineData.length > 0 && (

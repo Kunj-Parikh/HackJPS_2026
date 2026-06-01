@@ -15,6 +15,8 @@ _ADR_LEXICON: tuple[str, ...] = (
     "headache", "dizziness", "pancreatitis", "gallstones", "depression",
     "anxiety", "hypoglycemia", "ulcer", "acid reflux", "heartburn",
     "brain fog", "injection site reaction", "weight regain", "loss of appetite",
+    "insomnia", "stomach pain", "weight loss", "rash", "palpitation", "migraine",
+    "vertigo", "dry mouth", "side effect", "panic", "mood", "numbness", "tingling",
 )
 _ADR_PAT = re.compile(
     r"\b(" + "|".join(re.escape(t) for t in _ADR_LEXICON) + r")\b", re.I
@@ -75,6 +77,11 @@ def symptoms_from_doc(doc) -> list[SymptomMention]:
 def extract_symptoms(text: str) -> list[SymptomMention]:
     nlp = get_ner_nlp()
     return symptoms_from_doc(nlp(text[:1_000_000]))
+
+
+def extract_symptoms_batch_lexicon(texts: Iterable[str]) -> list[list[SymptomMention]]:
+    """Fast path for quick scans — regex lexicon only, no biomedical NER model."""
+    return [_merge(_lexicon_symptoms(t)) for t in texts]
 
 
 def extract_symptoms_batch(texts: Iterable[str], batch_size: int = 32) -> list[list[SymptomMention]]:

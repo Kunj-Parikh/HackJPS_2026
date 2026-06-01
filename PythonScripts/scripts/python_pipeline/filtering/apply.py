@@ -126,10 +126,19 @@ def filter_reports(
 
         drug = normalize_drug(pair.drug, text, record.drug_query)
 
-        if drug not in KNOWN_DRUGS:
-
+        query = (record.drug_query or "").lower().strip()
+        query_root = query.split()[0] if query else ""
+        drug_allowed = drug in KNOWN_DRUGS or (
+            query
+            and (
+                drug == query
+                or drug == query_root
+                or query in drug
+                or drug in query
+            )
+        )
+        if not drug_allowed:
             dropped.append(_drop(record, pair, text, strict, norm, "invalid_drug", drug))
-
             continue
 
 

@@ -141,95 +141,140 @@ def is_experience(text: str) -> bool:
 
 
 # ── Main Collection Logic ─────────────────────────────────
-def collect_drug(drug_input: str):
+def _filter_experience_posts(posts: list, drug_input: str) -> pd.DataFrame:
+    if not posts:
+        return pd.DataFrame()
+    df_p = pd.DataFrame(posts).drop_duplicates("id")
+    df_p["drug_query"] = drug_input
+    text_col = (df_p["title"].fillna("") + " " + df_p["selftext"].fillna("")).str.lower()
+    return df_p[text_col.apply(is_experience)]
+
+
+def _filter_experience_comments(comments: list, drug_input: str) -> pd.DataFrame:
+    if not comments:
+        return pd.DataFrame()
+    df_c = pd.DataFrame(comments).drop_duplicates("id")
+    df_c["drug_query"] = drug_input
+    text_col = df_c["body"].fillna("").str.lower()
+    return df_c[text_col.apply(is_experience)]
+
+
+def _cap_records(
+    posts_df: pd.DataFrame,
+    comments_df: pd.DataFrame,
+    max_records: int,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Keep at most max_records combined, favoring comments (richer ADE text)."""
+    if posts_df.empty and comments_df.empty:
+        return posts_df, comments_df
+    if len(posts_df) + len(comments_df) <= max_records:
+        return posts_df, comments_df
+    comment_budget = min(len(comments_df), max(1, int(max_records * 0.6)))
+    post_budget = max_records - comment_budget
+    return posts_df.head(post_budget), comments_df.head(comment_budget)
+
+
+def collect_drug(
+    drug_input: str,
+    mode: str = "full",
+    max_records: int = 200,
+    save: bool = True,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """
+    Collect Reddit posts/comments for a drug.
+
+    mode="quick": dedicated subs + a few targeted general queries, capped at max_records (default 200).
+    mode="full":  dedicated + general subs with symptom queries (full corpus).
+    Returns (posts_df, comments_df) after experience filtering.
+    """
+    quick = mode == "quick"
+    fetch_limit = 100 if quick else 100
+    api_pause = 0.05 if quick else 0.3
+
     print(f"\n{'='*60}")
-    print(f"DRUG: {drug_input.upper()}")
+    print(f"DRUG: {drug_input.upper()}  [{mode}]")
     print(f"{'='*60}")
 
-    # 1. Get clean synonyms from RxNorm
-    search_terms = get_search_terms(drug_input, max_terms=2)
+    search_terms = get_search_terms(drug_input, max_terms=1 if quick else 6)
     print(f"  RxNorm terms:  {search_terms}")
 
-    # 2. Get dedicated and general subreddits separately
-    dedicated_subs, general_subs = get_dedicated_and_general(drug_input, max_dedicated=3, max_general=3)
+    dedicated_subs, general_subs = get_dedicated_and_general(
+        drug_input,
+        max_dedicated=3,
+        max_general=2 if quick else 3,
+    )
     print(f"  Dedicated:     {dedicated_subs}")
-    print(f"  General:       {general_subs}")
+    if general_subs:
+        print(f"  General:       {general_subs}")
 
-    all_posts    = []
-    all_comments = []
+    all_posts: list = []
+    all_comments: list = []
 
-    # ── STAGE 1A: Dedicated Subreddits ────────────────────
-    # Every post here is implicitly about this drug.
-    # Don't search for the drug name. Just pull recent posts.
     print(f"\n  --- Dedicated Subreddits (raw pull, no keyword) ---")
     for sub in dedicated_subs:
-        # Pull recent posts -- no query needed
         print(f"  -> r/{sub} posts (raw)", end=" ... ")
-        posts = fetch_posts(sub, query=None)
+        posts = fetch_posts(sub, query=None, limit=fetch_limit)
         all_posts.extend(posts)
         print(f"{len(posts)}")
-        time.sleep(0.3)
+        time.sleep(api_pause)
 
-        # Pull recent comments -- this is where the gold is
         print(f"  -> r/{sub} comments (raw)", end=" ... ")
-        comments = fetch_comments(sub, keyword=None)
+        comments = fetch_comments(sub, keyword=None, limit=fetch_limit)
         all_comments.extend(comments)
         print(f"{len(comments)}")
-        time.sleep(0.3)
+        time.sleep(api_pause)
 
-    # ── STAGE 1B: General Subreddits ──────────────────────
-    # Search for "drug_name + symptom" combinations.
-    # e.g. "ozempic nausea", "lexapro insomnia"
-    print(f"\n  --- General Subreddits (drug + symptom queries) ---")
-    for sub in general_subs:
-        for term in search_terms:
-            for symptom in SEARCH_SYMPTOMS:
-                query = f"{term} {symptom}"
-                print(f"  -> r/{sub} | '{query}'", end=" ... ")
-                posts = fetch_posts(sub, query=query)
-                all_posts.extend(posts)
-                print(f"{len(posts)} posts")
-                time.sleep(0.3)
+    if quick:
+        print(f"\n  --- Quick general queries (drug + side effect) ---")
+        for sub in general_subs[:2]:
+            term = search_terms[0] if search_terms else drug_input.lower()
+            query = f"{term} side effect"
+            print(f"  -> r/{sub} | '{query}'", end=" ... ")
+            posts = fetch_posts(sub, query=query, limit=50)
+            all_posts.extend(posts)
+            print(f"{len(posts)} posts")
+            time.sleep(api_pause)
+    elif general_subs:
+        print(f"\n  --- General Subreddits (drug + symptom queries) ---")
+        for sub in general_subs:
+            for term in search_terms:
+                for symptom in SEARCH_SYMPTOMS:
+                    query = f"{term} {symptom}"
+                    print(f"  -> r/{sub} | '{query}'", end=" ... ")
+                    posts = fetch_posts(sub, query=query, limit=fetch_limit)
+                    all_posts.extend(posts)
+                    print(f"{len(posts)} posts")
+                    time.sleep(api_pause)
 
-    # ── STAGE 2: Experience Detection (in-memory) ─────────
-    slug = drug_input.lower().replace(" ", "_")
     print(f"\n  --- Stage 2: Experience Detection ---")
+    df_p = _filter_experience_posts(all_posts, drug_input)
+    df_c = _filter_experience_comments(all_comments, drug_input)
 
-    if all_posts:
-        df_p = pd.DataFrame(all_posts).drop_duplicates("id")
-        total_raw = len(df_p)
-        df_p["drug_query"] = drug_input
+    if quick:
+        df_p, df_c = _cap_records(df_p, df_c, max_records)
 
-        # Score: does this sound like a real patient experience?
-        text_col = (df_p["title"].fillna("") + " " + df_p["selftext"].fillna("")).str.lower()
-        mask = text_col.apply(is_experience)
-        df_p = df_p[mask]
+    slug = drug_input.lower().replace(" ", "_")
+    total_raw_posts = len(pd.DataFrame(all_posts).drop_duplicates("id")) if all_posts else 0
+    total_raw_comments = len(pd.DataFrame(all_comments).drop_duplicates("id")) if all_comments else 0
 
+    if not df_p.empty:
+        print(f"  [OK] Posts: {total_raw_posts} raw -> {len(df_p)} experience-filtered")
+    else:
+        print(f"  [--] Posts: {total_raw_posts} raw -> 0 passed experience filter")
+
+    if not df_c.empty:
+        print(f"  [OK] Comments: {total_raw_comments} raw -> {len(df_c)} experience-filtered")
+    else:
+        print(f"  [--] Comments: {total_raw_comments} raw -> 0 passed experience filter")
+
+    if save:
+        os.makedirs("data/raw", exist_ok=True)
         if not df_p.empty:
             df_p.to_csv(f"data/raw/{slug}_posts.csv", index=False)
-            print(f"  [OK] Posts: {total_raw} raw -> {len(df_p)} experience-filtered (saved)")
-        else:
-            print(f"  [--] Posts: {total_raw} raw -> 0 passed experience filter")
-    else:
-        print(f"  [--] No posts collected for {drug_input}")
-
-    if all_comments:
-        df_c = pd.DataFrame(all_comments).drop_duplicates("id")
-        total_raw = len(df_c)
-        df_c["drug_query"] = drug_input
-
-        # Score: does this comment sound like a real patient experience?
-        text_col = df_c["body"].fillna("").str.lower()
-        mask = text_col.apply(is_experience)
-        df_c = df_c[mask]
-
         if not df_c.empty:
             df_c.to_csv(f"data/raw/{slug}_comments.csv", index=False)
-            print(f"  [OK] Comments: {total_raw} raw -> {len(df_c)} experience-filtered (saved)")
-        else:
-            print(f"  [--] Comments: {total_raw} raw -> 0 passed experience filter")
-    else:
-        print(f"  [--] No comments collected for {drug_input}")
+
+    return df_p, df_c
 
 
 # ── Entry point ───────────────────────────────────────────

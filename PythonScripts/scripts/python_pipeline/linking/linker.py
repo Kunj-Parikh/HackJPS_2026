@@ -1,6 +1,7 @@
 """Drug–symptom linking via sentence proximity and token distance."""
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 
 from nlp_cache import get_spacy_nlp
@@ -15,7 +16,29 @@ class SentenceSpan:
     idx: int
 
 
-def sentence_spans(text: str) -> list[SentenceSpan]:
+def sentence_spans_fast(text: str) -> list[SentenceSpan]:
+    """Lightweight sentence split for quick scans (no spaCy)."""
+    parts = re.split(r"(?<=[.!?])\s+|\n+", text)
+    spans: list[SentenceSpan] = []
+    pos = 0
+    for i, part in enumerate(parts):
+        part = part.strip()
+        if not part:
+            continue
+        start = text.find(part, pos)
+        if start < 0:
+            start = pos
+        end = start + len(part)
+        spans.append(SentenceSpan(part, start, end, i))
+        pos = end
+    if not spans and text.strip():
+        spans.append(SentenceSpan(text.strip(), 0, len(text), 0))
+    return spans
+
+
+def sentence_spans(text: str, *, fast: bool = False) -> list[SentenceSpan]:
+    if fast:
+        return sentence_spans_fast(text)
     nlp = get_spacy_nlp()
     doc = nlp(text)
     return [SentenceSpan(s.text, s.start_char, s.end_char, i) for i, s in enumerate(doc.sents)]
@@ -65,11 +88,13 @@ def link_drug_symptoms(
     text: str,
     drugs: list[DrugMention],
     symptoms: list[SymptomMention],
+    *,
+    fast: bool = False,
 ) -> list[LinkedPair]:
     if not drugs or not symptoms:
         return []
 
-    spans = sentence_spans(text)
+    spans = sentence_spans(text, fast=fast)
     pairs: list[LinkedPair] = []
 
     for sym in symptoms:
