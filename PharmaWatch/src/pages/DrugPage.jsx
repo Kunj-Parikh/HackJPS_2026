@@ -551,6 +551,12 @@ export default function DrugPage() {
         )}
       </div>
 
+      {timelineData.length > 0 && (
+        <div className="mt-10">
+          <TimelineChart data={timelineData} />
+        </div>
+      )}
+
       {/* Unlisted Signals Title */}
       <div className="mt-10 mb-5">
         <h2 className="font-display text-lg font-semibold text-base-content">
@@ -579,6 +585,7 @@ export default function DrugPage() {
           <TimelineChart data={timelineData} />
         </div>
       )}
+
       </div>
 
       {/* Report Symptom Modal */}

@@ -1,11 +1,11 @@
 import { useState, useRef, useEffect } from "react";
 import { GoogleGenAI } from "@google/genai";
-import { getAllSignals } from "../data/mockData";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "../firebase";
 
 const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 
-const buildSystemInstruction = () => {
-  const signals = getAllSignals();
+const buildSystemInstruction = (signals) => {
   const context = signals
     .map(
       (s) =>
