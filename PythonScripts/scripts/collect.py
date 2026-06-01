@@ -32,8 +32,8 @@ os.makedirs("data/raw", exist_ok=True)
 AFTER  = "2021-01-01"
 BEFORE = "2024-12-31"
 
-# ── Stage 2 Patterns ─────────────────────────────────────
-# First-person / experiential language (how real patients talk)
+
+
 EXPERIENCE_PATTERNS = [
     r"\bi feel\b",
     r"\bfeeling\b",
@@ -66,7 +66,7 @@ EXPERIENCE_PATTERNS = [
     r"\bworsened\b",
 ]
 
-# Symptom/body terms (catches clinical and casual language)
+
 SYMPTOM_TERMS = [
     "side effect", "side-effect", "adverse", "symptom", "reaction",
     "nausea", "vomit", "diarrhea", "constipation", "stomach", "gut",
@@ -82,12 +82,12 @@ SYMPTOM_TERMS = [
     "breath", "breathing", "shortness",
 ]
 
-# Compile a single mega-pattern: match if ANY experience pattern OR ANY symptom term
+
 _all_patterns = EXPERIENCE_PATTERNS + [r"\b" + re.escape(t) + r"\b" for t in SYMPTOM_TERMS]
 EXPERIENCE_REGEX = re.compile("|".join(_all_patterns), re.IGNORECASE)
 
-# Common symptom terms to use as API-level search queries in general subreddits
-# These are the most frequently reported side effects across all drug classes
+
+
 SEARCH_SYMPTOMS = [
     "nausea", "fatigue", "headache", "dizzy",
     "anxiety", "depression", "hair loss", "insomnia",
@@ -95,7 +95,7 @@ SEARCH_SYMPTOMS = [
 ]
 
 
-# ── API Helpers ───────────────────────────────────────────
+
 def fetch_posts(subreddit, query=None, after=AFTER, before=BEFORE, limit=100):
     params = {
         "subreddit": subreddit,
@@ -140,7 +140,7 @@ def is_experience(text: str) -> bool:
     return bool(EXPERIENCE_REGEX.search(text))
 
 
-# ── Main Collection Logic ─────────────────────────────────
+
 def _filter_experience_posts(posts: list, drug_input: str) -> pd.DataFrame:
     if not posts:
         return pd.DataFrame()
@@ -277,7 +277,7 @@ def collect_drug(
     return df_p, df_c
 
 
-# ── Entry point ───────────────────────────────────────────
+
 if __name__ == "__main__":
     DRUGS = [
         "ozempic",

@@ -1,4 +1,4 @@
-import { TIER_CONFIG } from "../data/mockData";
+import { TIER_CONFIG } from "../data/dataService";
 
 const tierStyles = {
   weak: "border-error/40 text-error bg-error/5",

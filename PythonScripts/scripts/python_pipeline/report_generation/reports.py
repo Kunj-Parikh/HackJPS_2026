@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from schema import AdverseEventReport, LinkedPair, SourceType, TextRecord
 
-COMMENT_WEIGHT = 0.85  # lower confidence for comments
+COMMENT_WEIGHT = 0.85
 
 
 def causality_confidence(pair: LinkedPair) -> float:

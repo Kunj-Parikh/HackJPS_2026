@@ -1,7 +1,5 @@
 import DRUGS from './realData.json';
 
-
-
 export function getDrugs() {
   return Object.entries(DRUGS).map(([key, d]) => ({ id: key, brand: d.brand, generic: d.generic, class: d.class, signalCount: d.signals.length }));
 }

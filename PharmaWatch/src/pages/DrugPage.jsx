@@ -14,7 +14,6 @@ export default function DrugPage() {
   const [loading, setLoading] = useState(true);
   const [showListed, setShowListed] = useState(false);
 
-  // States for reporting a symptom
   const [isReportModalOpen, setIsReportModalOpen] = useState(false);
   const [newSymptomText, setNewSymptomText] = useState("");
   const [newSymptomDesc, setNewSymptomDesc] = useState("");
@@ -22,7 +21,6 @@ export default function DrugPage() {
   const [newSymptomOnset, setNewSymptomOnset] = useState("");
   const [isSubmittingReport, setIsSubmittingReport] = useState(false);
 
-  // States for live pipeline analysis
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [analysisStep, setAnalysisStep] = useState(0);
   const [analysisMode, setAnalysisMode] = useState(null);
@@ -166,17 +164,13 @@ export default function DrugPage() {
 
     setIsSubmittingReport(true);
     
-    // Format symptom string (Capitalize first letter)
     const formattedSymptom = newSymptomText.trim().charAt(0).toUpperCase() + newSymptomText.trim().slice(1).toLowerCase();
     
     try {
-      // Create a deep copy of the current drug data to modify
       const updatedDrug = JSON.parse(JSON.stringify(drug));
       
-      // Ensure userReports array exists
       updatedDrug.userReports = updatedDrug.userReports || [];
       
-      // Check if symptom already exists
       const existingReportIndex = updatedDrug.userReports.findIndex(
         (s) => s.symptom.toLowerCase() === formattedSymptom.toLowerCase()
       );
@@ -193,12 +187,10 @@ export default function DrugPage() {
       };
 
       if (existingReportIndex >= 0) {
-        // Increment count
         updatedDrug.userReports[existingReportIndex].count = (updatedDrug.userReports[existingReportIndex].count || 1) + 1;
         updatedDrug.userReports[existingReportIndex].reports = updatedDrug.userReports[existingReportIndex].reports || [];
         updatedDrug.userReports[existingReportIndex].reports.push(newReportDetail);
       } else {
-        // Create new user report entry
         const newEntry = {
           symptom: formattedSymptom,
           count: 1,
@@ -207,18 +199,15 @@ export default function DrugPage() {
         updatedDrug.userReports.push(newEntry);
       }
 
-      // Save changes
       if (drug.isLiveScan) {
         sessionStorage.setItem("simulated_drug_" + drugName, JSON.stringify(updatedDrug));
         setDrug(updatedDrug);
       } else {
-        // Update Firestore
         const docRef = doc(db, "drugs", drugName);
         await updateDoc(docRef, { userReports: updatedDrug.userReports });
         setDrug(updatedDrug);
       }
       
-      // Close modal and reset
       setIsReportModalOpen(false);
       setNewSymptomText("");
       setNewSymptomDesc("");
@@ -251,7 +240,6 @@ export default function DrugPage() {
           </Link>
 
           {isAnalyzing ? (
-            /* ANALYZING STEP-BY-STEP PROGRESS SCREEN */
             <div className="panel-card p-8 md:p-10 text-center max-w-2xl mx-auto mt-10">
               <div className="flex flex-col items-center gap-6">
                 <span className="loading loading-spinner loading-lg text-primary" />
@@ -297,7 +285,6 @@ export default function DrugPage() {
               </div>
             </div>
           ) : (
-            /* PRE-ANALYSIS WELCOME SCREEN */
             <div className="panel-card p-8 md:p-10 text-center max-w-2xl mx-auto mt-10">
               <p className="text-xs uppercase tracking-wide text-base-content/50 mb-4">
                 Not yet indexed
@@ -368,7 +355,6 @@ export default function DrugPage() {
   return (
     <div className="page-shell">
       <div className="page-container">
-      {/* Back button */}
       <Link to="/" className="btn btn-ghost btn-sm gap-1 pl-1 text-base-content/75 hover:text-primary mb-6 font-semibold">
         ← Back to search
       </Link>
@@ -404,7 +390,6 @@ export default function DrugPage() {
         </div>
       )}
 
-      {/* Drug Header Card */}
       <div className="panel-card p-6 md:p-8">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <div>
@@ -436,7 +421,6 @@ export default function DrugPage() {
             </div>
           </div>
 
-          {/* Stats widget inside header */}
           <div className="stats stats-horizontal bg-base-100 border border-base-300/60 w-full md:w-auto rounded-xl overflow-hidden">
             <div className="stat text-center py-3 px-4 md:px-6">
               <div className="stat-title text-[9px] uppercase tracking-wide text-base-content/50">
@@ -466,7 +450,6 @@ export default function DrugPage() {
         </div>
       </div>
 
-      {/* Collapse component for listed side effects */}
       <div className="collapse collapse-plus border border-base-300 bg-base-100 mt-6 rounded-xl overflow-hidden">
         <input type="checkbox" checked={showListed} onChange={() => setShowListed(!showListed)} />
         <div className="collapse-title text-sm font-bold text-base-content flex justify-between items-center pr-12">
@@ -486,7 +469,6 @@ export default function DrugPage() {
         </div>
       </div>
 
-      {/* User Reports Section */}
       <div className="mt-10">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-5 gap-4">
           <h2 className="font-display text-lg font-semibold text-base-content flex items-center gap-2">
@@ -557,14 +539,12 @@ export default function DrugPage() {
         </div>
       )}
 
-      {/* Unlisted Signals Title */}
       <div className="mt-10 mb-5">
         <h2 className="font-display text-lg font-semibold text-base-content">
           Unlisted signals
         </h2>
       </div>
 
-      {/* Grid of Signals */}
       {sortedSignals.length > 0 ? (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {sortedSignals.map((s, i) => (
@@ -579,7 +559,6 @@ export default function DrugPage() {
         </div>
       )}
 
-      {/* Charts Section */}
       {timelineData.length > 0 && (
         <div className="mt-12">
           <TimelineChart data={timelineData} />
@@ -588,7 +567,6 @@ export default function DrugPage() {
 
       </div>
 
-      {/* Report Symptom Modal */}
       {isReportModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-base-300/80 backdrop-blur-sm animate-fade-in">
           <div className="relative bg-base-100 rounded-2xl shadow-lg border border-base-300 p-6 w-full max-w-md">

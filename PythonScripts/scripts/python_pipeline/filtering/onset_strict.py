@@ -21,7 +21,7 @@ _PATTERNS: list[re.Pattern[str]] = [
     re.compile(rf"\b{_NUM}\s+weeks?\s+in\b", re.I),
     re.compile(rf"\b{_NUM}\s+(?P<unit>days?|weeks?|months?|years?)\s+later\b", re.I),
     re.compile(rf"\b(?P<num>\d+)\s*(?P<unit>d|w|wk)\b", re.I),
-    # duration on drug
+
     re.compile(rf"\b(?:for|on|taking|been on|been taking)\s+(?:about\s+|around\s+)?{_NUM}\s+(?P<unit>days?|weeks?|months?|years?)\b", re.I),
     re.compile(rf"\b(?:for|on)\s+(?:about\s+|around\s+)?a\s+(?P<unit>day|week|month|year)\b", re.I),
     re.compile(rf"\ball up on\s+\w+\s+for\s+(?:about\s+|around\s+)?(?:a\s+)?(?P<unit>year|month|week)\b", re.I),
@@ -78,7 +78,7 @@ def _match_days(m: re.Match[str]) -> int | None:
     num = gd.get("num")
     unit = gd.get("unit")
     if not num and unit:
-        return _to_days("a", unit)  # "for a year"
+        return _to_days("a", unit)
     return _to_days(num, unit)
 
 
@@ -116,14 +116,14 @@ def attach_strict_onset(text: str, symptom: str, onsets: list[StrictOnset] | Non
     anchor = text.lower().find(core)
     anchor = anchor if anchor >= 0 else len(text) // 2
 
-    # Title/opening mention: prefer longest duration stated early (e.g. "on Ozempic for a year")
+
     if anchor < 80:
         early = [o for o in onsets if o.start < len(text) * 0.55]
         if early:
             best = max(early, key=lambda o: o.days)
             return best.days, best.confidence
 
-    # Symptom onset near "noticed/started/began getting"
+
     trig = re.search(
         rf"\b(?:noticed|started|began|getting)\b.{{0,120}}{re.escape(core)}",
         text, re.I | re.S,

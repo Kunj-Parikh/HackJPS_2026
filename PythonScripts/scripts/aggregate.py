@@ -7,7 +7,7 @@ from collections import defaultdict, Counter
 PROCESSED_DIR = "data/processed"
 FRONTEND_DATA_PATH = "../../PharmaWatch/src/data/realData.json"
 
-# Load current realData.json if it exists so we can update it instead of overwriting completely
+
 try:
     with open(FRONTEND_DATA_PATH, "r", encoding="utf-8") as f:
         frontend_data = json.load(f)
@@ -30,10 +30,10 @@ def aggregate():
         print("No processed files found in data/processed/")
         return
 
-    # Group files by drug
+
     drug_files = defaultdict(list)
     for f in files:
-        # ner_ozempic_posts.csv -> ozempic
+
         drug_name = f.replace("ner_", "").replace("_posts.csv", "").replace("_comments.csv", "")
         drug_files[drug_name].append(os.path.join(PROCESSED_DIR, f))
 
@@ -48,7 +48,7 @@ def aggregate():
             df = pd.read_csv(path)
             for _, row in df.iterrows():
                 try:
-                    # Parse the stringified list representation
+
                     symptoms_raw = row.get("extracted_symptoms", "[]")
                     if pd.isna(symptoms_raw):
                         symptoms = []
@@ -60,7 +60,7 @@ def aggregate():
                 if not symptoms:
                     continue
                     
-                # Reconstruct full text for quotes
+
                 if "title" in row and "selftext" in row:
                     text = str(row.get("title", "")) + " " + str(row.get("selftext", ""))
                 else:
@@ -69,7 +69,7 @@ def aggregate():
                 sub = row.get("subreddit", "unknown")
                 date = "2024-01-01" 
                 
-                # Try to format the reddit timestamp
+
                 if "created_utc" in row and not pd.isna(row["created_utc"]):
                     try:
                         from datetime import datetime
@@ -79,14 +79,14 @@ def aggregate():
                 
                 for sym in symptoms:
                     sym_clean = str(sym).lower().strip()
-                    # Basic noise filtering
+
                     if len(sym_clean) < 3 or sym_clean in ["pain", "disease", "symptom"]:
                         continue
                         
                     symptom_counter[sym_clean] += 1
                     symptom_subreddits[sym_clean].add(f"r/{sub}")
                     
-                    # Store up to 3 quotes
+
                     if len(symptom_quotes[sym_clean]) < 3 and len(text) > 20:
                         clean_text = text.replace('\n', ' ').strip()
                         symptom_quotes[sym_clean].append({
@@ -95,7 +95,7 @@ def aggregate():
                             "date": date
                         })
         
-        # Initialize drug in frontend data if it doesn't exist
+
         if drug_slug not in frontend_data:
             frontend_data[drug_slug] = {
                 "brand": drug_slug.capitalize(),
@@ -108,7 +108,7 @@ def aggregate():
             }
         
         new_signals = []
-        # Take top 15 symptoms to avoid overloading the UI
+
         for sym, count in symptom_counter.most_common(15):
             if count < 2: 
                 continue
@@ -117,7 +117,7 @@ def aggregate():
                 "symptom": sym.title(),
                 "tier": get_tier(count),
                 "uniqueReporters": count,
-                "avgOnsetDays": 0, # Needs complex NLP to compute
+                "avgOnsetDays": 0,
                 "onsetStdDev": 0,
                 "causalityAvg": 0.5,
                 "subreddits": list(symptom_subreddits[sym]),
@@ -132,7 +132,7 @@ def aggregate():
         frontend_data[drug_slug]["signals"] = new_signals
         print(f"  ✓ Processed {len(new_signals)} signals for {drug_slug}")
         
-    # Write back to realData.json
+
     with open(FRONTEND_DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(frontend_data, f, indent=2)
     

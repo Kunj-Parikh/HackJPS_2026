@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import TierBadge from "./TierBadge";
-import { slugify } from "../data/mockData";
+import { slugify } from "../data/dataService";
 
 export default function SignalCard({ signal, drugId, showDrug = false }) {
   const path = `/signal/${drugId}/${slugify(signal.symptom)}`;

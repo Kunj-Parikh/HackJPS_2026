@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import re
 
-# Conditions / indications / treatment targets (not ADRs)
+
 _REJECT_EXACT: frozenset[str] = frozenset({
     "diabetes", "type 2 diabetes", "type 1 diabetes", "t2d", "t1d", "t2dm",
     "t2 diabetes", "diabetes type 2", "diabetes type ii", "type ii diabetes",
@@ -30,14 +30,14 @@ _REJECT_SUBSTR: tuple[str, ...] = (
     "insulin resistance", "prediabet",
 )
 
-# Medication / drug-like symptom spans
+
 _MED_HINT = re.compile(
     r"\b(ozempic|semaglutide|wegovy|mounjaro|metformin|insulin|rybelsus|"
     r"trulicity|saxenda|victoza|tirzepatide|mg\b|dose|dosage|injection)\b",
     re.I,
 )
 
-# Clearly adverse — always keep if matched
+
 ADR_ALLOW: frozenset[str] = frozenset({
     "hair loss", "nausea", "vomiting", "fatigue", "insomnia", "dizziness",
     "constipation", "depression", "anxiety", "headache", "diarrhea",
@@ -71,8 +71,8 @@ def is_valid_adverse_event(symptom: str, context: str = "") -> bool:
     if s == _WEIGHT_LOSS or "weight loss" in s:
         return bool(context and _NEGATIVE_WL.search(context))
     if s in ("hunger", "appetite", "craving", "food noise"):
-        return False  # often treatment effect, not ADR
-    # Reject very short generic disease tokens from NER
+        return False
+
     if len(s.split()) == 1 and s.endswith(("itis", "osis", "emia", "pathy")):
         return False
     return True

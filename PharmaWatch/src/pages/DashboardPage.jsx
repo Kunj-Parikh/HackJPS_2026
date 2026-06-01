@@ -89,7 +89,6 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* Saved Searches Card */}
       <div className="panel-card p-6 mt-6">
         <h2 className="text-base font-semibold text-base-content mb-4">
           Saved searches

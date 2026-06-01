@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import re
 
-# phrase pattern -> canonical symptom
+
 _NORM_RULES: tuple[tuple[re.Pattern[str], str], ...] = (
     (re.compile(r"\b(?:my )?hair(?:\s+is)?\s+(?:falling out|falling|shedding)\b", re.I), "hair loss"),
     (re.compile(r"\bcan'?t sleep\b|\btrouble sleeping\b|\bunable to sleep\b", re.I), "insomnia"),
@@ -22,7 +22,7 @@ _NORM_RULES: tuple[tuple[re.Pattern[str], str], ...] = (
     (re.compile(r"\bgallstone\b", re.I), "gallstones"),
 )
 
-# Exact-match junk tokens only (not substrings of valid phrases)
+
 _BLACKLIST_EXACT: frozenset[str] = frozenset({
     "brunch", "ozempic", "wegovy", "mounjaro", "semaglutide", "desire",
     "ozempic my desire", "hunger", "appetite", "craving", "food",
@@ -57,7 +57,7 @@ def passes_symptom_quality(symptom: str) -> bool:
         return False
     if s in _BLACKLIST_EXACT or any(p in s for p in _GARBAGE_PHRASES):
         return False
-    # encoding / punctuation junk from NER
+
     if re.search(r"[^\x00-\x7f]", s) or not re.search(r"[a-z]", s):
         return False
     words = s.split()

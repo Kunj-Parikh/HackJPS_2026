@@ -1,9 +1,3 @@
-"""
-FastAPI server: collect Reddit data + run pharmacovigilance pipeline on demand.
-
-Usage (from PythonScripts/scripts):
-  uvicorn api_server:app --reload --port 8000
-"""
 from __future__ import annotations
 
 import sys
@@ -30,7 +24,7 @@ from pipeline import run_pipeline_on_dataframes
 KNOWN_DRUG_IDS = frozenset({
     "ozempic", "lexapro", "adderall", "metformin",
     "lisinopril", "atorvastatin", "sertraline", "bupropion",
-    "semaglutide", "escitalopram", "zoloft", "wellbutrin", "glucophage",
+    "escitalopram", "zoloft", "wellbutrin", "glucophage",
     "lipitor", "zestril",
 })
 

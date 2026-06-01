@@ -8,8 +8,6 @@ from datetime import datetime
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
-
-# --- CONFIGURATION ---
 SERVICE_ACCOUNT_KEY = "serviceAccountKey.json"
 OUTPUT_DIR = "python_pipeline/output"
 DRUG_DATA_DIR = "python_pipeline/drug_data"
@@ -157,11 +155,6 @@ def main():
 
         print(f"\nAggregating signals for '{drug_name}'...")
         metadata = DRUG_METADATA[drug_name]
-
-        # Load CSV metadata for posts and comments
-        posts_path = os.path.join(DRUG_DATA_DIR, f"{drug_name}_posts.csv")
-        comments_path = os.path.join(DRUG_DATA_DIR, f"{drug_name}_comments.csv")
-
         posts_df = pd.read_csv(posts_path) if os.path.exists(posts_path) else pd.DataFrame()
         comments_df = pd.read_csv(comments_path) if os.path.exists(comments_path) else pd.DataFrame()
 
@@ -180,8 +173,6 @@ def main():
                     "subreddit": getattr(row, "subreddit", "Ozempic"),
                     "created_utc": getattr(row, "created_utc", None)
                 }
-
-        # Parse JSONL records
         reports_by_symptom = {}
         with open(file_path, "r", encoding="utf-8") as f:
             for line in f:
@@ -195,7 +186,6 @@ def main():
                 record_id = str(record["record_id"])
                 source_type = record["source_type"]
 
-                # Lookup metadata
                 sub = "r/health"
                 created_utc = None
                 if source_type == "post" and record_id in posts_dict:
@@ -213,23 +203,18 @@ def main():
                 if symptom not in reports_by_symptom:
                     reports_by_symptom[symptom] = []
                 reports_by_symptom[symptom].append(record)
-
-        # Aggregate per symptom
         drug_signals = []
         for symptom, records in reports_by_symptom.items():
             count = len(records)
-            if count < 2:  # filter noise
+            if count < 2:
                 continue
 
             symptom_display = get_symptom_display(symptom)
-            
-            # Onset statistics
             onsets = [r["onset_days"] for r in records if r["onset_days"] is not None]
             if onsets:
                 avg_onset = int(round(np.mean(onsets)))
                 std_onset = int(round(np.std(onsets))) if len(onsets) > 1 else 5
             else:
-                # Generate a plausible average based on symptom type
                 if any(x in symptom for x in ["nausea", "vomit", "diarrhea", "headache", "constipation"]):
                     avg_onset = 7
                 elif any(x in symptom for x in ["hair", "skin", "muscle", "face", "weight"]):
@@ -238,27 +223,21 @@ def main():
                     avg_onset = 21
                 std_onset = max(3, int(avg_onset * 0.25))
 
-            # Causality
             causalities = [r["causality_confidence"] for r in records if r["causality_confidence"] is not None]
             avg_causality = round(float(np.mean(causalities)), 2) if causalities else 0.50
 
-            # Subreddits list
             subs = list(set([r["subreddit"] for r in records]))
-            subs = sorted(subs, key=lambda x: len(x))[:4]  # limit to top 4
+            subs = sorted(subs, key=lambda x: len(x))[:4]
 
-            # Dates
             dates = [r["date"] for r in records if r["created_utc"] is not None]
             first_seen = min(dates) if dates else "2023-01-01"
 
-            # Tier classification
             tier = get_tier(count)
             
-            # FAERS lag simulation for validated/strong signals
             faers_first_seen = None
             if tier in ["validated", "strong"]:
                 try:
                     dt = datetime.strptime(first_seen, "%Y-%m-%d")
-                    # Add 6 months lag
                     lag_months = 6
                     year = dt.year + (dt.month + lag_months - 1) // 12
                     month = (dt.month + lag_months - 1) % 12 + 1
@@ -267,10 +246,8 @@ def main():
                 except Exception:
                     faers_first_seen = "2023-10-15"
 
-            # Similarity
             listed_sim = compute_similarity(symptom_display, metadata["listedEffects"])
 
-            # Quotes selection (highest causality and length)
             sorted_records = sorted(
                 records,
                 key=lambda r: (r.get("causality_confidence", 0), len(r.get("original_text", ""))),
@@ -284,7 +261,6 @@ def main():
                     "date": r["date"]
                 })
 
-            # Timeline
             timeline_counts = {}
             for r in records:
                 m = r["month"]
@@ -297,12 +273,10 @@ def main():
             for m in sorted_months:
                 reddit_count = timeline_counts[m]
                 faers_count = 0
-                # Simulate FAERS reporting lagging behind Reddit
                 if faers_first_seen:
                     m_dt = datetime.strptime(m, "%Y-%m")
                     f_dt = datetime.strptime(faers_first_seen[:7], "%Y-%m")
                     if m_dt >= f_dt:
-                        # simulate FAERS catching up rapidly
                         diff_months = (m_dt.year - f_dt.year) * 12 + (m_dt.month - f_dt.month)
                         faers_count = int(reddit_count * (1.2 + 0.3 * diff_months))
                 timeline_data.append({
@@ -311,7 +285,6 @@ def main():
                     "faers": faers_count
                 })
 
-            # Onset Distribution
             ranges = ["0-7", "8-14", "15-30", "31-60", "61-90", "91-120", "121-150", "151+"]
             onset_dist = {rg: 0 for rg in ranges}
             
@@ -335,8 +308,6 @@ def main():
                     else:
                         onset_dist["151+"] += 1
             else:
-                # Generate a beautiful normal-like distribution around the average onset
-                # centered at avg_onset with std_onset spread
                 sim_counts = np.random.normal(avg_onset, std_onset, max(30, count))
                 for val in sim_counts:
                     o = int(round(max(0, val)))
@@ -376,7 +347,6 @@ def main():
             }
             drug_signals.append(signal_obj)
 
-            # Build lightweight version for the global trending listing
             global_signal_obj = {
                 "drugId": drug_name,
                 "drugBrand": metadata["brand"],
@@ -391,7 +361,6 @@ def main():
             }
             all_signals_global.append(global_signal_obj)
 
-        # Upload drug details doc
         drug_doc = {
             "id": drug_name,
             "brand": metadata["brand"],
@@ -400,11 +369,10 @@ def main():
             "indications": metadata["indications"],
             "approvalDate": metadata["approvalDate"],
             "listedEffects": metadata["listedEffects"],
-            "total_reports": len(reports_by_symptom.get("anxiety", [])) + len(reports_by_symptom.get("depression", [])), # proxy or sum
+            "total_reports": len(reports_by_symptom.get("anxiety", [])) + len(reports_by_symptom.get("depression", [])),
             "signals": drug_signals
         }
         
-        # Calculate true total reports count
         true_total = sum(len(recs) for recs in reports_by_symptom.values())
         drug_doc["total_reports"] = true_total
 
@@ -416,14 +384,12 @@ def main():
             "brand": metadata["brand"],
             "generic": metadata["generic"],
             "class": metadata["class"],
-            "signalCount": len([s for s in drug_signals if s["listedSimilarity"] < 0.5]) # count of unlisted signals
+            "signalCount": len([s for s in drug_signals if s["listedSimilarity"] < 0.5])
         })
 
-    # Sort global signals: validated first, then strong, moderate, weak, then by reporter count descending
     tier_order = {"validated": 0, "strong": 1, "moderate": 2, "weak": 3}
     all_signals_global.sort(key=lambda s: (tier_order.get(s["tier"], 4), -s["uniqueReporters"]))
 
-    # Prepare global meta document
     global_meta = {
         "GLOBAL_STATS": {
             "signalsDetected": len([s for s in all_signals_global if s["listedSimilarity"] < 0.5]),

@@ -2,13 +2,13 @@ import { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase";
-import { slugify } from "../data/mockData";
+import { slugify } from "../data/dataService";
 import SignalCard from "../components/SignalCard";
 
 export default function SearchPage() {
   const [query, setQuery] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
-  const [searchMode, setSearchMode] = useState("drug"); // "drug" or "symptom"
+  const [searchMode, setSearchMode] = useState("drug");
   
   const [drugs, setDrugs] = useState([]);
   const [allSignals, setAllSignals] = useState([]);
@@ -310,11 +310,9 @@ export default function SearchPage() {
               Search
             </button>
           </div>
- 
-            {/* Dropdown list for Drug mode */}
+
             {showDropdown && searchMode === "drug" && (localMatches.length > 0 || nonLocalRxNormSuggestions.length > 0 || isSearchingRxNorm) && (
               <div className="absolute left-0 right-0 mt-2 bg-base-100 border border-base-300 rounded-xl shadow-sm overflow-hidden z-40 max-h-72 overflow-y-auto">
-                {/* Local Monitored Matches */}
                 {localMatches.map((d) => (
                   <div
                     key={`local-${d.id}`}
@@ -336,7 +334,6 @@ export default function SearchPage() {
                   </div>
                 ))}
 
-                {/* RxNorm Non-monitored Suggestions */}
                 {nonLocalRxNormSuggestions.map((s, idx) => (
                   <div
                     key={`rxnorm-${idx}-${s.brand}`}
@@ -353,7 +350,6 @@ export default function SearchPage() {
                   </div>
                 ))}
 
-                {/* Loading indicator inside dropdown */}
                 {isSearchingRxNorm && (
                   <div className="flex items-center justify-center py-4 gap-2 text-base-content/50 border-t border-base-200/20 bg-base-200/10">
                     <span className="loading loading-spinner loading-xs text-primary animate-spin"></span>
@@ -361,7 +357,6 @@ export default function SearchPage() {
                   </div>
                 )}
                 
-                {/* No results */}
                 {!isSearchingRxNorm && localMatches.length === 0 && nonLocalRxNormSuggestions.length === 0 && query.trim().length >= 2 && (
                   <div className="px-6 py-4 text-center text-sm text-base-content/50 font-semibold bg-base-200/10">
                     No drugs found matching "{query}"
@@ -370,7 +365,6 @@ export default function SearchPage() {
               </div>
             )}
  
-            {/* Dropdown list for Symptom mode */}
             {showDropdown && searchMode === "symptom" && uniqueFilteredSymptoms.length > 0 && (
               <div className="absolute left-0 right-0 mt-2 bg-base-100 border border-base-300 rounded-xl shadow-sm overflow-hidden z-40 max-h-72 overflow-y-auto">
                 {uniqueFilteredSymptoms.map((s) => (

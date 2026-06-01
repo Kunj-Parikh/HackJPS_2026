@@ -26,7 +26,7 @@ class Span:
 @dataclass
 class DrugMention(Span):
     normalized: str = ""
-    source: str = "dictionary"  # query | dictionary
+    source: str = "dictionary"
 
 
 @dataclass

@@ -1,4 +1,4 @@
-import { TIER_CONFIG } from "../data/mockData";
+import { TIER_CONFIG } from "../data/dataService";
 
 export default function MethodologyPage() {
   const tiers = Object.values(TIER_CONFIG);
@@ -42,7 +42,6 @@ export default function MethodologyPage() {
         </div>
       </section>
 
-      {/* Confidence Tiers */}
       <section className="mt-12">
         <h2 className="font-display text-xl font-semibold text-base-content mb-4">
           Confidence tiers
@@ -81,7 +80,6 @@ export default function MethodologyPage() {
         </p>
       </section>
 
-      {/* NLP Extraction Pipeline */}
       <section className="mt-12">
         <h2 className="font-display text-xl font-semibold text-base-content mb-4">
           NLP extraction pipeline
@@ -117,7 +115,6 @@ export default function MethodologyPage() {
         </div>
       </section>
 
-      {/* Signal Scoring Formula */}
       <section className="mt-12">
         <h2 className="font-display text-xl font-semibold text-base-content mb-4">
           Signal scoring formula
@@ -144,7 +141,6 @@ export default function MethodologyPage() {
         </div>
       </section>
 
-      {/* FDA Label Cross-Reference */}
       <section className="mt-12">
         <h2 className="font-display text-xl font-semibold text-base-content mb-4">
           FDA label cross-reference
@@ -174,7 +170,6 @@ export default function MethodologyPage() {
         </div>
       </section>
 
-      {/* FAERS Validation */}
       <section className="mt-12 mb-8">
         <h2 className="font-display text-xl font-semibold text-base-content mb-4">
           FAERS validation

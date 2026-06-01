@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase";
-import { slugify } from "../data/mockData";
+import { slugify } from "../data/dataService";
 import TierBadge from "../components/TierBadge";
 import TimelineChart from "../components/TimelineChart";
 import OnsetHistogram from "../components/OnsetHistogram";
@@ -14,7 +14,6 @@ export default function SignalDetailPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Check sessionStorage for simulated drug data first
     const cached = sessionStorage.getItem("simulated_drug_" + drugName);
     if (cached) {
       try {
@@ -94,7 +93,6 @@ export default function SignalDetailPage() {
   return (
     <div className="page-shell">
       <div className="page-container">
-      {/* Back button */}
       <Link
         to={`/drug/${drugName}`}
         className="btn btn-ghost btn-sm gap-1 pl-1 text-base-content/75 hover:text-primary mb-6 font-semibold"
@@ -102,7 +100,6 @@ export default function SignalDetailPage() {
         ← Back to {drug.brand}
       </Link>
 
-      {/* Signal Details Header */}
       <div className="panel-card p-6 md:p-8 bg-base-200/30">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <div>
@@ -116,7 +113,6 @@ export default function SignalDetailPage() {
           <TierBadge tier={signal.tier} />
         </div>
 
-        {/* Dynamic Metric Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 mt-6">
           <div className="card bg-base-100 border border-base-300/60 p-3.5 text-center rounded-xl">
             <span className="text-[10px] uppercase tracking-wide text-base-content/50">
@@ -152,7 +148,6 @@ export default function SignalDetailPage() {
           </div>
         </div>
 
-        {/* FAERS Lag Alert Banner */}
         {faersLag !== null && (
           <div className="alert alert-info border border-info/20 shadow-sm mt-5 text-xs md:text-sm font-semibold flex items-start gap-2">
             <span>Note:</span>
@@ -166,7 +161,6 @@ export default function SignalDetailPage() {
         )}
       </div>
 
-      {/* Grid containing charts */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
         <div>
           <TimelineChart data={signal.timeline} height={260} />
@@ -176,9 +170,7 @@ export default function SignalDetailPage() {
         </div>
       </div>
 
-      {/* Detailed analysis breakdown */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
-        {/* Quotes list */}
         <div className="panel-card p-6">
           <h3 className="card-title text-sm font-bold text-base-content mb-4">
             Anonymized Patient Reports
@@ -196,7 +188,6 @@ export default function SignalDetailPage() {
           </div>
         </div>
 
-        {/* Score calculations */}
         <div className="panel-card p-6 flex flex-col gap-6">
           <div>
             <h3 className="card-title text-sm font-bold text-base-content mb-3">

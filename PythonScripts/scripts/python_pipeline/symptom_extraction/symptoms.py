@@ -9,7 +9,7 @@ from schema import SymptomMention, TextRecord
 
 _SYMPTOM_LABELS = frozenset({"DISEASE", "SIGN_SYMPTOM", "CONDITION", "SYMPTOM"})
 
-# High-frequency lay terms often missed by formal biomedical NER
+
 _ADR_LEXICON: tuple[str, ...] = (
     "nausea", "vomiting", "constipation", "diarrhea", "hair loss", "fatigue",
     "headache", "dizziness", "pancreatitis", "gallstones", "depression",

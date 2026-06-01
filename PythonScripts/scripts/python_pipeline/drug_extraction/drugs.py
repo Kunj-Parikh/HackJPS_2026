@@ -6,7 +6,7 @@ import re
 from schema import DrugMention, TextRecord
 
 DRUG_LEXICON: dict[str, tuple[str, ...]] = {
-    # GLP-1 / weight loss
+
     "ozempic": ("ozempic", "oze mpic"),
     "wegovy": ("wegovy",),
     "semaglutide": ("semaglutide",),
@@ -16,11 +16,11 @@ DRUG_LEXICON: dict[str, tuple[str, ...]] = {
     "trulicity": ("trulicity", "dulaglutide"),
     "saxenda": ("saxenda", "liraglutide"),
     "victoza": ("victoza",),
-    # Cardiovascular / metabolic
+
     "lisinopril": ("lisinopril", "zestril", "prinivil"),
     "metformin": ("metformin", "glucophage"),
     "atorvastatin": ("atorvastatin", "lipitor"),
-    # Psychiatric
+
     "sertraline": ("sertraline", "zoloft"),
     "bupropion": ("bupropion", "wellbutrin", "zyban"),
     "lexapro": ("lexapro", "escitalopram"),
